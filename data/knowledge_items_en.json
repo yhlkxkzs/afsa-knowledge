@@ -1,0 +1,2550 @@
+{
+  "source": "Generated from knowledge_items.json (zh) with i18n labels",
+  "locale": "en",
+  "count": 203,
+  "items": [
+    {
+      "id": "disease_apple_anthracnose_1",
+      "category_id": "disease",
+      "title": "Apple Anthracnose",
+      "summary": "Apple Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_apple_brown_spot_2",
+      "category_id": "disease",
+      "title": "Apple Brown Spot",
+      "summary": "Apple Brown Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Brown Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "brown_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_apple_scab_3",
+      "category_id": "disease",
+      "title": "Apple Scab",
+      "summary": "Apple Scab: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Scab may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "scab",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_apple_powdery_mildew_4",
+      "category_id": "disease",
+      "title": "Apple Powdery Mildew",
+      "summary": "Apple Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_pear_scab_5",
+      "category_id": "disease",
+      "title": "Pear Scab",
+      "summary": "Pear Scab: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPear Scab may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pear",
+      "disease_type": "scab",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ]
+    },
+    {
+      "id": "disease_pear_leaf_spot_6",
+      "category_id": "disease",
+      "title": "Pear Leaf Spot",
+      "summary": "Pear Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPear Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pear",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ]
+    },
+    {
+      "id": "disease_pear_rust_7",
+      "category_id": "disease",
+      "title": "Pear Rust",
+      "summary": "Pear Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPear Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pear",
+      "disease_type": "rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ]
+    },
+    {
+      "id": "disease_peach_brown_rot_8",
+      "category_id": "disease",
+      "title": "Peach Brown Rot",
+      "summary": "Peach Brown Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeach Brown Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peach",
+      "disease_type": "brown_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "disease_peach_leaf_curl_9",
+      "category_id": "disease",
+      "title": "Peach Leaf Curl",
+      "summary": "Peach Leaf Curl: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeach Leaf Curl may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peach",
+      "disease_type": "leaf_curl",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "disease_peach_bacterial_spot_10",
+      "category_id": "disease",
+      "title": "Peach Bacterial Spot",
+      "summary": "Peach Bacterial Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeach Bacterial Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peach",
+      "disease_type": "bacterial_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "disease_grape_downy_mildew_11",
+      "category_id": "disease",
+      "title": "Grape Downy Mildew",
+      "summary": "Grape Downy Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Downy Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "downy_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_grape_powdery_mildew_12",
+      "category_id": "disease",
+      "title": "Grape Powdery Mildew",
+      "summary": "Grape Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_grape_gray_mold_13",
+      "category_id": "disease",
+      "title": "Grape Gray Mold",
+      "summary": "Grape Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_grape_black_rot_14",
+      "category_id": "disease",
+      "title": "Grape Black Rot",
+      "summary": "Grape Black Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Black Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "black_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_citrus_anthracnose_15",
+      "category_id": "disease",
+      "title": "Citrus Anthracnose",
+      "summary": "Citrus Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_citrus_citrus_scab_16",
+      "category_id": "disease",
+      "title": "Citrus Citrus Scab",
+      "summary": "Citrus Citrus Scab: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Citrus Scab may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "citrus_scab",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_citrus_canker_17",
+      "category_id": "disease",
+      "title": "Citrus Canker",
+      "summary": "Citrus Canker: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Canker may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "canker",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_citrus_greening_18",
+      "category_id": "disease",
+      "title": "Citrus Greening",
+      "summary": "Citrus Greening: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Greening may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "greening",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_mango_anthracnose_19",
+      "category_id": "disease",
+      "title": "Mango Anthracnose",
+      "summary": "Mango Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nMango Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "mango",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Mango"
+      ]
+    },
+    {
+      "id": "disease_mango_bacterial_spot_20",
+      "category_id": "disease",
+      "title": "Mango Bacterial Spot",
+      "summary": "Mango Bacterial Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nMango Bacterial Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "mango",
+      "disease_type": "bacterial_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Mango"
+      ]
+    },
+    {
+      "id": "disease_strawberry_gray_mold_21",
+      "category_id": "disease",
+      "title": "Strawberry Gray Mold",
+      "summary": "Strawberry Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ]
+    },
+    {
+      "id": "disease_strawberry_powdery_mildew_22",
+      "category_id": "disease",
+      "title": "Strawberry Powdery Mildew",
+      "summary": "Strawberry Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ]
+    },
+    {
+      "id": "disease_strawberry_leaf_spot_23",
+      "category_id": "disease",
+      "title": "Strawberry Leaf Spot",
+      "summary": "Strawberry Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ]
+    },
+    {
+      "id": "disease_watermelon_fusarium_wilt_24",
+      "category_id": "disease",
+      "title": "Watermelon Fusarium Wilt",
+      "summary": "Watermelon Fusarium Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWatermelon Fusarium Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "watermelon",
+      "disease_type": "fusarium_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ]
+    },
+    {
+      "id": "disease_watermelon_anthracnose_25",
+      "category_id": "disease",
+      "title": "Watermelon Anthracnose",
+      "summary": "Watermelon Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWatermelon Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "watermelon",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ]
+    },
+    {
+      "id": "disease_tomato_early_blight_26",
+      "category_id": "disease",
+      "title": "Tomato Early Blight",
+      "summary": "Tomato Early Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Early Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "early_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_tomato_late_blight_27",
+      "category_id": "disease",
+      "title": "Tomato Late Blight",
+      "summary": "Tomato Late Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Late Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "late_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_tomato_gray_mold_28",
+      "category_id": "disease",
+      "title": "Tomato Gray Mold",
+      "summary": "Tomato Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_tomato_bacterial_wilt_29",
+      "category_id": "disease",
+      "title": "Tomato Bacterial Wilt",
+      "summary": "Tomato Bacterial Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Bacterial Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "bacterial_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_tomato_leaf_mold_30",
+      "category_id": "disease",
+      "title": "Tomato Leaf Mold",
+      "summary": "Tomato Leaf Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Leaf Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "leaf_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_cucumber_downy_mildew_31",
+      "category_id": "disease",
+      "title": "Cucumber Downy Mildew",
+      "summary": "Cucumber Downy Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Downy Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "downy_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_cucumber_powdery_mildew_32",
+      "category_id": "disease",
+      "title": "Cucumber Powdery Mildew",
+      "summary": "Cucumber Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_cucumber_bacterial_blight_33",
+      "category_id": "disease",
+      "title": "Cucumber Bacterial Blight",
+      "summary": "Cucumber Bacterial Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Bacterial Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "bacterial_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_cucumber_gray_mold_34",
+      "category_id": "disease",
+      "title": "Cucumber Gray Mold",
+      "summary": "Cucumber Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_pepper_anthracnose_35",
+      "category_id": "disease",
+      "title": "Pepper Anthracnose",
+      "summary": "Pepper Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPepper Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pepper",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "disease_pepper_virus_36",
+      "category_id": "disease",
+      "title": "Pepper Virus Disease",
+      "summary": "Pepper Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPepper Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pepper",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "disease_pepper_bacterial_spot_37",
+      "category_id": "disease",
+      "title": "Pepper Bacterial Spot",
+      "summary": "Pepper Bacterial Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPepper Bacterial Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pepper",
+      "disease_type": "bacterial_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "disease_eggplant_gray_mold_38",
+      "category_id": "disease",
+      "title": "Eggplant Gray Mold",
+      "summary": "Eggplant Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nEggplant Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "eggplant",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ]
+    },
+    {
+      "id": "disease_eggplant_leaf_spot_39",
+      "category_id": "disease",
+      "title": "Eggplant Leaf Spot",
+      "summary": "Eggplant Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nEggplant Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "eggplant",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ]
+    },
+    {
+      "id": "disease_cabbage_soft_rot_40",
+      "category_id": "disease",
+      "title": "Cabbage Soft Rot",
+      "summary": "Cabbage Soft Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCabbage Soft Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cabbage",
+      "disease_type": "soft_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "disease_cabbage_downy_mildew_41",
+      "category_id": "disease",
+      "title": "Cabbage Downy Mildew",
+      "summary": "Cabbage Downy Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCabbage Downy Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cabbage",
+      "disease_type": "downy_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "disease_cabbage_virus_42",
+      "category_id": "disease",
+      "title": "Cabbage Virus Disease",
+      "summary": "Cabbage Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCabbage Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cabbage",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "disease_spinach_downy_mildew_43",
+      "category_id": "disease",
+      "title": "Spinach Downy Mildew",
+      "summary": "Spinach Downy Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSpinach Downy Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "spinach",
+      "disease_type": "downy_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Spinach"
+      ]
+    },
+    {
+      "id": "disease_lettuce_downy_mildew_44",
+      "category_id": "disease",
+      "title": "Lettuce Downy Mildew",
+      "summary": "Lettuce Downy Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nLettuce Downy Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "lettuce",
+      "disease_type": "downy_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Lettuce"
+      ]
+    },
+    {
+      "id": "disease_potato_late_blight_45",
+      "category_id": "disease",
+      "title": "Potato Late Blight",
+      "summary": "Potato Late Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPotato Late Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "potato",
+      "disease_type": "late_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Potato"
+      ]
+    },
+    {
+      "id": "disease_potato_virus_46",
+      "category_id": "disease",
+      "title": "Potato Virus Disease",
+      "summary": "Potato Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPotato Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "potato",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Potato"
+      ]
+    },
+    {
+      "id": "disease_rice_rice_blast_47",
+      "category_id": "disease",
+      "title": "Rice Rice Blast",
+      "summary": "Rice Rice Blast: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Rice Blast may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "rice_blast",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_rice_sheath_blight_48",
+      "category_id": "disease",
+      "title": "Rice Sheath Blight",
+      "summary": "Rice Sheath Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Sheath Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "sheath_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_rice_bacterial_blight_49",
+      "category_id": "disease",
+      "title": "Rice Bacterial Blight",
+      "summary": "Rice Bacterial Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Bacterial Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "bacterial_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_rice_striped_virus_50",
+      "category_id": "disease",
+      "title": "Rice Striped Virus",
+      "summary": "Rice Striped Virus: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Striped Virus may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "striped_virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_wheat_fusarium_head_blight_51",
+      "category_id": "disease",
+      "title": "Wheat Fusarium Head Blight",
+      "summary": "Wheat Fusarium Head Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Fusarium Head Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "fusarium_head_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_wheat_rust_52",
+      "category_id": "disease",
+      "title": "Wheat Rust",
+      "summary": "Wheat Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_wheat_powdery_mildew_53",
+      "category_id": "disease",
+      "title": "Wheat Powdery Mildew",
+      "summary": "Wheat Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_wheat_scab_wheat_54",
+      "category_id": "disease",
+      "title": "Wheat Scab",
+      "summary": "Wheat Scab: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Scab may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "scab_wheat",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_corn_leaf_spot_55",
+      "category_id": "disease",
+      "title": "Corn Leaf Spot",
+      "summary": "Corn Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_corn_smut_56",
+      "category_id": "disease",
+      "title": "Corn Smut",
+      "summary": "Corn Smut: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Smut may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "smut",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_corn_southern_rust_57",
+      "category_id": "disease",
+      "title": "Corn Southern Rust",
+      "summary": "Corn Southern Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Southern Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "southern_rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_corn_stalk_rot_58",
+      "category_id": "disease",
+      "title": "Corn Stalk Rot",
+      "summary": "Corn Stalk Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Stalk Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "stalk_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_soybean_virus_59",
+      "category_id": "disease",
+      "title": "Soybean Virus Disease",
+      "summary": "Soybean Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSoybean Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "soybean",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "disease_soybean_root_rot_60",
+      "category_id": "disease",
+      "title": "Soybean Root Rot",
+      "summary": "Soybean Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSoybean Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "soybean",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "disease_cotton_fusarium_wilt_61",
+      "category_id": "disease",
+      "title": "Cotton Fusarium Wilt",
+      "summary": "Cotton Fusarium Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCotton Fusarium Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cotton",
+      "disease_type": "fusarium_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "disease_cotton_verticillium_wilt_62",
+      "category_id": "disease",
+      "title": "Cotton Verticillium Wilt",
+      "summary": "Cotton Verticillium Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCotton Verticillium Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cotton",
+      "disease_type": "verticillium_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "disease_peanut_leaf_spot_63",
+      "category_id": "disease",
+      "title": "Peanut Leaf Spot",
+      "summary": "Peanut Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeanut Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peanut",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "disease_peanut_rust_64",
+      "category_id": "disease",
+      "title": "Peanut Rust",
+      "summary": "Peanut Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeanut Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peanut",
+      "disease_type": "rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "disease_sugarcane_smut_65",
+      "category_id": "disease",
+      "title": "Sugarcane Smut",
+      "summary": "Sugarcane Smut: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSugarcane Smut may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "sugarcane",
+      "disease_type": "smut",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Sugarcane"
+      ]
+    },
+    {
+      "id": "disease_sugarcane_mosaic_66",
+      "category_id": "disease",
+      "title": "Sugarcane Mosaic Virus",
+      "summary": "Sugarcane Mosaic Virus: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSugarcane Mosaic Virus may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "sugarcane",
+      "disease_type": "mosaic",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Sugarcane"
+      ]
+    },
+    {
+      "id": "disease_apple_gray_mold_67",
+      "category_id": "disease",
+      "title": "Apple Gray Mold",
+      "summary": "Apple Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_pear_gray_mold_68",
+      "category_id": "disease",
+      "title": "Pear Gray Mold",
+      "summary": "Pear Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPear Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pear",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ]
+    },
+    {
+      "id": "disease_grape_leaf_spot_69",
+      "category_id": "disease",
+      "title": "Grape Leaf Spot",
+      "summary": "Grape Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_citrus_root_rot_70",
+      "category_id": "disease",
+      "title": "Citrus Root Rot",
+      "summary": "Citrus Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_mango_leaf_spot_71",
+      "category_id": "disease",
+      "title": "Mango Leaf Spot",
+      "summary": "Mango Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nMango Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "mango",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Mango"
+      ]
+    },
+    {
+      "id": "disease_strawberry_root_rot_72",
+      "category_id": "disease",
+      "title": "Strawberry Root Rot",
+      "summary": "Strawberry Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ]
+    },
+    {
+      "id": "disease_tomato_root_rot_73",
+      "category_id": "disease",
+      "title": "Tomato Root Rot",
+      "summary": "Tomato Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_cucumber_virus_74",
+      "category_id": "disease",
+      "title": "Cucumber Virus Disease",
+      "summary": "Cucumber Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_pepper_leaf_spot_75",
+      "category_id": "disease",
+      "title": "Pepper Leaf Spot",
+      "summary": "Pepper Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPepper Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pepper",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "disease_eggplant_leaf_spot_76",
+      "category_id": "disease",
+      "title": "Eggplant Leaf Spot",
+      "summary": "Eggplant Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nEggplant Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "eggplant",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ]
+    },
+    {
+      "id": "disease_cabbage_virus_77",
+      "category_id": "disease",
+      "title": "Cabbage Virus Disease",
+      "summary": "Cabbage Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCabbage Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cabbage",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "disease_potato_virus_78",
+      "category_id": "disease",
+      "title": "Potato Virus Disease",
+      "summary": "Potato Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPotato Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "potato",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Potato"
+      ]
+    },
+    {
+      "id": "disease_rice_virus_79",
+      "category_id": "disease",
+      "title": "Rice Virus Disease",
+      "summary": "Rice Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_wheat_root_rot_80",
+      "category_id": "disease",
+      "title": "Wheat Root Rot",
+      "summary": "Wheat Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_corn_leaf_spot_81",
+      "category_id": "disease",
+      "title": "Corn Leaf Spot",
+      "summary": "Corn Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_soybean_root_rot_82",
+      "category_id": "disease",
+      "title": "Soybean Root Rot",
+      "summary": "Soybean Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSoybean Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "soybean",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "disease_cotton_virus_83",
+      "category_id": "disease",
+      "title": "Cotton Virus Disease",
+      "summary": "Cotton Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCotton Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cotton",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "disease_peanut_leaf_spot_84",
+      "category_id": "disease",
+      "title": "Peanut Leaf Spot",
+      "summary": "Peanut Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeanut Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peanut",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "disease_lettuce_soft_rot_85",
+      "category_id": "disease",
+      "title": "Lettuce Soft Rot",
+      "summary": "Lettuce Soft Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nLettuce Soft Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "lettuce",
+      "disease_type": "soft_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Lettuce"
+      ]
+    },
+    {
+      "id": "disease_spinach_virus_86",
+      "category_id": "disease",
+      "title": "Spinach Virus Disease",
+      "summary": "Spinach Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSpinach Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "spinach",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Spinach"
+      ]
+    },
+    {
+      "id": "disease_watermelon_virus_87",
+      "category_id": "disease",
+      "title": "Watermelon Virus Disease",
+      "summary": "Watermelon Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWatermelon Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "watermelon",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ]
+    },
+    {
+      "id": "disease_apple_virus_88",
+      "category_id": "disease",
+      "title": "Apple Virus Disease",
+      "summary": "Apple Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_peach_leaf_spot_89",
+      "category_id": "disease",
+      "title": "Peach Leaf Spot",
+      "summary": "Peach Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeach Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peach",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "disease_grape_virus_90",
+      "category_id": "disease",
+      "title": "Grape Virus Disease",
+      "summary": "Grape Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_tomato_leaf_spot_91",
+      "category_id": "disease",
+      "title": "Tomato Leaf Spot",
+      "summary": "Tomato Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_cucumber_leaf_spot_92",
+      "category_id": "disease",
+      "title": "Cucumber Leaf Spot",
+      "summary": "Cucumber Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_pepper_soft_rot_93",
+      "category_id": "disease",
+      "title": "Pepper Soft Rot",
+      "summary": "Pepper Soft Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPepper Soft Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pepper",
+      "disease_type": "soft_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "disease_rice_root_rot_94",
+      "category_id": "disease",
+      "title": "Rice Root Rot",
+      "summary": "Rice Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_wheat_virus_95",
+      "category_id": "disease",
+      "title": "Wheat Virus Disease",
+      "summary": "Wheat Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_corn_virus_96",
+      "category_id": "disease",
+      "title": "Corn Virus Disease",
+      "summary": "Corn Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_soybean_bacterial_blight_97",
+      "category_id": "disease",
+      "title": "Soybean Bacterial Blight",
+      "summary": "Soybean Bacterial Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSoybean Bacterial Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "soybean",
+      "disease_type": "bacterial_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "disease_peanut_virus_98",
+      "category_id": "disease",
+      "title": "Peanut Virus Disease",
+      "summary": "Peanut Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeanut Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peanut",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "disease_cotton_bacterial_blight_99",
+      "category_id": "disease",
+      "title": "Cotton Bacterial Blight",
+      "summary": "Cotton Bacterial Blight: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCotton Bacterial Blight may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cotton",
+      "disease_type": "bacterial_blight",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "disease_mango_powdery_mildew_100",
+      "category_id": "disease",
+      "title": "Mango Powdery Mildew",
+      "summary": "Mango Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nMango Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "mango",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Mango"
+      ]
+    },
+    {
+      "id": "disease_watermelon_powdery_mildew_101",
+      "category_id": "disease",
+      "title": "Watermelon Powdery Mildew",
+      "summary": "Watermelon Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWatermelon Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "watermelon",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ]
+    },
+    {
+      "id": "disease_citrus_leaf_spot_102",
+      "category_id": "disease",
+      "title": "Citrus Leaf Spot",
+      "summary": "Citrus Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_potato_virus_103",
+      "category_id": "disease",
+      "title": "Potato Virus Disease",
+      "summary": "Potato Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPotato Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "potato",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Potato"
+      ]
+    },
+    {
+      "id": "disease_sugarcane_rust_104",
+      "category_id": "disease",
+      "title": "Sugarcane Rust",
+      "summary": "Sugarcane Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSugarcane Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "sugarcane",
+      "disease_type": "rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Sugarcane"
+      ]
+    },
+    {
+      "id": "disease_eggplant_bacterial_wilt_105",
+      "category_id": "disease",
+      "title": "Eggplant Bacterial Wilt",
+      "summary": "Eggplant Bacterial Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nEggplant Bacterial Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "eggplant",
+      "disease_type": "bacterial_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ]
+    },
+    {
+      "id": "disease_cabbage_leaf_spot_106",
+      "category_id": "disease",
+      "title": "Cabbage Leaf Spot",
+      "summary": "Cabbage Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCabbage Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cabbage",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "disease_lettuce_gray_mold_107",
+      "category_id": "disease",
+      "title": "Lettuce Gray Mold",
+      "summary": "Lettuce Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nLettuce Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "lettuce",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Lettuce"
+      ]
+    },
+    {
+      "id": "disease_soybean_virus_108",
+      "category_id": "disease",
+      "title": "Soybean Virus Disease",
+      "summary": "Soybean Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSoybean Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "soybean",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "disease_apple_root_rot_109",
+      "category_id": "disease",
+      "title": "Apple Root Rot",
+      "summary": "Apple Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "disease_grape_rust_110",
+      "category_id": "disease",
+      "title": "Grape Rust",
+      "summary": "Grape Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "disease_citrus_gray_mold_111",
+      "category_id": "disease",
+      "title": "Citrus Gray Mold",
+      "summary": "Citrus Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "disease_tomato_virus_112",
+      "category_id": "disease",
+      "title": "Tomato Virus Disease",
+      "summary": "Tomato Virus Disease: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Virus Disease may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "virus",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "disease_cucumber_root_rot_113",
+      "category_id": "disease",
+      "title": "Cucumber Root Rot",
+      "summary": "Cucumber Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCucumber Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cucumber",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "disease_pepper_bacterial_wilt_114",
+      "category_id": "disease",
+      "title": "Pepper Bacterial Wilt",
+      "summary": "Pepper Bacterial Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPepper Bacterial Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pepper",
+      "disease_type": "bacterial_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "disease_rice_rice_blast_115",
+      "category_id": "disease",
+      "title": "Rice Rice Blast",
+      "summary": "Rice Rice Blast: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nRice Rice Blast may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "rice",
+      "disease_type": "rice_blast",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "disease_wheat_leaf_spot_116",
+      "category_id": "disease",
+      "title": "Wheat Leaf Spot",
+      "summary": "Wheat Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWheat Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "wheat",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "disease_corn_ear_rot_117",
+      "category_id": "disease",
+      "title": "Corn Ear Rot",
+      "summary": "Corn Ear Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCorn Ear Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "corn",
+      "disease_type": "ear_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "disease_soybean_leaf_spot_118",
+      "category_id": "disease",
+      "title": "Soybean Leaf Spot",
+      "summary": "Soybean Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nSoybean Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "soybean",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "disease_peanut_root_rot_119",
+      "category_id": "disease",
+      "title": "Peanut Root Rot",
+      "summary": "Peanut Root Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPeanut Root Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "peanut",
+      "disease_type": "root_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "disease_cotton_leaf_spot_120",
+      "category_id": "disease",
+      "title": "Cotton Leaf Spot",
+      "summary": "Cotton Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCotton Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "cotton",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "pest_apple_aphid_121",
+      "category_id": "pest",
+      "title": "苹果蚜虫",
+      "summary": "苹果蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "apple",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "pest_apple_mite_122",
+      "category_id": "pest",
+      "title": "苹果红蜘蛛",
+      "summary": "苹果红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "apple",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "pest_apple_fruit_borer_123",
+      "category_id": "pest",
+      "title": "苹果食心虫",
+      "summary": "苹果食心虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "apple",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "pest_apple_scale_124",
+      "category_id": "pest",
+      "title": "苹果介壳虫",
+      "summary": "苹果介壳虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "apple",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ]
+    },
+    {
+      "id": "pest_pear_aphid_125",
+      "category_id": "pest",
+      "title": "梨蚜虫",
+      "summary": "梨蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "pear",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ]
+    },
+    {
+      "id": "pest_pear_mite_126",
+      "category_id": "pest",
+      "title": "梨红蜘蛛",
+      "summary": "梨红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "pear",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ]
+    },
+    {
+      "id": "pest_peach_aphid_127",
+      "category_id": "pest",
+      "title": "桃蚜虫",
+      "summary": "桃蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "peach",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "pest_peach_fruit_borer_128",
+      "category_id": "pest",
+      "title": "桃食心虫",
+      "summary": "桃食心虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "peach",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "pest_peach_scale_129",
+      "category_id": "pest",
+      "title": "桃介壳虫",
+      "summary": "桃介壳虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "peach",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peach"
+      ]
+    },
+    {
+      "id": "pest_grape_mite_130",
+      "category_id": "pest",
+      "title": "葡萄叶螨",
+      "summary": "葡萄叶螨: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "grape",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "pest_grape_leafhopper_131",
+      "category_id": "pest",
+      "title": "葡萄叶蝉",
+      "summary": "葡萄叶蝉: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "grape",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "pest_grape_thrips_132",
+      "category_id": "pest",
+      "title": "葡萄蓟马",
+      "summary": "葡萄蓟马: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "grape",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ]
+    },
+    {
+      "id": "pest_citrus_scale_133",
+      "category_id": "pest",
+      "title": "柑橘介壳虫",
+      "summary": "柑橘介壳虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "citrus",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "pest_citrus_mite_134",
+      "category_id": "pest",
+      "title": "柑橘红蜘蛛",
+      "summary": "柑橘红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "citrus",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "pest_citrus_leaf_miner_135",
+      "category_id": "pest",
+      "title": "柑橘潜叶蛾",
+      "summary": "柑橘潜叶蛾: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "citrus",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ]
+    },
+    {
+      "id": "pest_mango_fruit_fly_136",
+      "category_id": "pest",
+      "title": "芒果实蝇",
+      "summary": "芒果实蝇: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "mango",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Mango"
+      ]
+    },
+    {
+      "id": "pest_strawberry_mite_137",
+      "category_id": "pest",
+      "title": "草莓红蜘蛛",
+      "summary": "草莓红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "strawberry",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ]
+    },
+    {
+      "id": "pest_strawberry_aphid_138",
+      "category_id": "pest",
+      "title": "草莓蚜虫",
+      "summary": "草莓蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "strawberry",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ]
+    },
+    {
+      "id": "pest_watermelon_aphid_139",
+      "category_id": "pest",
+      "title": "西瓜蚜虫",
+      "summary": "西瓜蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "watermelon",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ]
+    },
+    {
+      "id": "pest_watermelon_mite_140",
+      "category_id": "pest",
+      "title": "西瓜红蜘蛛",
+      "summary": "西瓜红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "watermelon",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ]
+    },
+    {
+      "id": "pest_tomato_whitefly_141",
+      "category_id": "pest",
+      "title": "番茄粉虱",
+      "summary": "番茄粉虱: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "tomato",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "pest_tomato_leaf_miner_142",
+      "category_id": "pest",
+      "title": "番茄潜叶蛾",
+      "summary": "番茄潜叶蛾: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "tomato",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "pest_tomato_moth_143",
+      "category_id": "pest",
+      "title": "番茄棉铃虫",
+      "summary": "番茄棉铃虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "tomato",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ]
+    },
+    {
+      "id": "pest_cucumber_aphid_144",
+      "category_id": "pest",
+      "title": "黄瓜蚜虫",
+      "summary": "黄瓜蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cucumber",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "pest_cucumber_thrips_145",
+      "category_id": "pest",
+      "title": "黄瓜蓟马",
+      "summary": "黄瓜蓟马: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cucumber",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "pest_cucumber_mite_146",
+      "category_id": "pest",
+      "title": "黄瓜红蜘蛛",
+      "summary": "黄瓜红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cucumber",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cucumber"
+      ]
+    },
+    {
+      "id": "pest_pepper_aphid_147",
+      "category_id": "pest",
+      "title": "辣椒蚜虫",
+      "summary": "辣椒蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "pepper",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "pest_pepper_thrips_148",
+      "category_id": "pest",
+      "title": "辣椒蓟马",
+      "summary": "辣椒蓟马: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "pepper",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pepper"
+      ]
+    },
+    {
+      "id": "pest_eggplant_mite_149",
+      "category_id": "pest",
+      "title": "茄子红蜘蛛",
+      "summary": "茄子红蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "eggplant",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ]
+    },
+    {
+      "id": "pest_cabbage_pieris_150",
+      "category_id": "pest",
+      "title": "白菜菜青虫",
+      "summary": "白菜菜青虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cabbage",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "pest_cabbage_diamond_back_moth_151",
+      "category_id": "pest",
+      "title": "白菜小菜蛾",
+      "summary": "白菜小菜蛾: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cabbage",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "pest_cabbage_aphid_152",
+      "category_id": "pest",
+      "title": "白菜蚜虫",
+      "summary": "白菜蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cabbage",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cabbage"
+      ]
+    },
+    {
+      "id": "pest_potato_aphid_153",
+      "category_id": "pest",
+      "title": "马铃薯蚜虫",
+      "summary": "马铃薯蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "potato",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Potato"
+      ]
+    },
+    {
+      "id": "pest_potato_beetle_154",
+      "category_id": "pest",
+      "title": "马铃薯甲虫",
+      "summary": "马铃薯甲虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "potato",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Potato"
+      ]
+    },
+    {
+      "id": "pest_rice_planthopper_155",
+      "category_id": "pest",
+      "title": "水稻稻飞虱",
+      "summary": "水稻稻飞虱: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "rice",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "pest_rice_stem_borer_156",
+      "category_id": "pest",
+      "title": "水稻二化螟",
+      "summary": "水稻二化螟: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "rice",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "pest_rice_leafhopper_157",
+      "category_id": "pest",
+      "title": "水稻叶蝉",
+      "summary": "水稻叶蝉: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "rice",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Rice"
+      ]
+    },
+    {
+      "id": "pest_corn_corn_borer_158",
+      "category_id": "pest",
+      "title": "玉米玉米螟",
+      "summary": "玉米玉米螟: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "corn",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "pest_corn_aphid_159",
+      "category_id": "pest",
+      "title": "玉米蚜虫",
+      "summary": "玉米蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "corn",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "pest_corn_cutworm_160",
+      "category_id": "pest",
+      "title": "玉米地老虎",
+      "summary": "玉米地老虎: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "corn",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Corn"
+      ]
+    },
+    {
+      "id": "pest_wheat_aphid_161",
+      "category_id": "pest",
+      "title": "小麦蚜虫",
+      "summary": "小麦蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "wheat",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "pest_wheat_mite_162",
+      "category_id": "pest",
+      "title": "小麦麦蜘蛛",
+      "summary": "小麦麦蜘蛛: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "wheat",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Wheat"
+      ]
+    },
+    {
+      "id": "pest_soybean_aphid_163",
+      "category_id": "pest",
+      "title": "大豆蚜虫",
+      "summary": "大豆蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "soybean",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "pest_soybean_leafhopper_164",
+      "category_id": "pest",
+      "title": "大豆叶蝉",
+      "summary": "大豆叶蝉: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "soybean",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "pest_soybean_moth_165",
+      "category_id": "pest",
+      "title": "大豆豆荚螟",
+      "summary": "大豆豆荚螟: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "soybean",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Soybean"
+      ]
+    },
+    {
+      "id": "pest_cotton_aphid_166",
+      "category_id": "pest",
+      "title": "棉花蚜虫",
+      "summary": "棉花蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cotton",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "pest_cotton_moth_167",
+      "category_id": "pest",
+      "title": "棉花棉铃虫",
+      "summary": "棉花棉铃虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cotton",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "pest_cotton_whitefly_168",
+      "category_id": "pest",
+      "title": "棉花粉虱",
+      "summary": "棉花粉虱: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "cotton",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Cotton"
+      ]
+    },
+    {
+      "id": "pest_peanut_aphid_169",
+      "category_id": "pest",
+      "title": "花生蚜虫",
+      "summary": "花生蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "peanut",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "pest_peanut_grub_170",
+      "category_id": "pest",
+      "title": "花生蛴螬",
+      "summary": "花生蛴螬: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "peanut",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Peanut"
+      ]
+    },
+    {
+      "id": "pest_sugarcane_borer_171",
+      "category_id": "pest",
+      "title": "甘蔗螟虫",
+      "summary": "甘蔗螟虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "sugarcane",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Sugarcane"
+      ]
+    },
+    {
+      "id": "control_agricultural_1",
+      "category_id": "control",
+      "title": "Agricultural Control",
+      "summary": "Agricultural Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nAgricultural Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "agricultural"
+    },
+    {
+      "id": "control_agricultural_2",
+      "category_id": "control",
+      "title": "Agricultural Control",
+      "summary": "Agricultural Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nAgricultural Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "agricultural"
+    },
+    {
+      "id": "control_physical_1",
+      "category_id": "control",
+      "title": "Physical Control",
+      "summary": "Physical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nPhysical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "physical"
+    },
+    {
+      "id": "control_physical_2",
+      "category_id": "control",
+      "title": "Physical Control",
+      "summary": "Physical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nPhysical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "physical"
+    },
+    {
+      "id": "control_biological_1",
+      "category_id": "control",
+      "title": "Biological Control",
+      "summary": "Biological Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nBiological Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "biological"
+    },
+    {
+      "id": "control_biological_2",
+      "category_id": "control",
+      "title": "Biological Control",
+      "summary": "Biological Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nBiological Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "biological"
+    },
+    {
+      "id": "control_chemical_1",
+      "category_id": "control",
+      "title": "Chemical Control",
+      "summary": "Chemical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nChemical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "chemical"
+    },
+    {
+      "id": "control_chemical_2",
+      "category_id": "control",
+      "title": "Chemical Control",
+      "summary": "Chemical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nChemical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "chemical"
+    },
+    {
+      "id": "general_fertilizer",
+      "category_id": "general",
+      "title": "Fertilizer Management",
+      "summary": "Fertilizer Management: core recommendations for crop management.",
+      "content": "[Overview]\nFertilizer Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_pruning",
+      "category_id": "general",
+      "title": "Pruning Management",
+      "summary": "Pruning Management: core recommendations for crop management.",
+      "content": "[Overview]\nPruning Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_irrigation",
+      "category_id": "general",
+      "title": "Irrigation Management",
+      "summary": "Irrigation Management: core recommendations for crop management.",
+      "content": "[Overview]\nIrrigation Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_orchard_core",
+      "category_id": "general",
+      "title": "Orchard Management Essentials",
+      "summary": "Orchard Management Essentials: core recommendations for crop management.",
+      "content": "[Overview]\nOrchard Management Essentials supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_rotation",
+      "category_id": "general",
+      "title": "Crop Rotation",
+      "summary": "Crop Rotation: core recommendations for crop management.",
+      "content": "[Overview]\nCrop Rotation supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_seedling",
+      "category_id": "general",
+      "title": "Seedling Management",
+      "summary": "Seedling Management: core recommendations for crop management.",
+      "content": "[Overview]\nSeedling Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_greenhouse",
+      "category_id": "general",
+      "title": "Greenhouse Management",
+      "summary": "Greenhouse Management: core recommendations for crop management.",
+      "content": "[Overview]\nGreenhouse Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_soil",
+      "category_id": "general",
+      "title": "Soil Management",
+      "summary": "Soil Management: core recommendations for crop management.",
+      "content": "[Overview]\nSoil Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_variety",
+      "category_id": "general",
+      "title": "Variety and Resistance",
+      "summary": "Variety and Resistance: core recommendations for crop management.",
+      "content": "[Overview]\nVariety and Resistance supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_safety",
+      "category_id": "general",
+      "title": "Pesticide Safety",
+      "summary": "Pesticide Safety: core recommendations for crop management.",
+      "content": "[Overview]\nPesticide Safety supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_weeding",
+      "category_id": "general",
+      "title": "Weed Control",
+      "summary": "Weed Control: core recommendations for crop management.",
+      "content": "[Overview]\nWeed Control supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_frost",
+      "category_id": "general",
+      "title": "Frost Protection",
+      "summary": "Frost Protection: core recommendations for crop management.",
+      "content": "[Overview]\nFrost Protection supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_harvest",
+      "category_id": "general",
+      "title": "Harvest and Storage",
+      "summary": "Harvest and Storage: core recommendations for crop management.",
+      "content": "[Overview]\nHarvest and Storage supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_green_control",
+      "category_id": "general",
+      "title": "Integrated Pest Management",
+      "summary": "Integrated Pest Management: core recommendations for crop management.",
+      "content": "[Overview]\nIntegrated Pest Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_apple_manage",
+      "category_id": "general",
+      "title": "苹果栽培要点",
+      "summary": "苹果栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n苹果栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_rice_manage",
+      "category_id": "general",
+      "title": "水稻栽培要点",
+      "summary": "水稻栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n水稻栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_wheat_manage",
+      "category_id": "general",
+      "title": "小麦栽培要点",
+      "summary": "小麦栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n小麦栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_tomato_manage",
+      "category_id": "general",
+      "title": "番茄栽培要点",
+      "summary": "番茄栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n番茄栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_cucumber_manage",
+      "category_id": "general",
+      "title": "黄瓜栽培要点",
+      "summary": "黄瓜栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n黄瓜栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_grape_manage",
+      "category_id": "general",
+      "title": "葡萄栽培要点",
+      "summary": "葡萄栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n葡萄栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_citrus_manage",
+      "category_id": "general",
+      "title": "柑橘栽培要点",
+      "summary": "柑橘栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n柑橘栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_peanut_manage",
+      "category_id": "general",
+      "title": "花生栽培要点",
+      "summary": "花生栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n花生栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_cotton_manage",
+      "category_id": "general",
+      "title": "棉花栽培要点",
+      "summary": "棉花栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n棉花栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_soybean_manage",
+      "category_id": "general",
+      "title": "大豆栽培要点",
+      "summary": "大豆栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n大豆栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "comment": "知识条目标题 -> 图片 URL（Wikimedia Commons 等公开图，可直接用）；default_by_category 为缺图条目按分类兜底",
+  "default_by_category": {
+    "disease": "https://upload.wikimedia.org/wikipedia/commons/5/50/Apple_scab.jpg",
+    "pest": "https://upload.wikimedia.org/wikipedia/commons/8/88/Lasius_niger_y_Cinara_tujafilina_en_Thuja_orientalis.jpg",
+    "control": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Agriculture_in_Volgograd_Oblast_02.jpg",
+    "general": "https://upload.wikimedia.org/wikipedia/commons/9/90/Single_apple.jpg"
+  },
+  "default_by_fruit_type": {
+    "apple": "https://upload.wikimedia.org/wikipedia/commons/5/50/Apple_scab.jpg",
+    "pear": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pear_DS.jpg",
+    "peach": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Autumn_Red_peaches.jpg",
+    "grape": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Plasmopara_viticola_305150885.jpg",
+    "citrus": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Huanglongbing.jpg",
+    "mango": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Mango_and_cross_section.jpg",
+    "strawberry": "https://upload.wikimedia.org/wikipedia/commons/2/29/Strawberry_progression.jpg",
+    "tomato": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tomato_with_Phytophthora_infestans_%28late_blight%29.jpg",
+    "cucumber": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Downy_mildew_on_leaves_of_Cucumis_sativus.jpg",
+    "pepper": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Capsicum_annuum_fruits.jpg",
+    "cabbage": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cabbage_white.jpg",
+    "rice": "https://upload.wikimedia.org/wikipedia/commons/6/66/Magnaporthe_grisea.jpg",
+    "wheat": "https://upload.wikimedia.org/wikipedia/commons/2/29/Wheat_Stem_Rust_Disease_%2805410063%29_%289685492848%29.jpg",
+    "corn": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Verticillium_dahliae.jpg",
+    "soybean": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Soybean.USDA.jpg",
+    "general": "https://upload.wikimedia.org/wikipedia/commons/9/90/Single_apple.jpg"
+  },
+  "by_title": {
+    "苹果炭疽病": "https://upload.wikimedia.org/wikipedia/commons/5/50/Apple_scab.jpg",
+    "苹果黑星病": "https://upload.wikimedia.org/wikipedia/commons/5/50/Apple_scab.jpg",
+    "梨黑星病": "https://upload.wikimedia.org/wikipedia/commons/5/50/Apple_scab.jpg",
+    "葡萄霜霉病": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Plasmopara_viticola_305150885.jpg",
+    "蚜虫": "https://upload.wikimedia.org/wikipedia/commons/8/88/Lasius_niger_y_Cinara_tujafilina_en_Thuja_orientalis.jpg"
+  },
+  "search_en": {
+    "苹果褐斑病": "apple leaf spot",
+    "苹果白粉病": "apple powdery mildew",
+    "桃褐腐病": "peach brown rot",
+    "葡萄白粉病": "grape powdery mildew",
+    "番茄早疫病": "tomato early blight",
+    "番茄晚疫病": "tomato late blight",
+    "黄瓜霜霉病": "cucumber downy mildew",
+    "水稻稻瘟病": "rice blast",
+    "小麦锈病": "wheat rust",
+    "红蜘蛛（叶螨）": "spider mite plant",
+    "食心虫": "fruit moth larva",
+    "介壳虫": "scale insect plant"
+  }
+}

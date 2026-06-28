@@ -1,0 +1,4 @@
+# 知识库 data/ 每日早上 7:00 自动更新（查找并写入 knowledge_items.json + knowledge.db）
+# 安装：crontab -e 粘贴下面一行，或确保路径正确后执行：crontab cron_knowledge.txt
+# 若项目不在 /data1 下，请把路径改为实际路径（如 /home/yuhanlin/APP/konwledgeset）
+0 7 * * * /data1/yuhanlin/APP/konwledgeset/scripts/run_daily_sync.sh
