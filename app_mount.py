@@ -10,11 +10,12 @@ from pathlib import Path
 from flask import Flask, jsonify, request, send_from_directory
 
 import db
+from api_handlers import handle_feed, handle_reads_get, handle_reads_import, handle_reads_post
 from locale_util import resolve_locale
 
 IMAGES_DIR = Path(db.DATA_DIR) / "images"
 
-DEFAULT_FIRST_PAGE_SIZE = 5
+DEFAULT_FIRST_PAGE_SIZE = 10
 DEFAULT_LOAD_MORE_SIZE = 10
 
 
@@ -24,7 +25,7 @@ def create_knowledge_app():
     @app.after_request
     def cors(resp):
         resp.headers["Access-Control-Allow-Origin"] = "*"
-        resp.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+        resp.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
         resp.headers["Access-Control-Allow-Headers"] = "Content-Type"
         return resp
 
@@ -36,6 +37,29 @@ def create_knowledge_app():
             locale = resolve_locale(request)
             data = db.get_filters_from_db(locale=locale)
             return jsonify(data)
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+    @app.route("/feed", methods=["GET", "OPTIONS"])
+    def knowledge_feed():
+        if request.method == "OPTIONS":
+            return "", 204
+        try:
+            return handle_feed()
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+    @app.route("/reads", methods=["GET", "POST", "OPTIONS"])
+    def knowledge_reads():
+        if request.method == "OPTIONS":
+            return "", 204
+        try:
+            if request.method == "GET":
+                return handle_reads_get()
+            body = request.get_json(silent=True) or {}
+            if body.get("import") or request.args.get("import") == "1":
+                return handle_reads_import()
+            return handle_reads_post()
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 

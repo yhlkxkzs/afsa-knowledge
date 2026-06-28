@@ -11,17 +11,18 @@ from pathlib import Path
 from flask import Flask, jsonify, request
 
 import db
+from api_handlers import handle_feed, handle_reads_get, handle_reads_import, handle_reads_post
 from locale_util import resolve_locale
 
 app = Flask(__name__)
-DEFAULT_FIRST_PAGE_SIZE = 5   # 打开页面首次请求默认 5 条
-DEFAULT_LOAD_MORE_SIZE = 10   # 下拉刷新每次 10 条（App 传 limit=10）
+DEFAULT_FIRST_PAGE_SIZE = 10
+DEFAULT_LOAD_MORE_SIZE = 10
 
 
 @app.after_request
 def cors(resp):
     resp.headers["Access-Control-Allow-Origin"] = "*"
-    resp.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+    resp.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
     resp.headers["Access-Control-Allow-Headers"] = "Content-Type"
     return resp
 
@@ -34,6 +35,30 @@ def filters():
         locale = resolve_locale(request)
         data = db.get_filters_from_db(locale=locale)
         return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/knowledge/feed", methods=["GET", "OPTIONS"])
+def knowledge_feed():
+    if request.method == "OPTIONS":
+        return "", 204
+    try:
+        return handle_feed()
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/knowledge/reads", methods=["GET", "POST", "OPTIONS"])
+def knowledge_reads():
+    if request.method == "OPTIONS":
+        return "", 204
+    try:
+        if request.method == "GET":
+            return handle_reads_get()
+        if request.args.get("import") == "1":
+            return handle_reads_import()
+        return handle_reads_post()
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -113,7 +138,8 @@ def main():
     host = os.environ.get("HOST", "0.0.0.0")
     print(f"知识库 API: http://{host}:{port}")
     print("  GET /knowledge/filters  筛选选项")
-    print("  GET /knowledge/items  列表（支持 category_id&limit&random=1；首页 4 次/类）")
+    print("  GET /knowledge/feed  加权推荐流（首屏/下拉各10条）")
+    print("  POST /knowledge/reads  记录阅读/曝光（同步个人仓 jsonl）")
     print("  GET /knowledge/items/<id>  详情（含 content）")
     app.run(host=host, port=port, debug=False, threaded=True)
 

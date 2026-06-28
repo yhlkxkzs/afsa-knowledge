@@ -38,6 +38,21 @@ CREATE INDEX IF NOT EXISTS idx_disease ON knowledge(disease_type);
 CREATE INDEX IF NOT EXISTS idx_control ON knowledge(control_type);
 """
 
+READ_STATS_SCHEMA = """
+CREATE TABLE IF NOT EXISTS knowledge_read_stats (
+  user_id TEXT NOT NULL,
+  item_id TEXT NOT NULL,
+  locale TEXT NOT NULL DEFAULT 'zh',
+  impression_count INTEGER NOT NULL DEFAULT 0,
+  read_count INTEGER NOT NULL DEFAULT 0,
+  last_impression_at TEXT,
+  last_read_at TEXT,
+  updated_at TEXT DEFAULT (datetime('now')),
+  PRIMARY KEY (user_id, item_id, locale)
+);
+CREATE INDEX IF NOT EXISTS idx_read_user ON knowledge_read_stats(user_id, locale);
+"""
+
 
 def get_connection():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -107,6 +122,8 @@ def init_db():
     conn = get_connection()
     try:
         _migrate_legacy_table(conn)
+        conn.executescript(READ_STATS_SCHEMA)
+        conn.commit()
     finally:
         conn.close()
 
@@ -293,3 +310,183 @@ def import_json_file(path: Path, locale: str = i18n.DEFAULT_LOCALE) -> int:
     if isinstance(items, dict):
         items = items.get("items") or []
     return upsert_items(items, locale=locale)
+
+
+def fetch_candidates(
+    *,
+    category_id: str | None = None,
+    fruit_type: str | None = None,
+    disease_type: str | None = None,
+    control_type: str | None = None,
+    keyword: str | None = None,
+    locale: str = i18n.DEFAULT_LOCALE,
+) -> list[dict]:
+    """All items matching filters (for weighted feed sampling)."""
+    loc = i18n.normalize_locale(locale)
+    conn = get_connection()
+    try:
+        sql = """
+          SELECT id, locale, category_id, title, summary, content, fruit_type, disease_type, control_type, image_url
+          FROM knowledge WHERE locale = ?
+        """
+        params: list = [loc]
+        if category_id and category_id.lower() != "all":
+            sql += " AND category_id = ?"
+            params.append(category_id)
+        if fruit_type:
+            sql += " AND fruit_type = ?"
+            params.append(fruit_type)
+        if disease_type:
+            sql += " AND disease_type = ?"
+            params.append(disease_type)
+        if control_type:
+            sql += " AND control_type = ?"
+            params.append(control_type)
+        if keyword and keyword.strip():
+            k = f"%{keyword.strip()}%"
+            sql += " AND (title LIKE ? OR summary LIKE ?)"
+            params.extend([k, k])
+        sql += " ORDER BY id"
+        cur = conn.execute(sql, params)
+        return [_row_to_item(r, include_content=False, locale=loc) for r in cur.fetchall()]
+    finally:
+        conn.close()
+
+
+def get_read_stats(user_id: str, locale: str = i18n.DEFAULT_LOCALE) -> dict[str, dict[str, int]]:
+    loc = i18n.normalize_locale(locale)
+    conn = get_connection()
+    try:
+        cur = conn.execute(
+            """
+            SELECT item_id, impression_count, read_count
+            FROM knowledge_read_stats WHERE user_id = ? AND locale = ?
+            """,
+            (user_id, loc),
+        )
+        out: dict[str, dict[str, int]] = {}
+        for row in cur:
+            out[row["item_id"]] = {
+                "impression": int(row["impression_count"] or 0),
+                "read": int(row["read_count"] or 0),
+            }
+        return out
+    finally:
+        conn.close()
+
+
+def record_read_events(
+    user_id: str,
+    events: list[dict[str, Any]],
+    *,
+    locale: str = i18n.DEFAULT_LOCALE,
+) -> dict[str, dict[str, int]]:
+    """Increment impression/read counts. Returns full stats map for user."""
+    from datetime import datetime, timezone
+
+    loc = i18n.normalize_locale(locale)
+    now = datetime.now(timezone.utc).isoformat()
+    conn = get_connection()
+    try:
+        cur = conn.cursor()
+        for ev in events:
+            item_id = str(ev.get("item_id") or "").strip()
+            if not item_id:
+                continue
+            event = str(ev.get("event") or "impression").lower()
+            cur.execute(
+                """
+                SELECT impression_count, read_count FROM knowledge_read_stats
+                WHERE user_id = ? AND item_id = ? AND locale = ?
+                """,
+                (user_id, item_id, loc),
+            )
+            row = cur.fetchone()
+            imp = int(row[0]) if row else 0
+            reads = int(row[1]) if row else 0
+            if event == "read":
+                reads += 1
+                last_read = now
+                last_imp = None
+            else:
+                imp += 1
+                last_imp = now
+                last_read = None
+            if row:
+                if event == "read":
+                    cur.execute(
+                        """
+                        UPDATE knowledge_read_stats
+                        SET read_count = ?, last_read_at = ?, updated_at = ?
+                        WHERE user_id = ? AND item_id = ? AND locale = ?
+                        """,
+                        (reads, last_read, now, user_id, item_id, loc),
+                    )
+                else:
+                    cur.execute(
+                        """
+                        UPDATE knowledge_read_stats
+                        SET impression_count = ?, last_impression_at = ?, updated_at = ?
+                        WHERE user_id = ? AND item_id = ? AND locale = ?
+                        """,
+                        (imp, last_imp, now, user_id, item_id, loc),
+                    )
+            else:
+                cur.execute(
+                    """
+                    INSERT INTO knowledge_read_stats
+                    (user_id, item_id, locale, impression_count, read_count, last_impression_at, last_read_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    """,
+                    (
+                        user_id,
+                        item_id,
+                        loc,
+                        imp,
+                        reads,
+                        last_imp if event != "read" else 0,
+                        last_read if event == "read" else None,
+                        now,
+                    ),
+                )
+        conn.commit()
+    finally:
+        conn.close()
+    return get_read_stats(user_id, locale=loc)
+
+
+def import_read_stats_from_personal_repo(
+    user_id: str,
+    stats: dict[str, dict[str, int]],
+    *,
+    locale: str = i18n.DEFAULT_LOCALE,
+) -> int:
+    """Merge read counts from personal repo snapshot (take max per field)."""
+    loc = i18n.normalize_locale(locale)
+    existing = get_read_stats(user_id, locale=loc)
+    merged = existing
+    for item_id, counts in stats.items():
+        row = merged.setdefault(item_id, {"impression": 0, "read": 0})
+        row["impression"] = max(row["impression"], int(counts.get("impression", 0)))
+        row["read"] = max(row["read"], int(counts.get("read", 0)))
+    conn = get_connection()
+    n = 0
+    try:
+        cur = conn.cursor()
+        for item_id, counts in merged.items():
+            cur.execute(
+                """
+                INSERT INTO knowledge_read_stats (user_id, item_id, locale, impression_count, read_count, updated_at)
+                VALUES (?, ?, ?, ?, ?, datetime('now'))
+                ON CONFLICT(user_id, item_id, locale) DO UPDATE SET
+                  impression_count = excluded.impression_count,
+                  read_count = excluded.read_count,
+                  updated_at = excluded.updated_at
+                """,
+                (user_id, item_id, loc, counts["impression"], counts["read"]),
+            )
+            n += 1
+        conn.commit()
+    finally:
+        conn.close()
+    return n

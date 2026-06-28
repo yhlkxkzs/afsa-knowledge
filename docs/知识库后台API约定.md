@@ -83,8 +83,8 @@ App 知识库优先从后台拉取「知识框架」与列表/详情；后台未
 
 | 功能 | 行为 |
 |------|------|
-| 知识库首页（全部 20 张 / 刷新 12 张） | 只维护一份「全部」列表；打开时并发 4 次请求：`category_id=disease`、`pest`、`control`、`general`，每次 `page=1`、`limit=5`（打开）或 `limit=3`（刷新）、`random=1`，得到 20 条或 12 条后合并为 _allItems；子 Tab（病害/虫害/防治/通用）不再请求，仅对 _allItems 按 categoryId 前端过滤 |
-| 知识库搜索 | 请求 `GET /knowledge/items` 并带上 `fruit_type`、`disease_type`、`control_type`、`keyword`；空或失败则用本地数据并按关键词过滤 |
+| 知识库首页（阅读流） | **首屏** `GET /knowledge/feed?limit=10&user_id=…`；**下拉**再请求 `limit=10&exclude_ids=…`；列表展示后 `POST /knowledge/reads` 上报 impression；进详情上报 read；按响应 `personal_repo_sync` 写入个人仓 jsonl |
+| 知识库搜索 | 仍用 `GET /knowledge/items`（**不传** feed），`page`+`limit=10` 稳定分页 |
 | 知识详情 | 请求 `GET /knowledge/items/:id`；失败则用本地条目 |
 | 筛选选项 | 请求 `GET /knowledge/filters`（带 `locale`）；失败则用 App 内置默认选项 |
 | App 语言 | 中文 UI → `locale=zh`；English UI → `locale=en`（见 `docs/App语言与知识库选择.md`） |
@@ -98,7 +98,63 @@ App 知识库优先从后台拉取「知识框架」与列表/详情；后台未
 
 ---
 
-## 5. 病状/虫害对应图片（可选）
+## 5. 阅读流（加权推荐，符合下拉阅读习惯）
+
+知识库 **首页 / 下拉加载** 请用 **`GET /knowledge/feed`**（不要用纯 `random=1`）。
+
+| 场景 | 请求 |
+|------|------|
+| 首屏 10 条 | `GET /knowledge/feed?limit=10&user_id={github_login}&locale=zh` |
+| 下拉再 10 条 | 同上，并传 `exclude_ids=已展示id逗号分隔`；或依赖服务端 `user_id` 累计的 `seen_counts` |
+| 带筛选 | 附加 `category_id` / `fruit_type` / `disease_type` / `control_type` / `keyword` |
+
+**降权公式**（出现越多，再次被抽中概率越低）：
+
+```text
+weight = 1 / (1 + 0.55 × impression_count + 1.0 × read_count)
+```
+
+- **impression**：列表里展示过一次 +1  
+- **read**：用户点进详情 +1（降权更强）
+
+可选参数 **`seen_counts`**（JSON 字符串，App 本地缓存与服务端合并，取较大值）：
+
+```json
+{"disease_apple_anthracnose_1": {"impression": 2, "read": 1}}
+```
+
+响应含 `seen_counts`（合并后），App 下次请求可原样回传或只传 `user_id` 由服务端记忆。
+
+---
+
+## 6. 阅读记录与个人仓同步
+
+**上报曝光/阅读**：`POST /knowledge/reads`
+
+```json
+{
+  "user_id": "github_login",
+  "events": [
+    {"item_id": "disease_apple_anthracnose_1", "event": "impression", "category_id": "disease"},
+    {"item_id": "disease_apple_anthracnose_1", "event": "read", "category_id": "disease"}
+  ]
+}
+```
+
+响应 **`personal_repo_sync`**：App 用 OAuth 追加写入用户个人仓：
+
+| 字段 | 说明 |
+|------|------|
+| `path` | `logs/knowledge_reads/2026-06.jsonl` |
+| `append_lines` | 每行一条 JSON（含 `data_tier: log`, `retention_days: 90`） |
+
+换机恢复：`POST /knowledge/reads?import=1` + body `{ "user_id", "seen_counts": {...} }`（从个人仓 jsonl 聚合后上传）。
+
+**查询当前统计**：`GET /knowledge/reads?user_id={github_login}`
+
+---
+
+## 7. 病状/虫害对应图片（可选）
 
 - 列表与详情接口可返回 **image_url**，用于卡片或详情页配图。
 - 后台通过 `data/knowledge_image_urls.json` 的 **by_title**（标题 → 图片 URL）为条目挂接图片；可自行补充更多标题与 URL（如 Wikimedia Commons、Bugwood 等开放图）。
