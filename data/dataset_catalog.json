@@ -1,0 +1,2342 @@
+{
+  "version": 1,
+  "description": "Unified dataset catalog: local disease_recognition pool + externally crawled sources. Used to avoid duplicate imports.",
+  "local_registry_path": "/home/yuhanlin/APP/AFSA/data/disease_classification/manifest/registry.json",
+  "local_import_tracker_path": "/home/yuhanlin/Database/datasets/API/dataset_import_tracker.json",
+  "local_roots": [
+    "/home/yuhanlin/Database/datasets/disease_recognition/database"
+  ],
+  "external_sources": [],
+  "last_synced_at": "2026-06-28T07:25:01.971662+00:00",
+  "local_datasets": [
+    {
+      "dataset_id": "AgriVision-Kiwi-main",
+      "normalized_id": "agrivision_kiwi_main",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/AgriVision-Kiwi-main",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "altenaria",
+        "healthy",
+        "media",
+        "nematode",
+        "phytophora"
+      ],
+      "fruits": [
+        "kiwi"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Apricot_MultidDisease_Detection.v1i.coco",
+      "normalized_id": "apricot_multiddisease_detection.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Apricot_MultidDisease_Detection.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "brown_rot",
+        "healthy",
+        "powdery_mildew",
+        "rotten_powdery_shot_hole",
+        "shot_hole"
+      ],
+      "fruits": [
+        "apricot"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Banana_Disease.v1i.folder",
+      "normalized_id": "banana_disease.v1i.folder",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "banana_black_sigatoka_disease",
+        "banana_bract_mosaic_virus_disease",
+        "banana_healthy_leaf",
+        "banana_insect_pest_disease",
+        "banana_moko_disease",
+        "banana_panama_disease",
+        "banana_yellow_sigatoka_disease"
+      ],
+      "fruits": [
+        "banana"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Banana_Leaf_Disease.v2-banana-augmentasi.coco",
+      "normalized_id": "banana_leaf_disease.v2_banana_augmentasi.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Leaf_Disease.v2-banana-augmentasi.coco",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "cordana",
+        "healthy",
+        "leaf_spots_on_banana_leaves_hhl8",
+        "pestalotiopsi",
+        "sigatoka"
+      ],
+      "fruits": [
+        "banana"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Birjand_Native_Plant_Leaves_Dataset",
+      "normalized_id": "birjand_native_plant_leaves_dataset",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Birjand_Native_Plant_Leaves_Dataset",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "01_barberry_healthy",
+        "02_barberry_rust",
+        "03_barberry_pandemis_ribeana_tortricidae",
+        "04_jujube_healthy",
+        "05_jujube_ziziphus_tingid",
+        "06_jujube_parenchyma_eating_butterfly",
+        "07_pomegranate_healthy",
+        "08_pomegranate_aphis_punicae",
+        "09_pomegranate_leaf_cutting_bee"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "CacaoDiseases_Segmentation.v1-cacaodiseases_segmentation.coco-segmentation",
+      "normalized_id": "cacaodiseases_segmentation.v1_cacaodiseases_segmentation.coco_segmentation",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/CacaoDiseases_Segmentation.v1-cacaodiseases_segmentation.coco-segmentation",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "cacao",
+        "disease"
+      ],
+      "fruits": [
+        "cacao"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "CacaoPodBorer",
+      "normalized_id": "cacaopodborer",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/CacaoPodBorer",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "cpb"
+      ],
+      "fruits": [
+        "cacao"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Deep-Learning-based-Detector-for-Diseases-in-Passion-Fruit-Plants-master",
+      "normalized_id": "deep_learning_based_detector_for_diseases_in_passion_fruit_plants_master",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Deep-Learning-based-Detector-for-Diseases-in-Passion-Fruit-Plants-master",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [
+        "icon",
+        "test_image"
+      ],
+      "fruits": [
+        "passion_fruit"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Dragon_Fruit_Disease.v1-dragon-fruit-disease.coco",
+      "normalized_id": "dragon_fruit_disease.v1_dragon_fruit_disease.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Dragon_Fruit_Disease.v1-dragon-fruit-disease.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "bercak_batang",
+        "brown_spot",
+        "dried_lesion",
+        "stem_rot"
+      ],
+      "fruits": [
+        "dragon_fruit"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Durian_Disease.v1i.folder",
+      "normalized_id": "durian_disease.v1i.folder",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Durian_Disease.v1i.folder",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "algal_leaf_spot",
+        "leaf_blight",
+        "leaf_spot",
+        "leaf_spot_no_disease",
+        "no_disease"
+      ],
+      "fruits": [
+        "durian"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Eggplant_fruit_disease_detection.v23-11800-annotations.coco",
+      "normalized_id": "eggplant_fruit_disease_detection.v23_11800_annotations.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Eggplant_fruit_disease_detection.v23-11800-annotations.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "eggplant_fruit_disease",
+        "fruit_borer",
+        "fruit_rot",
+        "healthy",
+        "melon_thrip"
+      ],
+      "fruits": [
+        "eggplant"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Eggplant_fruit_disease_detection.v26-eggplant_100epoch.coco",
+      "normalized_id": "eggplant_fruit_disease_detection.v26_eggplant_100epoch.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Eggplant_fruit_disease_detection.v26-eggplant_100epoch.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "eggplant_fruit_disease",
+        "fruit_borer",
+        "fruit_rot",
+        "healthy",
+        "melon_thrip"
+      ],
+      "fruits": [
+        "eggplant"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "FRUITS_DISEASE_DETECTION.v3i.coco",
+      "normalized_id": "fruits_disease_detection.v3i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/FRUITS_DISEASE_DETECTION.v3i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "blotch_apple",
+        "healthy_apple",
+        "mango_alternaria",
+        "mango_anthracnose",
+        "mango_black_mould_rot",
+        "mango_healthy",
+        "orange_blackspot",
+        "orange_canker",
+        "orange_greening",
+        "orange_healthy",
+        "pomegranate_alternaria",
+        "pomegranate_anthracnose",
+        "pomegranate_bacterial_blight",
+        "pomegranate_healthy",
+        "rot_apple",
+        "scab_apple"
+      ],
+      "fruits": [
+        "citrus",
+        "mango",
+        "pomegranate"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Fig_Leaf_Disease_Classification3.v1i.folder",
+      "normalized_id": "fig_leaf_disease_classification3.v1i.folder",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fig_Leaf_Disease_Classification3.v1i.folder",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "healthy"
+      ],
+      "fruits": [
+        "fig"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+      "normalized_id": "fruit_disease_detection.v1_fruit_disease_detection_cwihl_83wlf.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "apple_leaf",
+        "apple_rust_leaf",
+        "apple_scab_leaf",
+        "bell_pepper_leaf",
+        "bell_pepper_leaf_spot",
+        "blueberry_leaf",
+        "cherry_leaf",
+        "corn_gray_leaf_spot",
+        "corn_leaf_blight",
+        "corn_rust_leaf",
+        "fruit",
+        "grape_leaf",
+        "grape_leaf_black_rot",
+        "peach_leaf",
+        "potato_leaf_early_blight",
+        "potato_leaf_late_blight",
+        "raspberry_leaf",
+        "soyabean_leaf",
+        "squash_powdery_mildew_leaf",
+        "strawberry_leaf",
+        "tomato_early_blight_leaf",
+        "tomato_leaf",
+        "tomato_leaf_bacterial_spot",
+        "tomato_leaf_late_blight",
+        "tomato_leaf_mosaic_viru",
+        "tomato_leaf_yellow_viru",
+        "tomato_mold_leaf",
+        "tomato_septoria_leaf_spot"
+      ],
+      "fruits": [
+        "apple",
+        "blueberry",
+        "cherry",
+        "grape",
+        "peach",
+        "raspberry",
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco__Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+      "normalized_id": "fruit_disease_detection.v1_fruit_disease_detection_cwihl_83wlf.coco__fruit_disease_detection.v1_fruit_disease_detection_cwihl_83wlf.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco__Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "apple_leaf",
+        "apple_rust_leaf",
+        "apple_scab_leaf",
+        "bell_pepper_leaf",
+        "bell_pepper_leaf_spot",
+        "blueberry_leaf",
+        "cherry_leaf",
+        "corn_gray_leaf_spot",
+        "corn_leaf_blight",
+        "corn_rust_leaf",
+        "fruit",
+        "grape_leaf",
+        "grape_leaf_black_rot",
+        "peach_leaf",
+        "potato_leaf_early_blight",
+        "potato_leaf_late_blight",
+        "raspberry_leaf",
+        "soyabean_leaf",
+        "squash_powdery_mildew_leaf",
+        "strawberry_leaf",
+        "tomato_early_blight_leaf",
+        "tomato_leaf",
+        "tomato_leaf_bacterial_spot",
+        "tomato_leaf_late_blight",
+        "tomato_leaf_mosaic_viru",
+        "tomato_leaf_yellow_viru",
+        "tomato_mold_leaf",
+        "tomato_septoria_leaf_spot"
+      ],
+      "fruits": [
+        "apple",
+        "blueberry",
+        "cherry",
+        "grape",
+        "peach",
+        "raspberry",
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Fruit_Disease_Detection_Dataset.v4-presentation.coco",
+      "normalized_id": "fruit_disease_detection_dataset.v4_presentation.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection_Dataset.v4-presentation.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "apple_scab",
+        "citrus_anthracnose",
+        "citrus_back_spot",
+        "colletrotrichum_acutatum",
+        "fruit_disease",
+        "fruit_rot",
+        "fruit_spot",
+        "guava_anthracnose",
+        "guava_rot",
+        "guava_rust",
+        "mango_anthracnose",
+        "melanose_diaporthe_citri",
+        "muskmelon_black_rot",
+        "papaya_anthracnose",
+        "papaya_ring_spot",
+        "pear_rust",
+        "pear_scab",
+        "pineapple_fusariosi",
+        "pineapple_green_fruit_rot",
+        "pomegranate_alternaria_fruit_spot",
+        "pomegranate_bacterial_blight",
+        "powdery_mildew_strawberry",
+        "sooty_blotch",
+        "strawberry_anthracnose",
+        "strawberry_botrytis_cinere",
+        "strawberry_sunscald"
+      ],
+      "fruits": [
+        "apple",
+        "citrus",
+        "guava",
+        "mango",
+        "papaya",
+        "pear",
+        "pineapple",
+        "pomegranate",
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Fruit_disease_Deep_learning.v1i.coco",
+      "normalized_id": "fruit_disease_deep_learning.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_disease_Deep_learning.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "alternaria",
+        "anthracnose",
+        "bacterial_blight",
+        "cercospora"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Grape_leaf_disease_dataset.v1i.coco",
+      "normalized_id": "grape_leaf_disease_dataset.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Grape_leaf_disease_dataset.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "black_measle",
+        "black_rot",
+        "blight_fungu",
+        "healthy"
+      ],
+      "fruits": [
+        "grape"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Grapes_Disease_Detection.v1i.coco",
+      "normalized_id": "grapes_disease_detection.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Grapes_Disease_Detection.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "black_rot",
+        "disease_wgxb",
+        "healthy",
+        "leaf_blight"
+      ],
+      "fruits": [
+        "grape"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Instance_Segmentation_Model_for_Strawberry_Diseases.v1i.coco",
+      "normalized_id": "instance_segmentation_model_for_strawberry_diseases.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Instance_Segmentation_Model_for_Strawberry_Diseases.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "gray_mold",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "K-Kotagiri_NRB_Avocado_Leaf_DataSet",
+      "normalized_id": "k_kotagiri_nrb_avocado_leaf_dataset",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/K-Kotagiri_NRB_Avocado_Leaf_DataSet",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "disease",
+        "healthy"
+      ],
+      "fruits": [
+        "avocado"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Kiwi_Leaf_Disease_Detection.v1-kiwi-leaf-disease.coco",
+      "normalized_id": "kiwi_leaf_disease_detection.v1_kiwi_leaf_disease.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Kiwi_Leaf_Disease_Detection.v1-kiwi-leaf-disease.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "alernaria",
+        "disease",
+        "healthy",
+        "nematode"
+      ],
+      "fruits": [
+        "kiwi"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Kiwi_Leaf_Disease_Detection.v1-kiwi-leaf-disease.coco__Kiwi_Leaf_Disease_Detection.v1-kiwi-leaf-disease.coco",
+      "normalized_id": "kiwi_leaf_disease_detection.v1_kiwi_leaf_disease.coco__kiwi_leaf_disease_detection.v1_kiwi_leaf_disease.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Kiwi_Leaf_Disease_Detection.v1-kiwi-leaf-disease.coco__Kiwi_Leaf_Disease_Detection.v1-kiwi-leaf-disease.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "alernaria",
+        "disease",
+        "healthy",
+        "nematode"
+      ],
+      "fruits": [
+        "kiwi"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Leaf_Durian",
+      "normalized_id": "leaf_durian",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Leaf_Durian",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [
+        "image",
+        "label"
+      ],
+      "fruits": [
+        "durian"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Leaf_Durian__Leaf_Durian",
+      "normalized_id": "leaf_durian__leaf_durian",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Leaf_Durian__Leaf_Durian",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [
+        "image",
+        "label"
+      ],
+      "fruits": [
+        "durian"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Lychee_Disease_Detection.v2-lychee-disease-detection.coco",
+      "normalized_id": "lychee_disease_detection.v2_lychee_disease_detection.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Lychee_Disease_Detection.v2-lychee-disease-detection.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "lychee",
+        "lychee_curl_leaf",
+        "lychee_deficiency_leaf",
+        "lychee_felt_leaf",
+        "lychee_fungal_leaf_spot",
+        "lychee_healthy_leaf",
+        "lychee_leaf_blight",
+        "lychee_leaf_gall"
+      ],
+      "fruits": [
+        "lychee"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Lychee_Leaf_Disease_Dataset_Advancing_Agriculture_and_Sustainability_through_Machine_Learning-Based_Diagnosis",
+      "normalized_id": "lychee_leaf_disease_dataset_advancing_agriculture_and_sustainability_through_machine_learning_based_diagnosis",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Lychee_Leaf_Disease_Dataset_Advancing_Agriculture_and_Sustainability_through_Machine_Learning-Based_Diagnosis",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthrax_leaf",
+        "bituminous_leaf",
+        "curl_leaf",
+        "deficiency_leaf",
+        "dry_leaf",
+        "felt_leaf",
+        "fungal_leaf_spot",
+        "healthy_leaf",
+        "leaf_blight",
+        "leaf_gall"
+      ],
+      "fruits": [
+        "lychee"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Mango_Diseases.v6i.folder",
+      "normalized_id": "mango_diseases.v6i.folder",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Mango_Diseases.v6i.folder",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "bacterial_canker",
+        "cutting_weevil",
+        "die_back",
+        "gall_midge",
+        "healthy",
+        "powdery_mildew",
+        "sooty_mould"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Mango_pomogranate_Classification.v1-mangodiseaseclassification.folder",
+      "normalized_id": "mango_pomogranate_classification.v1_mangodiseaseclassification.folder",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Mango_pomogranate_Classification.v1-mangodiseaseclassification.folder",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "alternaria",
+        "anthracnose",
+        "black_mould_rot",
+        "healthy",
+        "stem_and_rot"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Pineapple_Maturity_Project_App.v1i.coco",
+      "normalized_id": "pineapple_maturity_project_app.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Pineapple_Maturity_Project_App.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "overripe",
+        "pineapple",
+        "pineapple_q7uo",
+        "ripe",
+        "unripe"
+      ],
+      "fruits": [
+        "pineapple"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Pineapple_Rind_Defect_Detection_v2.v1i.coco",
+      "normalized_id": "pineapple_rind_defect_detection_v2.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Pineapple_Rind_Defect_Detection_v2.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "pineapple_rind_defect",
+        "rind_defect"
+      ],
+      "fruits": [
+        "pineapple"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Pomegranate_Disease_Detection.v4i.coco",
+      "normalized_id": "pomegranate_disease_detection.v4i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Pomegranate_Disease_Detection.v4i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "bacterial_blight",
+        "healthy",
+        "pomegranate"
+      ],
+      "fruits": [
+        "pomegranate"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Soursop.v1i.coco",
+      "normalized_id": "soursop.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Soursop.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose"
+      ],
+      "fruits": [
+        "soursop"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Soursop.v2i.coco",
+      "normalized_id": "soursop.v2i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Soursop.v2i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "mealybug"
+      ],
+      "fruits": [
+        "soursop"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Soursop.v3i.coco",
+      "normalized_id": "soursop.v3i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Soursop.v3i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "mealybug"
+      ],
+      "fruits": [
+        "soursop"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Soursop.v5i.coco",
+      "normalized_id": "soursop.v5i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Soursop.v5i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "mealybug"
+      ],
+      "fruits": [
+        "soursop"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "StrawberryDisease.v2i.coco",
+      "normalized_id": "strawberrydisease.v2i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/StrawberryDisease.v2i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "disease",
+        "gray_mold",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "Sugar_Apples_Custard_Apples_Annona_squamosa_Disease_Image_Dataset",
+      "normalized_id": "sugar_apples_custard_apples_annona_squamosa_disease_image_dataset",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Sugar_Apples_Custard_Apples_Annona_squamosa_Disease_Image_Dataset",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "athracnose",
+        "blank_canker",
+        "diplodia_rot",
+        "leaf_spot_on_fruit",
+        "leaf_spot_on_leave",
+        "mealy_bug"
+      ],
+      "fruits": [
+        "sugar_apple"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "apple_leave_disease",
+      "normalized_id": "apple_leave_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/apple_leave_disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "apple"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "apple_scab_disease.v1i.coco",
+      "normalized_id": "apple_scab_disease.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/apple_scab_disease.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "apple_scab_disease",
+        "plant_leaf"
+      ],
+      "fruits": [
+        "apple"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "augmentlab__fig-leaf-disease-classification3__Fig_Leaf_Disease_Classification3.v1i.folder__Fig_Leaf_Disease_Classification3.v1i.folder",
+      "normalized_id": "augmentlab__fig_leaf_disease_classification3__fig_leaf_disease_classification3.v1i.folder__fig_leaf_disease_classification3.v1i.folder",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/augmentlab__fig-leaf-disease-classification3__Fig_Leaf_Disease_Classification3.v1i.folder__Fig_Leaf_Disease_Classification3.v1i.folder",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "healthy"
+      ],
+      "fruits": [
+        "fig"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "banana-al4eq__banana-leaf-disease-qesr2",
+      "normalized_id": "banana_al4eq__banana_leaf_disease_qesr2",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/banana-al4eq__banana-leaf-disease-qesr2",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "cordana",
+        "healthy",
+        "pestalotiopsi",
+        "sigatoka"
+      ],
+      "fruits": [
+        "banana"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "bananadisease",
+      "normalized_id": "bananadisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/bananadisease",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "alcium",
+        "bacterial_soft_rot",
+        "banana_aphid",
+        "banana_bract_mosaic_viru",
+        "banana_insect_pest",
+        "banana_moko_disease",
+        "black_sigatoka",
+        "boron",
+        "cordana",
+        "fusarium_wilt",
+        "healthy",
+        "iron",
+        "magnesium",
+        "manganese",
+        "panama",
+        "pestalotiopsi",
+        "potassium",
+        "sulphur",
+        "yellow_sigatoka",
+        "zinc"
+      ],
+      "fruits": [
+        "banana"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "bscs-sdztk__eggplant-fruit-disease-detection",
+      "normalized_id": "bscs_sdztk__eggplant_fruit_disease_detection",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/bscs-sdztk__eggplant-fruit-disease-detection",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "eggplant_fruit_disease",
+        "fruit_borer",
+        "fruit_rot",
+        "healthy",
+        "melon_thrip"
+      ],
+      "fruits": [
+        "eggplant"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "bscs-sdztk__eggplant-fruit-disease-detection__Eggplant_fruit_disease_detection.v26-eggplant_100epoch.coco__Eggplant_fruit_disease_detection.v26-eggplant_100epoch.coco",
+      "normalized_id": "bscs_sdztk__eggplant_fruit_disease_detection__eggplant_fruit_disease_detection.v26_eggplant_100epoch.coco__eggplant_fruit_disease_detection.v26_eggplant_100epoch.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/bscs-sdztk__eggplant-fruit-disease-detection__Eggplant_fruit_disease_detection.v26-eggplant_100epoch.coco__Eggplant_fruit_disease_detection.v26-eggplant_100epoch.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "eggplant_fruit_disease",
+        "fruit_borer",
+        "fruit_rot",
+        "healthy",
+        "melon_thrip"
+      ],
+      "fruits": [
+        "eggplant"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "capstone-project-f8xo9__banana-disease-detection-sxm6b",
+      "normalized_id": "capstone_project_f8xo9__banana_disease_detection_sxm6b",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/capstone-project-f8xo9__banana-disease-detection-sxm6b",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "black_sigatoka",
+        "fusarium_wilt",
+        "healthy",
+        "not_banana"
+      ],
+      "fruits": [
+        "banana"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "cirtus_disease",
+      "normalized_id": "cirtus_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/cirtus_disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "citrus"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "cirtus_leaves",
+      "normalized_id": "cirtus_leaves",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/cirtus_leaves",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "blackspot",
+        "canker",
+        "greening",
+        "healthy",
+        "melanose"
+      ],
+      "fruits": [
+        "citrus"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "citrus-research__citrus-disease-detection-v2",
+      "normalized_id": "citrus_research__citrus_disease_detection_v2",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "blackspot",
+        "canker",
+        "greening",
+        "healthy"
+      ],
+      "fruits": [
+        "citrus"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "coconut-disease-detection__coconut-tree-disease-detection-uiugr-pywob",
+      "normalized_id": "coconut_disease_detection__coconut_tree_disease_detection_uiugr_pywob",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/coconut-disease-detection__coconut-tree-disease-detection-uiugr-pywob",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "bud_root_dropping",
+        "bud_rot",
+        "gray_leaf_spot",
+        "leaf_rot",
+        "stem_bleeding"
+      ],
+      "fruits": [
+        "coconut"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "coconut_leaf_pest_disease",
+      "normalized_id": "coconut_leaf_pest_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/coconut_leaf_pest_disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "coconut"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "coconut_tree_disease",
+      "normalized_id": "coconut_tree_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/coconut_tree_disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "coconut"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "college-rozyr__fruit-disease-deep-learning",
+      "normalized_id": "college_rozyr__fruit_disease_deep_learning",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/college-rozyr__fruit-disease-deep-learning",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "alternaria",
+        "anthracnose",
+        "bacterial_blight",
+        "cercospora"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "college-rozyr__fruit-disease-deep-learning__Fruit_disease_Deep_learning.v1i.coco__Fruit_disease_Deep_learning.v1i.coco",
+      "normalized_id": "college_rozyr__fruit_disease_deep_learning__fruit_disease_deep_learning.v1i.coco__fruit_disease_deep_learning.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/college-rozyr__fruit-disease-deep-learning__Fruit_disease_Deep_learning.v1i.coco__Fruit_disease_Deep_learning.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "alternaria",
+        "anthracnose",
+        "bacterial_blight",
+        "cercospora",
+        "fruit_disease_3trj"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "detection_of_mango_leaf_diseases.v1i.coco",
+      "normalized_id": "detection_of_mango_leaf_diseases.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/detection_of_mango_leaf_diseases.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "dragon_cfchfdpfw5",
+      "normalized_id": "dragon_cfchfdpfw5",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/dragon_cfchfdpfw5",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [
+        "bad_fruit",
+        "bad_leaf",
+        "good_fruit",
+        "good_leaf"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "duriandiseaseleaf",
+      "normalized_id": "duriandiseaseleaf",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/duriandiseaseleaf",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "durian"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "eggplantleavesdisease",
+      "normalized_id": "eggplantleavesdisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/eggplantleavesdisease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "earworm",
+        "flea_beetle_s_damage",
+        "leaf_spot",
+        "leafhopper"
+      ],
+      "fruits": [
+        "eggplant"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "fruit diseasedetection",
+      "normalized_id": "fruit_diseasedetection",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/fruit diseasedetection",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "apple_scab",
+        "citrus_anthracnose",
+        "citrus_back_spot",
+        "colletrotrichum_acutatum",
+        "fruit_disease",
+        "fruit_rot",
+        "fruit_spot",
+        "guava_anthracnose",
+        "guava_rot",
+        "guava_rust",
+        "mango_anthracnose",
+        "melanose_diaporthe_citri",
+        "muskmelon_black_rot",
+        "papaya_anthracnose",
+        "papaya_ring_spot",
+        "pear_rust",
+        "pear_scab",
+        "pineapple_fusariosi",
+        "pineapple_green_fruit_rot",
+        "pomegranate_alternaria_fruit_spot",
+        "pomegranate_bacterial_blight",
+        "powdery_mildew_strawberry",
+        "sooty_blotch",
+        "strawberry_anthracnose",
+        "strawberry_botrytis_cinere",
+        "strawberry_sunscald"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "fyp-1__apricot-disease-datasetv04",
+      "normalized_id": "fyp_1__apricot_disease_datasetv04",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/fyp-1__apricot-disease-datasetv04",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "brown_rot",
+        "healthy",
+        "powdery_mildew",
+        "shot_hole"
+      ],
+      "fruits": [
+        "apricot"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "fyp-1__apricot-disease-datasetv04__Apricot_MultidDisease_Detection.v1i.coco__Apricot_MultidDisease_Detection.v1i.coco",
+      "normalized_id": "fyp_1__apricot_disease_datasetv04__apricot_multiddisease_detection.v1i.coco__apricot_multiddisease_detection.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/fyp-1__apricot-disease-datasetv04__Apricot_MultidDisease_Detection.v1i.coco__Apricot_MultidDisease_Detection.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "brown_rot",
+        "healthy",
+        "powdery_mildew",
+        "rotten_powdery_shot_hole",
+        "shot_hole"
+      ],
+      "fruits": [
+        "apricot"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "guava-leaf-disease-detection-and-classification__guava-leaf-classification",
+      "normalized_id": "guava_leaf_disease_detection_and_classification__guava_leaf_classification",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/guava-leaf-disease-detection-and-classification__guava-leaf-classification",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "healthy",
+        "mummification",
+        "rust",
+        "whitefly"
+      ],
+      "fruits": [
+        "guava"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "guilherme-rodrigues-xdsvb__strawberrydisease",
+      "normalized_id": "guilherme_rodrigues_xdsvb__strawberrydisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/guilherme-rodrigues-xdsvb__strawberrydisease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "gray_mold",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "guilherme-rodrigues-xdsvb__strawberrydisease__StrawberryDisease.v2i.coco__StrawberryDisease.v2i.coco",
+      "normalized_id": "guilherme_rodrigues_xdsvb__strawberrydisease__strawberrydisease.v2i.coco__strawberrydisease.v2i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/guilherme-rodrigues-xdsvb__strawberrydisease__StrawberryDisease.v2i.coco__StrawberryDisease.v2i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "disease",
+        "gray_mold",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "guyabano.v38i.coco",
+      "normalized_id": "guyabano.v38i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/guyabano.v38i.coco",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "healthy_anthracnose_mealybug",
+        "mealybug"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "jackfruitdisease",
+      "normalized_id": "jackfruitdisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/jackfruitdisease",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [],
+      "fruits": [
+        "jackfruit"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "joseph-nelson__plantdoc",
+      "normalized_id": "joseph_nelson__plantdoc",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/joseph-nelson__plantdoc",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "apple_leaf",
+        "apple_rust_leaf",
+        "apple_scab_leaf",
+        "bell_pepper_leaf",
+        "bell_pepper_leaf_spot",
+        "blueberry_leaf",
+        "cherry_leaf",
+        "corn_gray_leaf_spot",
+        "corn_leaf_blight",
+        "corn_rust_leaf",
+        "grape_leaf",
+        "grape_leaf_black_rot",
+        "peach_leaf",
+        "potato_leaf",
+        "potato_leaf_early_blight",
+        "potato_leaf_late_blight",
+        "raspberry_leaf",
+        "soyabean_leaf",
+        "squash_powdery_mildew_leaf",
+        "strawberry_leaf",
+        "tomato_early_blight_leaf",
+        "tomato_leaf",
+        "tomato_leaf_bacterial_spot",
+        "tomato_leaf_late_blight",
+        "tomato_leaf_mosaic_viru",
+        "tomato_leaf_yellow_viru",
+        "tomato_mold_leaf",
+        "tomato_septoria_leaf_spot",
+        "tomato_two_spotted_spider_mites_leaf"
+      ],
+      "fruits": [
+        "apple",
+        "blueberry",
+        "cherry",
+        "grape",
+        "peach",
+        "raspberry",
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "joseph-nelson__plantdoc__plantdoc.v2i.coco",
+      "normalized_id": "joseph_nelson__plantdoc__plantdoc.v2i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/joseph-nelson__plantdoc__plantdoc.v2i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "apple_leaf",
+        "apple_rust_leaf",
+        "apple_scab_leaf",
+        "bell_pepper_leaf",
+        "bell_pepper_leaf_spot",
+        "blueberry_leaf",
+        "cherry_leaf",
+        "corn_gray_leaf_spot",
+        "corn_leaf_blight",
+        "corn_rust_leaf",
+        "grape_leaf",
+        "grape_leaf_black_rot",
+        "peach_leaf",
+        "plantdoc",
+        "potato_leaf",
+        "potato_leaf_early_blight",
+        "potato_leaf_late_blight",
+        "raspberry_leaf",
+        "soyabean_leaf",
+        "squash_powdery_mildew_leaf",
+        "strawberry_leaf",
+        "tomato_early_blight_leaf",
+        "tomato_leaf",
+        "tomato_leaf_bacterial_spot",
+        "tomato_leaf_late_blight",
+        "tomato_leaf_mosaic_viru",
+        "tomato_leaf_yellow_viru",
+        "tomato_mold_leaf",
+        "tomato_septoria_leaf_spot",
+        "tomato_two_spotted_spider_mites_leaf"
+      ],
+      "fruits": [
+        "apple",
+        "blueberry",
+        "cherry",
+        "grape",
+        "peach",
+        "raspberry",
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "jujube_6vttpjr7xw",
+      "normalized_id": "jujube_6vttpjr7xw",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/jujube_6vttpjr7xw",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "dry_fruit",
+        "healthy_leaf",
+        "leaf_miner",
+        "leaf_weevil",
+        "termite_infestation"
+      ],
+      "fruits": [
+        "jujube"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "jujube_yxmf3cd865",
+      "normalized_id": "jujube_yxmf3cd865",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/jujube_yxmf3cd865",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "insect_damage",
+        "powdery_mildew",
+        "yellow_leaf"
+      ],
+      "fruits": [
+        "jujube"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "kamatest-disease-detection__kamatest",
+      "normalized_id": "kamatest_disease_detection__kamatest",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/kamatest-disease-detection__kamatest",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "bacterial_spot",
+        "blossom_end_rot",
+        "cracking",
+        "healthy"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mangoddisease",
+      "normalized_id": "mangoddisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mangoddisease",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mangodisease",
+      "normalized_id": "mangodisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mangodisease",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "alternaria",
+        "anthracnose",
+        "aspergillu",
+        "healthy",
+        "lasio"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mayhoc__coconut-tree-disease",
+      "normalized_id": "mayhoc__coconut_tree_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mayhoc__coconut-tree-disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "bud_root_dropping",
+        "bud_rot",
+        "gray_leaf_spot",
+        "leaf_rot",
+        "stembleeding"
+      ],
+      "fruits": [
+        "coconut"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mendeley__bdpapaya_leaf",
+      "normalized_id": "mendeley__bdpapaya_leaf",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__bdpapaya_leaf",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "bacterialspot",
+        "curl",
+        "healthy",
+        "ringspot"
+      ],
+      "fruits": [
+        "papaya"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mendeley__guava_bkdkc4n835",
+      "normalized_id": "mendeley__guava_bkdkc4n835",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_bkdkc4n835",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "fruit_fly",
+        "healthy_guava"
+      ],
+      "fruits": [
+        "guava"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mendeley__guava_fspx44mwfp",
+      "normalized_id": "mendeley__guava_fspx44mwfp",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "canker",
+        "dot",
+        "healthy",
+        "rust",
+        "scab",
+        "styler_end_root"
+      ],
+      "fruits": [
+        "guava"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mendeley__guava_x84p2g3k6z",
+      "normalized_id": "mendeley__guava_x84p2g3k6z",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_x84p2g3k6z",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [
+        "disease_free",
+        "phytopthora",
+        "red_rust",
+        "scab",
+        "styler_and_root"
+      ],
+      "fruits": [
+        "guava"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mendeley__mangodhds",
+      "normalized_id": "mendeley__mangodhds",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__mangodhds",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "bacterial_canker",
+        "healthy",
+        "scab",
+        "stem_end_rot"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "mendeley__plantcity",
+      "normalized_id": "mendeley__plantcity",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "apple_black_spot",
+        "apple_brown_spot",
+        "apple_normal",
+        "apricot_blight_leaf_disease",
+        "apricot_normal",
+        "apricot_shot_hole",
+        "bean_bean_rust_image",
+        "bean_fungal_leaf_disease",
+        "bean_normal_leaf",
+        "bean_shot_hole",
+        "cherry_brown_spot",
+        "cherry_leaf_scorch",
+        "cherry_normal_leaf",
+        "cherry_purple_leaf_spot",
+        "cherry_shot_hole_disease",
+        "corn_fungal_leaf",
+        "corn_gray_leaf_spot",
+        "corn_holcus__leaf_spot",
+        "corn_normal_leaf",
+        "fig_blight_leaf_disease",
+        "fig_brown_spot",
+        "fig_normal_leaf",
+        "fig_rust_leaf",
+        "grape_anthracnose_leaf",
+        "grape_brown_spot_leaf",
+        "grape_downy_mildew_leaf",
+        "grape_mites_leaf_disease",
+        "grape_normal_leaf",
+        "grape_powdery_mildew_leaf",
+        "grape_shot_hole_leaf_disease",
+        "lokat_leaf_spot",
+        "lokat_normal_leaf",
+        "pear_black_spot___leaf_disease",
+        "pear_fire_blight",
+        "pear_normal__leaf",
+        "persimmons_brown_spot",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_fusarium_wilt",
+        "tomato_healthy_leaf",
+        "tomato_late_blight",
+        "tomato_leaf_curl",
+        "tomato_leaf_miner",
+        "tomato_leaf_mold",
+        "tomato_septoria_leaf",
+        "tomato_spider_mite",
+        "tomato_verticillium_wilt",
+        "walnut_anthracnose_leaf_disease",
+        "walnut_blotch_leaf_disease",
+        "walnut_leaf_gall_mite",
+        "walnut_normal_leaf",
+        "walnut_shot_hole"
+      ],
+      "fruits": [
+        "apple",
+        "apricot",
+        "cherry",
+        "fig",
+        "grape",
+        "pear",
+        "persimmon"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "nckh-c9ltu__jackfruit-disease-6seqm",
+      "normalized_id": "nckh_c9ltu__jackfruit_disease_6seqm",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/nckh-c9ltu__jackfruit-disease-6seqm",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "damaged_jackfruit",
+        "healthy_jackfruit",
+        "jackfruit_healthy_leaf",
+        "jackfruit_leaf_blight",
+        "jackfruit_leaf_spot",
+        "jackfruit_rhizopus_rot"
+      ],
+      "fruits": [
+        "jackfruit"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "nckh-c9ltu__jackfruit-disease-6seqm__Jackfruit_Disease_Detection.v2-jackfruit-disease-detection-.coco__Jackfruit_Disease_Detection.v2-jackfruit-disease-detection-.coco",
+      "normalized_id": "nckh_c9ltu__jackfruit_disease_6seqm__jackfruit_disease_detection.v2_jackfruit_disease_detection_.coco__jackfruit_disease_detection.v2_jackfruit_disease_detection_.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/nckh-c9ltu__jackfruit-disease-6seqm__Jackfruit_Disease_Detection.v2-jackfruit-disease-detection-.coco__Jackfruit_Disease_Detection.v2-jackfruit-disease-detection-.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "damaged_jackfruit",
+        "healthy_jackfruit",
+        "jackfruit",
+        "jackfruit_healthy_leaf",
+        "jackfruit_leaf_blight",
+        "jackfruit_leaf_spot",
+        "jackfruit_rhizopus_rot"
+      ],
+      "fruits": [
+        "jackfruit"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "oranges_diesease_5_class.v1i.coco",
+      "normalized_id": "oranges_diesease_5_class.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/oranges_diesease_5_class.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "black_spot",
+        "blue_gren_mold",
+        "brown_rot",
+        "citrus_greening",
+        "cranker",
+        "healthy",
+        "sooty_mold"
+      ],
+      "fruits": [
+        "citrus"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "papayadisease",
+      "normalized_id": "papayadisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/papayadisease",
+      "tier": "l2_only",
+      "scheme_12": false,
+      "classes": [],
+      "fruits": [
+        "papaya"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "pear_pests_and_diseases.v1-pear_dataset.coco",
+      "normalized_id": "pear_pests_and_diseases.v1_pear_dataset.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/pear_pests_and_diseases.v1-pear_dataset.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "aphid",
+        "beetle",
+        "black_block",
+        "dry_blight",
+        "health",
+        "rust",
+        "scab"
+      ],
+      "fruits": [
+        "pear"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "plant-disease-detection__fieldplant",
+      "normalized_id": "plant_disease_detection__fieldplant",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "cassava_bacterial_blight",
+        "cassava_brown_leaf_spot",
+        "cassava_healthy",
+        "cassava_mosaic",
+        "cassava_root_rot",
+        "corn_brown_spot",
+        "corn_charcoal",
+        "corn_chlorotic_leaf_spot",
+        "corn_gray_leaf_spot",
+        "corn_healthy",
+        "corn_insects_damage",
+        "corn_leaf_blight",
+        "corn_mildew",
+        "corn_purple_discoloration",
+        "corn_rust_leaf",
+        "corn_smut",
+        "corn_streak",
+        "corn_stripe",
+        "corn_violet_decoloration",
+        "corn_yellow_spot",
+        "corn_yellowing",
+        "tomato_bacterial_wilt",
+        "tomato_blight_leaf",
+        "tomato_brown_spot",
+        "tomato_healthy",
+        "tomato_leaf_mosaic_viru",
+        "tomato_leaf_yellow_viru"
+      ],
+      "fruits": [],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "reinhard-cuqas__watermelon-diseases-2-soylo",
+      "normalized_id": "reinhard_cuqas__watermelon_diseases_2_soylo",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/reinhard-cuqas__watermelon-diseases-2-soylo",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "calcium",
+        "downy_mildew",
+        "healthy",
+        "mosaic_viru",
+        "nitrogen",
+        "potasium"
+      ],
+      "fruits": [
+        "watermelon"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "research-proj__strawberry-diseases-detection",
+      "normalized_id": "research_proj__strawberry_diseases_detection",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "gray_mold",
+        "healthy_flower",
+        "healthy_fruit",
+        "healthy_leaf",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "rotten_guava.v1i.coco",
+      "normalized_id": "rotten_guava.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/rotten_guava.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "rotten_guava"
+      ],
+      "fruits": [
+        "guava"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "sneha-singh-m__fruits-disease-detection",
+      "normalized_id": "sneha_singh_m__fruits_disease_detection",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/sneha-singh-m__fruits-disease-detection",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "blotch_apple",
+        "healthy_apple",
+        "mango_alternaria",
+        "mango_anthracnose",
+        "mango_black_mould_rot",
+        "mango_healthy",
+        "orange_blackspot",
+        "orange_canker",
+        "orange_greening",
+        "orange_healthy",
+        "pomegranate_alternaria",
+        "pomegranate_anthracnose",
+        "pomegranate_bacterial_blight",
+        "pomegranate_healthy",
+        "rot_apple",
+        "scab_apple"
+      ],
+      "fruits": [
+        "citrus",
+        "mango",
+        "pomegranate"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "soursop__guyabano",
+      "normalized_id": "soursop__guyabano",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/soursop__guyabano",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "mealybug"
+      ],
+      "fruits": [
+        "soursop"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "soursop__guyabano__guyabano.v38i.coco__guyabano.v38i.coco",
+      "normalized_id": "soursop__guyabano__guyabano.v38i.coco__guyabano.v38i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/soursop__guyabano__guyabano.v38i.coco__guyabano.v38i.coco",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "anthracnose",
+        "healthy",
+        "healthy_anthracnose_mealybug",
+        "mealybug"
+      ],
+      "fruits": [
+        "soursop"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "strawberry-disease__strawberry-disease-detection-dataset",
+      "normalized_id": "strawberry_disease__strawberry_disease_detection_dataset",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/strawberry-disease__strawberry-disease-detection-dataset",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "gray_mold",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "strawberry_disease",
+      "normalized_id": "strawberry_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/strawberry_disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "tomatodisease",
+      "normalized_id": "tomatodisease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/tomatodisease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "anthracnose",
+        "bacterial_spot",
+        "blossom_end_rot",
+        "healthy_tomato",
+        "spotted_wilt_viru"
+      ],
+      "fruits": [
+        "tomato"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "uganda",
+      "normalized_id": "uganda",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/uganda",
+      "tier": "l2_l3_weak",
+      "scheme_12": false,
+      "classes": [
+        "fruit_brownspot",
+        "fruit_healthy",
+        "fruit_woodiness",
+        "unknown"
+      ],
+      "fruits": [
+        "passion_fruit"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "uthm-6zraj__papaya-anthracnose",
+      "normalized_id": "uthm_6zraj__papaya_anthracnose",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/uthm-6zraj__papaya-anthracnose",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "papaya_anthracnose"
+      ],
+      "fruits": [
+        "papaya"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "vimal-4tiq4__mango-new",
+      "normalized_id": "vimal_4tiq4__mango_new",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/vimal-4tiq4__mango-new",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "antracnose",
+        "black_mould_rot",
+        "healthy",
+        "stem_end_rot"
+      ],
+      "fruits": [
+        "mango"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "watermelon-diseases__watermelon-diseases",
+      "normalized_id": "watermelon_diseases__watermelon_diseases",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/watermelon-diseases__watermelon-diseases",
+      "tier": "excluded",
+      "scheme_12": false,
+      "classes": [
+        "_",
+        "deeper_diseases___v5_2024_11_30_4_17pm",
+        "this_dataset_was_exported_via_roboflowcom_on_november_30__2024_at_10_25_am_gmt"
+      ],
+      "fruits": [
+        "watermelon"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "watermelon-diseases__watermelon-diseases__watermelon-diseases.v3i.coco__watermelon-diseases.v3i.coco",
+      "normalized_id": "watermelon_diseases__watermelon_diseases__watermelon_diseases.v3i.coco__watermelon_diseases.v3i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/watermelon-diseases__watermelon-diseases__watermelon-diseases.v3i.coco__watermelon-diseases.v3i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "_",
+        "deeper_diseases___v5_2024_11_30_4_17pm",
+        "this_dataset_was_exported_via_roboflowcom_on_november_30__2024_at_10_25_am_gmt",
+        "watermelon"
+      ],
+      "fruits": [
+        "watermelon"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "watermelon_disease",
+      "normalized_id": "watermelon_disease",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/watermelon_disease",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [],
+      "fruits": [
+        "watermelon"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "yachay-tech__instance-segmentation-model-for-strawberry-diseases",
+      "normalized_id": "yachay_tech__instance_segmentation_model_for_strawberry_diseases",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yachay-tech__instance-segmentation-model-for-strawberry-diseases",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "gray_mold",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "yachay-tech__instance-segmentation-model-for-strawberry-diseases__Instance_Segmentation_Model_for_Strawberry_Diseases.v1i.coco__Instance_Segmentation_Model_for_Strawberry_Diseases.v1i.coco",
+      "normalized_id": "yachay_tech__instance_segmentation_model_for_strawberry_diseases__instance_segmentation_model_for_strawberry_diseases.v1i.coco__instance_segmentation_model_for_strawberry_diseases.v1i.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yachay-tech__instance-segmentation-model-for-strawberry-diseases__Instance_Segmentation_Model_for_Strawberry_Diseases.v1i.coco__Instance_Segmentation_Model_for_Strawberry_Diseases.v1i.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "angular_leafspot",
+        "anthracnose_fruit_rot",
+        "blossom_blight",
+        "gray_mold",
+        "instance_segmentation_model_for_",
+        "leaf_spot",
+        "powdery_mildew_fruit",
+        "powdery_mildew_leaf"
+      ],
+      "fruits": [
+        "strawberry"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "yanjishun__pear_pests-and-diseases",
+      "normalized_id": "yanjishun__pear_pests_and_diseases",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yanjishun__pear_pests-and-diseases",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "aphid",
+        "beetle",
+        "black_block",
+        "dry_blight",
+        "health",
+        "rust",
+        "scab"
+      ],
+      "fruits": [
+        "pear"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "yanjishun__pear_pests-and-diseases__pear_pests_and_diseases.v1-pear_dataset.coco__pear_pests_and_diseases.v1-pear_dataset.coco",
+      "normalized_id": "yanjishun__pear_pests_and_diseases__pear_pests_and_diseases.v1_pear_dataset.coco__pear_pests_and_diseases.v1_pear_dataset.coco",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yanjishun__pear_pests-and-diseases__pear_pests_and_diseases.v1-pear_dataset.coco__pear_pests_and_diseases.v1-pear_dataset.coco",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "aphid",
+        "aphid_beetle_gankubing",
+        "beetle",
+        "black_block",
+        "dry_blight",
+        "health",
+        "rust",
+        "scab"
+      ],
+      "fruits": [
+        "pear"
+      ],
+      "imported_at": null
+    },
+    {
+      "dataset_id": "yolo-project-bdo0y__guava-data-lwd7o",
+      "normalized_id": "yolo_project_bdo0y__guava_data_lwd7o",
+      "source": "local",
+      "path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yolo-project-bdo0y__guava-data-lwd7o",
+      "tier": "l3_fine",
+      "scheme_12": true,
+      "classes": [
+        "caterpiller",
+        "chlorosi",
+        "healthy",
+        "potassium_defeciency",
+        "sooty_mold"
+      ],
+      "fruits": [
+        "guava"
+      ],
+      "imported_at": null
+    }
+  ],
+  "local_count": 107,
+  "external_count": 0,
+  "all_normalized_ids": [
+    "agrivision_kiwi_main",
+    "apple_leave_disease",
+    "apple_scab_disease.v1i.coco",
+    "apricot_multiddisease_detection.v1i.coco",
+    "augmentlab__fig_leaf_disease_classification3__fig_leaf_disease_classification3.v1i.folder__fig_leaf_disease_classification3.v1i.folder",
+    "banana_al4eq__banana_leaf_disease_qesr2",
+    "banana_disease.v1i.folder",
+    "banana_leaf_disease.v2_banana_augmentasi.coco",
+    "bananadisease",
+    "birjand_native_plant_leaves_dataset",
+    "bscs_sdztk__eggplant_fruit_disease_detection",
+    "bscs_sdztk__eggplant_fruit_disease_detection__eggplant_fruit_disease_detection.v26_eggplant_100epoch.coco__eggplant_fruit_disease_detection.v26_eggplant_100epoch.coco",
+    "cacaodiseases_segmentation.v1_cacaodiseases_segmentation.coco_segmentation",
+    "cacaopodborer",
+    "capstone_project_f8xo9__banana_disease_detection_sxm6b",
+    "cirtus_disease",
+    "cirtus_leaves",
+    "citrus_research__citrus_disease_detection_v2",
+    "coconut_disease_detection__coconut_tree_disease_detection_uiugr_pywob",
+    "coconut_leaf_pest_disease",
+    "coconut_tree_disease",
+    "college_rozyr__fruit_disease_deep_learning",
+    "college_rozyr__fruit_disease_deep_learning__fruit_disease_deep_learning.v1i.coco__fruit_disease_deep_learning.v1i.coco",
+    "deep_learning_based_detector_for_diseases_in_passion_fruit_plants_master",
+    "detection_of_mango_leaf_diseases.v1i.coco",
+    "dragon_cfchfdpfw5",
+    "dragon_fruit_disease.v1_dragon_fruit_disease.coco",
+    "durian_disease.v1i.folder",
+    "duriandiseaseleaf",
+    "eggplant_fruit_disease_detection.v23_11800_annotations.coco",
+    "eggplant_fruit_disease_detection.v26_eggplant_100epoch.coco",
+    "eggplantleavesdisease",
+    "fig_leaf_disease_classification3.v1i.folder",
+    "fruit_disease_deep_learning.v1i.coco",
+    "fruit_disease_detection.v1_fruit_disease_detection_cwihl_83wlf.coco",
+    "fruit_disease_detection.v1_fruit_disease_detection_cwihl_83wlf.coco__fruit_disease_detection.v1_fruit_disease_detection_cwihl_83wlf.coco",
+    "fruit_disease_detection_dataset.v4_presentation.coco",
+    "fruit_diseasedetection",
+    "fruits_disease_detection.v3i.coco",
+    "fyp_1__apricot_disease_datasetv04",
+    "fyp_1__apricot_disease_datasetv04__apricot_multiddisease_detection.v1i.coco__apricot_multiddisease_detection.v1i.coco",
+    "grape_leaf_disease_dataset.v1i.coco",
+    "grapes_disease_detection.v1i.coco",
+    "guava_leaf_disease_detection_and_classification__guava_leaf_classification",
+    "guilherme_rodrigues_xdsvb__strawberrydisease",
+    "guilherme_rodrigues_xdsvb__strawberrydisease__strawberrydisease.v2i.coco__strawberrydisease.v2i.coco",
+    "guyabano.v38i.coco",
+    "instance_segmentation_model_for_strawberry_diseases.v1i.coco",
+    "jackfruitdisease",
+    "joseph_nelson__plantdoc",
+    "joseph_nelson__plantdoc__plantdoc.v2i.coco",
+    "jujube_6vttpjr7xw",
+    "jujube_yxmf3cd865",
+    "k_kotagiri_nrb_avocado_leaf_dataset",
+    "kamatest_disease_detection__kamatest",
+    "kiwi_leaf_disease_detection.v1_kiwi_leaf_disease.coco",
+    "kiwi_leaf_disease_detection.v1_kiwi_leaf_disease.coco__kiwi_leaf_disease_detection.v1_kiwi_leaf_disease.coco",
+    "leaf_durian",
+    "leaf_durian__leaf_durian",
+    "lychee_disease_detection.v2_lychee_disease_detection.coco",
+    "lychee_leaf_disease_dataset_advancing_agriculture_and_sustainability_through_machine_learning_based_diagnosis",
+    "mango_diseases.v6i.folder",
+    "mango_pomogranate_classification.v1_mangodiseaseclassification.folder",
+    "mangoddisease",
+    "mangodisease",
+    "mayhoc__coconut_tree_disease",
+    "mendeley__bdpapaya_leaf",
+    "mendeley__guava_bkdkc4n835",
+    "mendeley__guava_fspx44mwfp",
+    "mendeley__guava_x84p2g3k6z",
+    "mendeley__mangodhds",
+    "mendeley__plantcity",
+    "nckh_c9ltu__jackfruit_disease_6seqm",
+    "nckh_c9ltu__jackfruit_disease_6seqm__jackfruit_disease_detection.v2_jackfruit_disease_detection_.coco__jackfruit_disease_detection.v2_jackfruit_disease_detection_.coco",
+    "oranges_diesease_5_class.v1i.coco",
+    "papayadisease",
+    "pear_pests_and_diseases.v1_pear_dataset.coco",
+    "pineapple_maturity_project_app.v1i.coco",
+    "pineapple_rind_defect_detection_v2.v1i.coco",
+    "plant_disease_detection__fieldplant",
+    "pomegranate_disease_detection.v4i.coco",
+    "reinhard_cuqas__watermelon_diseases_2_soylo",
+    "research_proj__strawberry_diseases_detection",
+    "rotten_guava.v1i.coco",
+    "sneha_singh_m__fruits_disease_detection",
+    "soursop.v1i.coco",
+    "soursop.v2i.coco",
+    "soursop.v3i.coco",
+    "soursop.v5i.coco",
+    "soursop__guyabano",
+    "soursop__guyabano__guyabano.v38i.coco__guyabano.v38i.coco",
+    "strawberry_disease",
+    "strawberry_disease__strawberry_disease_detection_dataset",
+    "strawberrydisease.v2i.coco",
+    "sugar_apples_custard_apples_annona_squamosa_disease_image_dataset",
+    "tomatodisease",
+    "uganda",
+    "uthm_6zraj__papaya_anthracnose",
+    "vimal_4tiq4__mango_new",
+    "watermelon_disease",
+    "watermelon_diseases__watermelon_diseases",
+    "watermelon_diseases__watermelon_diseases__watermelon_diseases.v3i.coco__watermelon_diseases.v3i.coco",
+    "yachay_tech__instance_segmentation_model_for_strawberry_diseases",
+    "yachay_tech__instance_segmentation_model_for_strawberry_diseases__instance_segmentation_model_for_strawberry_diseases.v1i.coco__instance_segmentation_model_for_strawberry_diseases.v1i.coco",
+    "yanjishun__pear_pests_and_diseases",
+    "yanjishun__pear_pests_and_diseases__pear_pests_and_diseases.v1_pear_dataset.coco__pear_pests_and_diseases.v1_pear_dataset.coco",
+    "yolo_project_bdo0y__guava_data_lwd7o"
+  ]
+}

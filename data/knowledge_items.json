@@ -10,7 +10,15 @@
       "content": "【症状识别】\n苹果炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "anthracnose",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_anthracnose_1.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_brown_spot_2",
@@ -20,7 +28,15 @@
       "content": "【症状识别】\n苹果褐斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "brown_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_brown_spot_2.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_scab_3",
@@ -30,7 +46,15 @@
       "content": "【症状识别】\n苹果黑星病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "scab",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_scab_3.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_powdery_mildew_4",
@@ -40,7 +64,15 @@
       "content": "【症状识别】\n苹果白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_powdery_mildew_4.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_scab_5",
@@ -50,7 +82,15 @@
       "content": "【症状识别】\n梨黑星病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pear",
       "disease_type": "scab",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pear_scab_5.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_leaf_spot_6",
@@ -60,7 +100,15 @@
       "content": "【症状识别】\n梨叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pear",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pear_leaf_spot_6.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_rust_7",
@@ -70,7 +118,15 @@
       "content": "【症状识别】\n梨锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pear",
       "disease_type": "rust",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pear_rust_7.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peach_brown_rot_8",
@@ -80,7 +136,15 @@
       "content": "【症状识别】\n桃褐腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peach",
       "disease_type": "brown_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peach_brown_rot_8.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peach_leaf_curl_9",
@@ -90,7 +154,15 @@
       "content": "【症状识别】\n桃缩叶病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peach",
       "disease_type": "leaf_curl",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peach_leaf_curl_9.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peach_bacterial_spot_10",
@@ -100,7 +172,15 @@
       "content": "【症状识别】\n桃细菌性穿孔病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peach",
       "disease_type": "bacterial_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peach_bacterial_spot_10.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_downy_mildew_11",
@@ -110,7 +190,15 @@
       "content": "【症状识别】\n葡萄霜霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "downy_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_downy_mildew_11.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_powdery_mildew_12",
@@ -120,7 +208,15 @@
       "content": "【症状识别】\n葡萄白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_powdery_mildew_12.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_gray_mold_13",
@@ -130,7 +226,15 @@
       "content": "【症状识别】\n葡萄灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_gray_mold_13.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_black_rot_14",
@@ -140,7 +244,15 @@
       "content": "【症状识别】\n葡萄黑腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "black_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_black_rot_14.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_anthracnose_15",
@@ -150,7 +262,15 @@
       "content": "【症状识别】\n柑橘炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "anthracnose",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_anthracnose_15.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_citrus_scab_16",
@@ -160,7 +280,15 @@
       "content": "【症状识别】\n柑橘疮痂病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "citrus_scab",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_citrus_scab_16.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/aa4cef21-08db-45f2-9727-cc0cd6d1e793___20231227_095921_jpg.rf.be43004a2542310517f84c17c128c965.jpg",
+        "tier": "l3_fine",
+        "score": 2274.04,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_canker_17",
@@ -170,7 +298,15 @@
       "content": "【症状识别】\n柑橘溃疡病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "canker",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_canker_17.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_greening_18",
@@ -180,7 +316,15 @@
       "content": "【症状识别】\n柑橘黄龙病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "greening",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_greening_18.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/aa4cef21-08db-45f2-9727-cc0cd6d1e793___20231227_095921_jpg.rf.be43004a2542310517f84c17c128c965.jpg",
+        "tier": "l3_fine",
+        "score": 2274.04,
+        "source": "local"
+      }
     },
     {
       "id": "disease_mango_anthracnose_19",
@@ -190,7 +334,15 @@
       "content": "【症状识别】\n芒果炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "mango",
       "disease_type": "anthracnose",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_mango_anthracnose_19.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_mango_bacterial_spot_20",
@@ -200,7 +352,15 @@
       "content": "【症状识别】\n芒果细菌性角斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "mango",
       "disease_type": "bacterial_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_mango_bacterial_spot_20.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_strawberry_gray_mold_21",
@@ -210,7 +370,15 @@
       "content": "【症状识别】\n草莓灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_strawberry_gray_mold_21.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_strawberry_powdery_mildew_22",
@@ -220,7 +388,15 @@
       "content": "【症状识别】\n草莓白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_strawberry_powdery_mildew_22.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_strawberry_leaf_spot_23",
@@ -230,7 +406,15 @@
       "content": "【症状识别】\n草莓叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_strawberry_leaf_spot_23.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_watermelon_fusarium_wilt_24",
@@ -240,7 +424,15 @@
       "content": "【症状识别】\n西瓜枯萎病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "watermelon",
       "disease_type": "fusarium_wilt",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_watermelon_fusarium_wilt_24.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_watermelon_anthracnose_25",
@@ -250,7 +442,15 @@
       "content": "【症状识别】\n西瓜炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "watermelon",
       "disease_type": "anthracnose",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_watermelon_anthracnose_25.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_early_blight_26",
@@ -260,7 +460,15 @@
       "content": "【症状识别】\n番茄早疫病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "early_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_early_blight_26.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_late_blight_27",
@@ -270,7 +478,15 @@
       "content": "【症状识别】\n番茄晚疫病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "late_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_late_blight_27.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_gray_mold_28",
@@ -280,7 +496,15 @@
       "content": "【症状识别】\n番茄灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_gray_mold_28.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_bacterial_wilt_29",
@@ -290,7 +514,15 @@
       "content": "【症状识别】\n番茄青枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "bacterial_wilt",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_bacterial_wilt_29.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_leaf_mold_30",
@@ -300,7 +532,15 @@
       "content": "【症状识别】\n番茄叶霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "leaf_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_leaf_mold_30.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_downy_mildew_31",
@@ -310,7 +550,15 @@
       "content": "【症状识别】\n黄瓜霜霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "downy_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_downy_mildew_31.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_powdery_mildew_32",
@@ -320,7 +568,15 @@
       "content": "【症状识别】\n黄瓜白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_powdery_mildew_32.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_bacterial_blight_33",
@@ -330,7 +586,15 @@
       "content": "【症状识别】\n黄瓜细菌性角斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "bacterial_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_bacterial_blight_33.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_gray_mold_34",
@@ -340,7 +604,15 @@
       "content": "【症状识别】\n黄瓜灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_gray_mold_34.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pepper_anthracnose_35",
@@ -350,7 +622,15 @@
       "content": "【症状识别】\n辣椒炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pepper",
       "disease_type": "anthracnose",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pepper_anthracnose_35.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__guava_fspx44mwfp",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__guava_fspx44mwfp/mendeley__guava_fspx44mwfp__guava_fruits_datasets/anthracnose/images/21c8ff8f-7c92-4bd5-8269-9346ef39e948___Anthracnose (45)_aug_4.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2774.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pepper_virus_36",
@@ -360,7 +640,15 @@
       "content": "【症状识别】\n辣椒病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pepper",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pepper_virus_36.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pepper_bacterial_spot_37",
@@ -370,7 +658,15 @@
       "content": "【症状识别】\n辣椒疮痂病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pepper",
       "disease_type": "bacterial_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pepper_bacterial_spot_37.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_eggplant_gray_mold_38",
@@ -380,7 +676,15 @@
       "content": "【症状识别】\n茄子灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "eggplant",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_eggplant_gray_mold_38.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_eggplant_leaf_spot_39",
@@ -390,7 +694,15 @@
       "content": "【症状识别】\n茄子褐纹病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "eggplant",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_eggplant_leaf_spot_39.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_soft_rot_40",
@@ -400,7 +712,15 @@
       "content": "【症状识别】\n白菜软腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cabbage",
       "disease_type": "soft_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cabbage_soft_rot_40.jpg",
+      "image_source": {
+        "dataset_id": "bananadisease",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/bananadisease/bananadiseases/banana_insect_pest/images/2093ed3b-039a-40b7-a251-e9f9a1b34426___Insect-Pest-Disease-29-_jpg.rf.d9ab400c7bd2f1ac07ecea1c473bd2ab.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1078.51,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_downy_mildew_41",
@@ -410,7 +730,15 @@
       "content": "【症状识别】\n白菜霜霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cabbage",
       "disease_type": "downy_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cabbage_downy_mildew_41.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_virus_42",
@@ -420,7 +748,15 @@
       "content": "【症状识别】\n白菜病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cabbage",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cabbage_virus_42.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_spinach_downy_mildew_43",
@@ -430,7 +766,15 @@
       "content": "【症状识别】\n菠菜霜霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "spinach",
       "disease_type": "downy_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_spinach_downy_mildew_43.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_lettuce_downy_mildew_44",
@@ -440,7 +784,15 @@
       "content": "【症状识别】\n生菜霜霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "lettuce",
       "disease_type": "downy_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_lettuce_downy_mildew_44.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_potato_late_blight_45",
@@ -450,7 +802,15 @@
       "content": "【症状识别】\n马铃薯晚疫病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "potato",
       "disease_type": "late_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_potato_late_blight_45.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_potato_virus_46",
@@ -460,7 +820,15 @@
       "content": "【症状识别】\n马铃薯病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "potato",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_potato_virus_46.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_rice_rice_blast_47",
@@ -490,7 +858,15 @@
       "content": "【症状识别】\n水稻白叶枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "rice",
       "disease_type": "bacterial_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_rice_bacterial_blight_49.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_rice_striped_virus_50",
@@ -510,7 +886,15 @@
       "content": "【症状识别】\n小麦赤霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "wheat",
       "disease_type": "fusarium_head_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_wheat_fusarium_head_blight_51.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_wheat_rust_52",
@@ -520,7 +904,15 @@
       "content": "【症状识别】\n小麦锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "wheat",
       "disease_type": "rust",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_wheat_rust_52.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_wheat_powdery_mildew_53",
@@ -530,7 +922,15 @@
       "content": "【症状识别】\n小麦白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "wheat",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_wheat_powdery_mildew_53.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_wheat_scab_wheat_54",
@@ -550,7 +950,15 @@
       "content": "【症状识别】\n玉米大斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_leaf_spot_55.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_corn_smut_56",
@@ -560,7 +968,15 @@
       "content": "【症状识别】\n玉米黑穗病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "smut",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_smut_56.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_corn_southern_rust_57",
@@ -570,7 +986,15 @@
       "content": "【症状识别】\n玉米南方锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "southern_rust",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_southern_rust_57.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_corn_stalk_rot_58",
@@ -580,7 +1004,15 @@
       "content": "【症状识别】\n玉米茎腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "stalk_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_stalk_rot_58.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_soybean_virus_59",
@@ -590,7 +1022,15 @@
       "content": "【症状识别】\n大豆花叶病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "soybean",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_soybean_virus_59.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_soybean_root_rot_60",
@@ -600,7 +1040,15 @@
       "content": "【症状识别】\n大豆根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "soybean",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_soybean_root_rot_60.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cotton_fusarium_wilt_61",
@@ -610,7 +1058,15 @@
       "content": "【症状识别】\n棉花枯萎病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cotton",
       "disease_type": "fusarium_wilt",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cotton_fusarium_wilt_61.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cotton_verticillium_wilt_62",
@@ -620,7 +1076,15 @@
       "content": "【症状识别】\n棉花黄萎病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cotton",
       "disease_type": "verticillium_wilt",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cotton_verticillium_wilt_62.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apple_black_spot/images/7b6ff4c6-858b-45c5-aaeb-ec6c5f6f14de___179.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1089.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peanut_leaf_spot_63",
@@ -630,7 +1094,15 @@
       "content": "【症状识别】\n花生叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peanut",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peanut_leaf_spot_63.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peanut_rust_64",
@@ -640,7 +1112,15 @@
       "content": "【症状识别】\n花生锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peanut",
       "disease_type": "rust",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peanut_rust_64.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_sugarcane_smut_65",
@@ -650,7 +1130,15 @@
       "content": "【症状识别】\n甘蔗黑穗病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "sugarcane",
       "disease_type": "smut",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_sugarcane_smut_65.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_sugarcane_mosaic_66",
@@ -660,7 +1148,15 @@
       "content": "【症状识别】\n甘蔗花叶病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "sugarcane",
       "disease_type": "mosaic",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_sugarcane_mosaic_66.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_gray_mold_67",
@@ -670,7 +1166,15 @@
       "content": "【症状识别】\n苹果灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_gray_mold_67.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_gray_mold_68",
@@ -680,7 +1184,15 @@
       "content": "【症状识别】\n梨灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pear",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pear_gray_mold_68.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_leaf_spot_69",
@@ -690,7 +1202,15 @@
       "content": "【症状识别】\n葡萄褐斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_leaf_spot_69.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_root_rot_70",
@@ -700,7 +1220,15 @@
       "content": "【症状识别】\n柑橘根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_root_rot_70.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_mango_leaf_spot_71",
@@ -710,7 +1238,15 @@
       "content": "【症状识别】\n芒果叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "mango",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_mango_leaf_spot_71.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_strawberry_root_rot_72",
@@ -720,7 +1256,15 @@
       "content": "【症状识别】\n草莓根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_strawberry_root_rot_72.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_root_rot_73",
@@ -730,7 +1274,15 @@
       "content": "【症状识别】\n番茄根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_root_rot_73.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_virus_74",
@@ -740,7 +1292,15 @@
       "content": "【症状识别】\n黄瓜病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_virus_74.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pepper_leaf_spot_75",
@@ -750,7 +1310,15 @@
       "content": "【症状识别】\n辣椒叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pepper",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pepper_leaf_spot_75.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_eggplant_leaf_spot_76",
@@ -760,7 +1328,15 @@
       "content": "【症状识别】\n茄子叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "eggplant",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_eggplant_leaf_spot_76.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_virus_77",
@@ -770,7 +1346,15 @@
       "content": "【症状识别】\n白菜病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cabbage",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cabbage_virus_77.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_potato_virus_78",
@@ -780,7 +1364,15 @@
       "content": "【症状识别】\n马铃薯病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "potato",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_potato_virus_78.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_rice_virus_79",
@@ -790,7 +1382,15 @@
       "content": "【症状识别】\n水稻病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "rice",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_rice_virus_79.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_wheat_root_rot_80",
@@ -800,7 +1400,15 @@
       "content": "【症状识别】\n小麦根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "wheat",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_wheat_root_rot_80.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_corn_leaf_spot_81",
@@ -810,7 +1418,15 @@
       "content": "【症状识别】\n玉米小斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_leaf_spot_81.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_soybean_root_rot_82",
@@ -820,7 +1436,15 @@
       "content": "【症状识别】\n大豆根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "soybean",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_soybean_root_rot_82.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cotton_virus_83",
@@ -830,7 +1454,15 @@
       "content": "【症状识别】\n棉花病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cotton",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cotton_virus_83.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peanut_leaf_spot_84",
@@ -840,7 +1472,15 @@
       "content": "【症状识别】\n花生叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peanut",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peanut_leaf_spot_84.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_lettuce_soft_rot_85",
@@ -850,7 +1490,15 @@
       "content": "【症状识别】\n生菜软腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "lettuce",
       "disease_type": "soft_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_lettuce_soft_rot_85.jpg",
+      "image_source": {
+        "dataset_id": "bananadisease",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/bananadisease/bananadiseases/banana_insect_pest/images/2093ed3b-039a-40b7-a251-e9f9a1b34426___Insect-Pest-Disease-29-_jpg.rf.d9ab400c7bd2f1ac07ecea1c473bd2ab.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1078.51,
+        "source": "local"
+      }
     },
     {
       "id": "disease_spinach_virus_86",
@@ -860,7 +1508,15 @@
       "content": "【症状识别】\n菠菜病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "spinach",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_spinach_virus_86.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_watermelon_virus_87",
@@ -870,7 +1526,15 @@
       "content": "【症状识别】\n西瓜病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "watermelon",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_watermelon_virus_87.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_virus_88",
@@ -880,7 +1544,15 @@
       "content": "【症状识别】\n苹果病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_virus_88.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peach_leaf_spot_89",
@@ -890,7 +1562,15 @@
       "content": "【症状识别】\n桃褐斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peach",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peach_leaf_spot_89.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_virus_90",
@@ -900,7 +1580,15 @@
       "content": "【症状识别】\n葡萄病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_virus_90.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_leaf_spot_91",
@@ -910,7 +1598,15 @@
       "content": "【症状识别】\n番茄斑枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_leaf_spot_91.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_leaf_spot_92",
@@ -920,7 +1616,15 @@
       "content": "【症状识别】\n黄瓜角斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_leaf_spot_92.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pepper_soft_rot_93",
@@ -930,7 +1634,15 @@
       "content": "【症状识别】\n辣椒软腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pepper",
       "disease_type": "soft_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pepper_soft_rot_93.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_rice_root_rot_94",
@@ -940,7 +1652,15 @@
       "content": "【症状识别】\n水稻根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "rice",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_rice_root_rot_94.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_wheat_virus_95",
@@ -950,7 +1670,15 @@
       "content": "【症状识别】\n小麦病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "wheat",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_wheat_virus_95.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_corn_virus_96",
@@ -960,7 +1688,15 @@
       "content": "【症状识别】\n玉米病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_virus_96.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_soybean_bacterial_blight_97",
@@ -970,7 +1706,15 @@
       "content": "【症状识别】\n大豆细菌性斑点病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "soybean",
       "disease_type": "bacterial_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_soybean_bacterial_blight_97.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peanut_virus_98",
@@ -980,7 +1724,15 @@
       "content": "【症状识别】\n花生病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peanut",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peanut_virus_98.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cotton_bacterial_blight_99",
@@ -990,7 +1742,15 @@
       "content": "【症状识别】\n棉花角斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cotton",
       "disease_type": "bacterial_blight",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cotton_bacterial_blight_99.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_mango_powdery_mildew_100",
@@ -1000,7 +1760,15 @@
       "content": "【症状识别】\n芒果白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "mango",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_mango_powdery_mildew_100.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_watermelon_powdery_mildew_101",
@@ -1010,7 +1778,15 @@
       "content": "【症状识别】\n西瓜白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "watermelon",
       "disease_type": "powdery_mildew",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_watermelon_powdery_mildew_101.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_leaf_spot_102",
@@ -1020,7 +1796,15 @@
       "content": "【症状识别】\n柑橘叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_leaf_spot_102.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_potato_virus_103",
@@ -1030,7 +1814,15 @@
       "content": "【症状识别】\n马铃薯病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "potato",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_potato_virus_103.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_sugarcane_rust_104",
@@ -1040,7 +1832,15 @@
       "content": "【症状识别】\n甘蔗锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "sugarcane",
       "disease_type": "rust",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_sugarcane_rust_104.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_eggplant_bacterial_wilt_105",
@@ -1050,7 +1850,15 @@
       "content": "【症状识别】\n茄子青枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "eggplant",
       "disease_type": "bacterial_wilt",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_eggplant_bacterial_wilt_105.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_leaf_spot_106",
@@ -1060,7 +1868,15 @@
       "content": "【症状识别】\n白菜黑斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cabbage",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cabbage_leaf_spot_106.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_lettuce_gray_mold_107",
@@ -1070,7 +1886,15 @@
       "content": "【症状识别】\n生菜灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "lettuce",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_lettuce_gray_mold_107.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_soybean_virus_108",
@@ -1080,7 +1904,15 @@
       "content": "【症状识别】\n大豆病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "soybean",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_soybean_virus_108.jpg",
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Banana_Disease.v1i.folder/banana_diseases/banana_bract_mosaic_virus_disease/images/1f7f497a-0acc-4773-bda1-87a8711f471b___Bract-Mosaic-Virus-Disease-1-_jpg.rf.b72be4fab37567c79adf34e3f9c38d07.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1877.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_root_rot_109",
@@ -1090,7 +1922,15 @@
       "content": "【症状识别】\n苹果根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_apple_root_rot_109.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_rust_110",
@@ -1100,7 +1940,15 @@
       "content": "【症状识别】\n葡萄锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "rust",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_rust_110.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_gray_mold_111",
@@ -1110,7 +1958,15 @@
       "content": "【症状识别】\n柑橘绿霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "gray_mold",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_gray_mold_111.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_virus_112",
@@ -1120,7 +1976,15 @@
       "content": "【症状识别】\n番茄病毒病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "virus",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_tomato_virus_112.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cucumber_root_rot_113",
@@ -1130,7 +1994,15 @@
       "content": "【症状识别】\n黄瓜根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cucumber",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cucumber_root_rot_113.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pepper_bacterial_wilt_114",
@@ -1140,7 +2012,15 @@
       "content": "【症状识别】\n辣椒青枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pepper",
       "disease_type": "bacterial_wilt",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_pepper_bacterial_wilt_114.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_rice_rice_blast_115",
@@ -1160,7 +2040,15 @@
       "content": "【症状识别】\n小麦叶枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "wheat",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_wheat_leaf_spot_116.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_corn_ear_rot_117",
@@ -1170,7 +2058,15 @@
       "content": "【症状识别】\n玉米穗腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "corn",
       "disease_type": "ear_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_corn_ear_rot_117.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_soybean_leaf_spot_118",
@@ -1180,7 +2076,15 @@
       "content": "【症状识别】\n大豆叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "soybean",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_soybean_leaf_spot_118.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peanut_root_rot_119",
@@ -1190,7 +2094,15 @@
       "content": "【症状识别】\n花生根腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "peanut",
       "disease_type": "root_rot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_peanut_root_rot_119.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cotton_leaf_spot_120",
@@ -1200,7 +2112,15 @@
       "content": "【症状识别】\n棉花角斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "cotton",
       "disease_type": "leaf_spot",
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_cotton_leaf_spot_120.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_apple_aphid_121",
@@ -1210,7 +2130,15 @@
       "content": "【为害特点】\n蚜虫在苹果上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "apple",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_apple_aphid_121.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_apple_mite_122",
@@ -1220,7 +2148,15 @@
       "content": "【为害特点】\n红蜘蛛在苹果上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "apple",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_apple_mite_122.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_apple_fruit_borer_123",
@@ -1230,7 +2166,15 @@
       "content": "【为害特点】\n食心虫在苹果上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "apple",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_apple_fruit_borer_123.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_apple_scale_124",
@@ -1240,7 +2184,15 @@
       "content": "【为害特点】\n介壳虫在苹果上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "apple",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_apple_scale_124.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_pear_aphid_125",
@@ -1250,7 +2202,15 @@
       "content": "【为害特点】\n蚜虫在梨上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "pear",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_pear_aphid_125.jpg",
+      "image_source": {
+        "dataset_id": "yanjishun__pear_pests-and-diseases",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yanjishun__pear_pests-and-diseases/yanjishun__pear_pests_and_diseases__pear_pests_and_diseases/health/images/d32e574e-6e3e-4a23-90f0-cd63c9be5fd3___0943_jpg.rf.397924563364728bee75a02dcab3ad43.jpg",
+        "tier": "l3_fine",
+        "score": 1288.73,
+        "source": "local"
+      }
     },
     {
       "id": "pest_pear_mite_126",
@@ -1260,7 +2220,15 @@
       "content": "【为害特点】\n红蜘蛛在梨上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "pear",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_pear_mite_126.jpg",
+      "image_source": {
+        "dataset_id": "yanjishun__pear_pests-and-diseases",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yanjishun__pear_pests-and-diseases/yanjishun__pear_pests_and_diseases__pear_pests_and_diseases/health/images/d32e574e-6e3e-4a23-90f0-cd63c9be5fd3___0943_jpg.rf.397924563364728bee75a02dcab3ad43.jpg",
+        "tier": "l3_fine",
+        "score": 1288.73,
+        "source": "local"
+      }
     },
     {
       "id": "pest_peach_aphid_127",
@@ -1270,7 +2238,15 @@
       "content": "【为害特点】\n蚜虫在桃上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "peach",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_peach_aphid_127.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_peach_fruit_borer_128",
@@ -1280,7 +2256,15 @@
       "content": "【为害特点】\n食心虫在桃上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "peach",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_peach_fruit_borer_128.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_peach_scale_129",
@@ -1290,7 +2274,15 @@
       "content": "【为害特点】\n介壳虫在桃上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "peach",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_peach_scale_129.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_grape_mite_130",
@@ -1300,7 +2292,15 @@
       "content": "【为害特点】\n叶螨在葡萄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "grape",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_grape_mite_130.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_grape_leafhopper_131",
@@ -1310,7 +2310,15 @@
       "content": "【为害特点】\n叶蝉在葡萄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "grape",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_grape_leafhopper_131.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_grape_thrips_132",
@@ -1320,7 +2328,15 @@
       "content": "【为害特点】\n蓟马在葡萄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "grape",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_grape_thrips_132.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_citrus_scale_133",
@@ -1330,7 +2346,15 @@
       "content": "【为害特点】\n介壳虫在柑橘上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "citrus",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_citrus_scale_133.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/aa4cef21-08db-45f2-9727-cc0cd6d1e793___20231227_095921_jpg.rf.be43004a2542310517f84c17c128c965.jpg",
+        "tier": "l3_fine",
+        "score": 2274.04,
+        "source": "local"
+      }
     },
     {
       "id": "pest_citrus_mite_134",
@@ -1340,7 +2364,15 @@
       "content": "【为害特点】\n红蜘蛛在柑橘上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "citrus",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_citrus_mite_134.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/aa4cef21-08db-45f2-9727-cc0cd6d1e793___20231227_095921_jpg.rf.be43004a2542310517f84c17c128c965.jpg",
+        "tier": "l3_fine",
+        "score": 2274.04,
+        "source": "local"
+      }
     },
     {
       "id": "pest_citrus_leaf_miner_135",
@@ -1350,7 +2382,15 @@
       "content": "【为害特点】\n潜叶蛾在柑橘上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "citrus",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_citrus_leaf_miner_135.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/aa4cef21-08db-45f2-9727-cc0cd6d1e793___20231227_095921_jpg.rf.be43004a2542310517f84c17c128c965.jpg",
+        "tier": "l3_fine",
+        "score": 2274.04,
+        "source": "local"
+      }
     },
     {
       "id": "pest_mango_fruit_fly_136",
@@ -1360,7 +2400,15 @@
       "content": "【为害特点】\n实蝇在芒果上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "mango",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_mango_fruit_fly_136.jpg",
+      "image_source": {
+        "dataset_id": "vimal-4tiq4__mango-new",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/vimal-4tiq4__mango-new/vimal_4tiq4__mango_news/stem_end_rot/images/db6dbe76-d746-4379-86f4-7454e3dac4f1___lasio_028_jpg.rf.2eaff13dc8b5af846903563408b15624.jpg",
+        "tier": "l3_fine",
+        "score": 882.09,
+        "source": "local"
+      }
     },
     {
       "id": "pest_strawberry_mite_137",
@@ -1370,7 +2418,15 @@
       "content": "【为害特点】\n红蜘蛛在草莓上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "strawberry",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_strawberry_mite_137.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_strawberry_aphid_138",
@@ -1380,7 +2436,15 @@
       "content": "【为害特点】\n蚜虫在草莓上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "strawberry",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_strawberry_aphid_138.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_watermelon_aphid_139",
@@ -1390,7 +2454,15 @@
       "content": "【为害特点】\n蚜虫在西瓜上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "watermelon",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_watermelon_aphid_139.jpg",
+      "image_source": {
+        "dataset_id": "watermelon-diseases__watermelon-diseases__watermelon-diseases.v3i.coco__watermelon-diseases.v3i.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/watermelon-diseases__watermelon-diseases__watermelon-diseases.v3i.coco__watermelon-diseases.v3i.coco/watermelon_diseases__watermelon_diseases__watermelon_diseases/_/images/72ac40d3-d859-4bcc-9ff6-8d94ad2c0b1b___IMG_1937_jpg.rf.8ceef58eb069f908f55815460bc72bf8.jpg",
+        "tier": "l3_fine",
+        "score": 921.23,
+        "source": "local"
+      }
     },
     {
       "id": "pest_watermelon_mite_140",
@@ -1400,7 +2472,15 @@
       "content": "【为害特点】\n红蜘蛛在西瓜上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "watermelon",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_watermelon_mite_140.jpg",
+      "image_source": {
+        "dataset_id": "watermelon-diseases__watermelon-diseases__watermelon-diseases.v3i.coco__watermelon-diseases.v3i.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/watermelon-diseases__watermelon-diseases__watermelon-diseases.v3i.coco__watermelon-diseases.v3i.coco/watermelon_diseases__watermelon_diseases__watermelon_diseases/_/images/72ac40d3-d859-4bcc-9ff6-8d94ad2c0b1b___IMG_1937_jpg.rf.8ceef58eb069f908f55815460bc72bf8.jpg",
+        "tier": "l3_fine",
+        "score": 921.23,
+        "source": "local"
+      }
     },
     {
       "id": "pest_tomato_whitefly_141",
@@ -1410,7 +2490,15 @@
       "content": "【为害特点】\n粉虱在番茄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "tomato",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_tomato_whitefly_141.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_tomato_leaf_miner_142",
@@ -1420,7 +2508,15 @@
       "content": "【为害特点】\n潜叶蛾在番茄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "tomato",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_tomato_leaf_miner_142.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_tomato_moth_143",
@@ -1430,7 +2526,15 @@
       "content": "【为害特点】\n棉铃虫在番茄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "tomato",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_tomato_moth_143.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_cucumber_aphid_144",
@@ -1470,7 +2574,15 @@
       "content": "【为害特点】\n蚜虫在辣椒上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "pepper",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_pepper_aphid_147.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_pepper_thrips_148",
@@ -1480,7 +2592,15 @@
       "content": "【为害特点】\n蓟马在辣椒上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "pepper",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_pepper_thrips_148.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_eggplant_mite_149",
@@ -1490,7 +2610,15 @@
       "content": "【为害特点】\n红蜘蛛在茄子上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "eggplant",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_eggplant_mite_149.jpg",
+      "image_source": {
+        "dataset_id": "Eggplant_fruit_disease_detection.v23-11800-annotations.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Eggplant_fruit_disease_detection.v23-11800-annotations.coco/eggplant_fruit_diseases/fruit_rot/images/42572df8-e2ec-438b-ae8b-0998f3ccf36e___IMG_20221109_102318_jpg.rf.f7291cfb05280f84dc9faf9503da73de.jpg",
+        "tier": "l3_fine",
+        "score": 1740.4,
+        "source": "local"
+      }
     },
     {
       "id": "pest_cabbage_pieris_150",
@@ -1530,7 +2658,15 @@
       "content": "【为害特点】\n蚜虫在马铃薯上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "potato",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_potato_aphid_153.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_potato_beetle_154",
@@ -1540,7 +2676,15 @@
       "content": "【为害特点】\n甲虫在马铃薯上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "potato",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_potato_beetle_154.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_early_blight_leaf/images/17ca0497-4cd6-40a2-8562-d663ebbeee60___bugs-and-blight-061_jpg.rf.2e2f52296f9641a7acfc23c72f0119ee.jpg",
+        "tier": "l3_fine",
+        "score": 2493.01,
+        "source": "local"
+      }
     },
     {
       "id": "pest_rice_planthopper_155",
@@ -1580,7 +2724,15 @@
       "content": "【为害特点】\n玉米螟在玉米上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "corn",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_corn_corn_borer_158.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_corn_aphid_159",
@@ -1590,7 +2742,15 @@
       "content": "【为害特点】\n蚜虫在玉米上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "corn",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_corn_aphid_159.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_corn_cutworm_160",
@@ -1600,7 +2760,15 @@
       "content": "【为害特点】\n地老虎在玉米上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "corn",
       "disease_type": null,
-      "control_type": "chemical"
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_corn_cutworm_160.jpg",
+      "image_source": {
+        "dataset_id": "plant-disease-detection__fieldplant",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant-disease-detection__fieldplant/plant_disease_detection__fieldplants/corn_streak/images/89be9ec0-74be-4e2e-be38-738414227805___Mais_Striure-25-_jpg.rf.5e2551a7c138bf2507b318339b54c8b2.jpg",
+        "tier": "l3_fine",
+        "score": 3058.9,
+        "source": "local"
+      }
     },
     {
       "id": "pest_wheat_aphid_161",
@@ -2032,5 +3200,7 @@
       "disease_type": null,
       "control_type": null
     }
-  ]
+  ],
+  "image_policy": "local_dataset_hq_v1",
+  "image_updated_at": "2026-06-28T07:54:11.588225+00:00"
 }
