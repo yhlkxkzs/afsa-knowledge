@@ -1,0 +1,18 @@
+{
+  "description": "External dataset search seeds (Roboflow Universe agriculture). Daily ingest picks uncrawled entries.",
+  "platforms": [
+    {
+      "platform": "roboflow_universe",
+      "browse_url": "https://universe.roboflow.com/browse/agriculture",
+      "search_keywords": [
+        "plant disease",
+        "crop pest",
+        "leaf spot",
+        "fruit disease",
+        "tomato blight",
+        "rice blast"
+      ]
+    }
+  ],
+  "manual_candidates": []
+}

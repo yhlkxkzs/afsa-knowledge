@@ -1,0 +1,12 @@
+{
+  "min_types_per_day": 10,
+  "min_images_per_type": 5,
+  "max_images_per_type": 10,
+  "recency_penalty_days": 2,
+  "recency_weight": 0.12,
+  "recent_week_weight": 0.45,
+  "fresh_weight": 1.0,
+  "disease_pest_ratio": [0.7, 0.3],
+  "local_registry_env": "AFSA_REGISTRY_PATH",
+  "default_registry_path": "/home/yuhanlin/APP/AFSA/data/disease_classification/manifest/registry.json"
+}
