@@ -49,6 +49,7 @@ def handle_feed():
             "items": items,
             "has_more": pool_left > 0,
             "locale": locale,
+            "domain": "disease_pest",
             "feed_mode": "weighted",
             "limit": limit,
             "seen_counts": seen,

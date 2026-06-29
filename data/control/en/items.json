@@ -1,0 +1,88 @@
+{
+  "count": 8,
+  "items": [
+    {
+      "id": "control_agricultural_1",
+      "category_id": "control",
+      "title": "Agricultural Control",
+      "summary": "Agricultural Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nAgricultural Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "agricultural"
+    },
+    {
+      "id": "control_agricultural_2",
+      "category_id": "control",
+      "title": "Agricultural Control",
+      "summary": "Agricultural Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nAgricultural Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "agricultural"
+    },
+    {
+      "id": "control_physical_1",
+      "category_id": "control",
+      "title": "Physical Control",
+      "summary": "Physical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nPhysical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "physical"
+    },
+    {
+      "id": "control_physical_2",
+      "category_id": "control",
+      "title": "Physical Control",
+      "summary": "Physical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nPhysical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "physical"
+    },
+    {
+      "id": "control_biological_1",
+      "category_id": "control",
+      "title": "Biological Control",
+      "summary": "Biological Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nBiological Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "biological"
+    },
+    {
+      "id": "control_biological_2",
+      "category_id": "control",
+      "title": "Biological Control",
+      "summary": "Biological Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nBiological Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "biological"
+    },
+    {
+      "id": "control_chemical_1",
+      "category_id": "control",
+      "title": "Chemical Control",
+      "summary": "Chemical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nChemical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "chemical"
+    },
+    {
+      "id": "control_chemical_2",
+      "category_id": "control",
+      "title": "Chemical Control",
+      "summary": "Chemical Control: practical prevention and treatment guidelines.",
+      "content": "[Overview]\nChemical Control emphasizes prevention, reduced reliance on broad-spectrum chemicals, and practices compatible with local regulations.\n\n[Key practices]\nCombine orchard sanitation, monitoring, cultural adjustments, and registered products only when thresholds are reached.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "chemical"
+    }
+  ],
+  "domain": "control",
+  "locale": "en",
+  "policy": "text_search"
+}

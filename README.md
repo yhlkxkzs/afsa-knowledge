@@ -6,25 +6,32 @@
 
 | 方法 | 路径 | 说明 |
 |------|------|------|
-| GET | `/knowledge/filters` | 筛选选项（水果种类、病害种类、防治方法类别） |
-| GET | `/knowledge/items` | 列表/搜索，分页，默认 **每页 15 条**，不含 content |
+| GET | `/knowledge/feed` | 病虫害阅读流（仅有图，加权推荐） |
+| GET | `/knowledge/filters` | 筛选；可加 `domain=disease_pest\|control\|general` |
+| GET | `/knowledge/items` | 列表/搜索（防控、基础知识）；分页 |
 | GET | `/knowledge/items/:id` | 单条详情，含 content |
 
-列表支持查询参数：`category_id`、`fruit_type`、`disease_type`、`control_type`、`keyword`、`page`、`limit`（默认 15）。
+- **病虫害**：`GET /knowledge/feed`（下拉刷新）
+- **防控 / 基础知识**：`GET /knowledge/items?category_id=control` 或 `general`
 
 ## 2. 存储
 
-- SQLite：`data/knowledge.db`，单表 `knowledge`（id, category_id, title, summary, content, fruit_type, disease_type, control_type）。
-- 检索：LIKE + 条件 + LIMIT/OFFSET，符合文档「最简单存储与检索」约定。
+见 [`data/README.md`](data/README.md)：
+
+| 域 | 路径 | 规则 |
+|----|------|------|
+| 病虫害 | `data/disease_pest/` | 必须有图；ingest 增量 |
+| 农业防控 | `data/control/` | 纯文本 |
+| 基础知识 | `data/general/` | 纯文本 |
+
+运行时统一索引：`data/knowledge.db`
 
 ## 3. 数据来源与入库
 
-- 知识内容按 `docs/知识库内容纲要和说明.md` 的病害/虫害/防治/通用条目整理，并结合公开植保与栽培资料写成正文。
-- 入库：运行种子脚本，将 17 条作物知识写入数据库（已存在则覆盖）。
-
 ```bash
 pip install -r requirements.txt
-python3 scripts/seed_knowledge.py
+python3 scripts/sync_knowledge_locales.py
+python3 scripts/daily_ingest.py              # 病虫害 bi-daily 增量
 ```
 
 ## 4. 启动 API

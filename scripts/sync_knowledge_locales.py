@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import zh/en knowledge JSON files into knowledge.db; mirror image fields zh -> en."""
+"""Import all domain JSON files into knowledge.db; mirror disease_pest images zh -> en."""
 
 from __future__ import annotations
 
@@ -11,18 +11,16 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import db
+import paths
 
-DATA = PROJECT_ROOT / "data"
 
-
-def mirror_image_fields() -> int:
-    zh_path = DATA / "knowledge_items.json"
-    en_path = DATA / "knowledge_items_en.json"
+def mirror_disease_pest_images() -> int:
+    zh_path = paths.items_json("disease_pest", "zh")
+    en_path = paths.items_json("disease_pest", "en")
     if not zh_path.is_file() or not en_path.is_file():
         return 0
-    zh_payload = json.loads(zh_path.read_text(encoding="utf-8"))
+    zh_by_id = {x["id"]: x for x in json.loads(zh_path.read_text(encoding="utf-8")).get("items") or []}
     en_payload = json.loads(en_path.read_text(encoding="utf-8"))
-    zh_by_id = {x["id"]: x for x in zh_payload.get("items") or []}
     n = 0
     for item in en_payload.get("items") or []:
         zh = zh_by_id.get(item.get("id"))
@@ -41,15 +39,11 @@ def mirror_image_fields() -> int:
 
 
 def main() -> None:
-    mirrored = mirror_image_fields()
+    mirrored = mirror_disease_pest_images()
     if mirrored:
-        print(f"mirrored image fields on {mirrored} en item field(s)")
-    db.init_db()
-    zh_path = DATA / "knowledge_items.json"
-    en_path = DATA / "knowledge_items_en.json"
-    n_zh = db.import_json_file(zh_path, locale="zh") if zh_path.is_file() else 0
-    n_en = db.import_json_file(en_path, locale="en") if en_path.is_file() else 0
-    print(f"synced zh={n_zh} en={n_en} -> {db.DB_PATH}")
+        print(f"mirrored {mirrored} image field(s) on disease_pest/en")
+    counts = db.rebuild_all_from_data()
+    print(f"rebuilt DB {counts} -> {db.DB_PATH}")
 
 
 if __name__ == "__main__":

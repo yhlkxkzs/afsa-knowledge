@@ -1,0 +1,1026 @@
+{
+  "count": 39,
+  "items": [
+    {
+      "id": "disease_apple_brown_spot_2",
+      "category_id": "disease",
+      "title": "Apple Brown Spot",
+      "summary": "Apple Brown Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Brown Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "brown_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ],
+      "image_url": "/knowledge/images/disease_apple_brown_spot_2.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "brown_spot",
+        "matched_class": "apple_brown_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/cherry_brown_spot/images/9eb4bc4a-b794-4ba4-be3c-38ce70c1c264___219.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2138.19,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_apple_scab_3",
+      "category_id": "disease",
+      "title": "Apple Scab",
+      "summary": "Apple Scab: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nApple Scab may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "apple",
+      "disease_type": "scab",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Apple"
+      ],
+      "image_url": "/knowledge/images/disease_apple_scab_3.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "label_slug": "scab",
+        "matched_class": "apple_scab_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/apple_rust_leaf/images/11e99bac-ca05-4572-998a-302a9f43bffc___20130802_111632_jpg.rf.b79afb18c9cae813b66e8fe63583ccf3.jpg",
+        "tier": "l3_fine",
+        "score": 2427.7,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_pear_scab_5",
+      "category_id": "disease",
+      "title": "Pear Scab",
+      "summary": "Pear Scab: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPear Scab may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pear",
+      "disease_type": "scab",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ],
+      "image_url": "/knowledge/images/disease_pear_scab_5.jpg",
+      "image_source": {
+        "dataset_id": "pear_pests_and_diseases.v1-pear_dataset.coco",
+        "label_slug": "scab",
+        "matched_class": "scab",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/pear_pests_and_diseases.v1-pear_dataset.coco/pear_pests_and_diseases/scab/images/be5575d8-2974-4527-9aed-3353610399ee___1623_jpg.rf.f1130d3b2231160f7fdfed83a24ef5c9.jpg",
+        "tier": "l3_fine",
+        "score": 1330.86,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_pear_rust_7",
+      "category_id": "disease",
+      "title": "Pear Rust",
+      "summary": "Pear Rust: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nPear Rust may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "pear",
+      "disease_type": "rust",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ],
+      "image_url": "/knowledge/images/disease_pear_rust_7.jpg",
+      "image_source": {
+        "dataset_id": "pear_pests_and_diseases.v1-pear_dataset.coco",
+        "label_slug": "rust",
+        "matched_class": "rust",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/pear_pests_and_diseases.v1-pear_dataset.coco/pear_pests_and_diseases/rust/images/fc6c3ec4-e7e5-4173-b63d-53ae4ffa82f4___1517_jpg.rf.7ea4f7d38ad0784bfb6372d2ea06ae76.jpg",
+        "tier": "l3_fine",
+        "score": 1047.21,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_grape_downy_mildew_11",
+      "category_id": "disease",
+      "title": "Grape Downy Mildew",
+      "summary": "Grape Downy Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Downy Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "downy_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ],
+      "image_url": "/knowledge/images/disease_grape_downy_mildew_11.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "downy_mildew",
+        "matched_class": "grape_downy_mildew_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/fdb5cae6-49bf-45aa-a074-6f78891283a7___171.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1639.0,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_grape_powdery_mildew_12",
+      "category_id": "disease",
+      "title": "Grape Powdery Mildew",
+      "summary": "Grape Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ],
+      "image_url": "/knowledge/images/disease_grape_powdery_mildew_12.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "powdery_mildew",
+        "matched_class": "grape_powdery_mildew_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/66d1ac18-e555-4908-b813-9aef8216f2de___1448.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1603.84,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_grape_black_rot_14",
+      "category_id": "disease",
+      "title": "Grape Black Rot",
+      "summary": "Grape Black Rot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nGrape Black Rot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "grape",
+      "disease_type": "black_rot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ],
+      "image_url": "/knowledge/images/disease_grape_black_rot_14.jpg",
+      "image_source": {
+        "dataset_id": "joseph-nelson__plantdoc",
+        "label_slug": "black_rot",
+        "matched_class": "grape_leaf_black_rot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/joseph-nelson__plantdoc/joseph_nelson__plantdoc__plantdocs/grape_leaf/images/686d7ada-69f7-4cbb-afa2-fa490c8f74a0___img_20160701_155626898_hdr_jpg.rf.2a0936fa985d2c8b60813e697cea62c8.jpg",
+        "tier": "l3_fine",
+        "score": 1862.07,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_citrus_canker_17",
+      "category_id": "disease",
+      "title": "Citrus Canker",
+      "summary": "Citrus Canker: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Canker may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "canker",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ],
+      "image_url": "/knowledge/images/disease_citrus_canker_17.jpg",
+      "image_source": {
+        "dataset_id": "cirtus_leaves",
+        "label_slug": "canker",
+        "matched_class": "canker",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/cirtus_leaves/cirtus_leaves/canker/images/6b70e3fc-db2e-4ca9-9ae2-94242a171726___LINE_ALBUM_241265_230705_71_jpg.rf.fdb0a90bf4a2d3b2eba6c8123fcfa742.jpg",
+        "tier": "l3_fine",
+        "score": 1943.02,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_citrus_greening_18",
+      "category_id": "disease",
+      "title": "Citrus Greening",
+      "summary": "Citrus Greening: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nCitrus Greening may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "citrus",
+      "disease_type": "greening",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Citrus"
+      ],
+      "image_url": "/knowledge/images/disease_citrus_greening_18.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "label_slug": "greening",
+        "matched_class": "greening",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/b602f1bc-6fb8-43e8-a1d2-58e49b85f7d4___IMG_0202_jpg.rf.75eb34b3367a9214a9f4335252d83490.jpg",
+        "tier": "l3_fine",
+        "score": 2647.67,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_mango_anthracnose_19",
+      "category_id": "disease",
+      "title": "Mango Anthracnose",
+      "summary": "Mango Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nMango Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "mango",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Mango"
+      ],
+      "image_url": "/knowledge/images/disease_mango_anthracnose_19.jpg",
+      "image_source": {
+        "dataset_id": "mangodisease",
+        "label_slug": "anthracnose",
+        "matched_class": "anthracnose",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mangodisease/data/origin/Mangoes-disease.v3i.coco/test/anthracnose_129_jpg.rf.2bf170f517428b50d1aeae4625a6f692.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1181.83,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_strawberry_gray_mold_21",
+      "category_id": "disease",
+      "title": "Strawberry Gray Mold",
+      "summary": "Strawberry Gray Mold: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Gray Mold may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "gray_mold",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ],
+      "image_url": "/knowledge/images/disease_strawberry_gray_mold_21.jpg",
+      "image_source": {
+        "dataset_id": "research-proj__strawberry-diseases-detection",
+        "label_slug": "gray_mold",
+        "matched_class": "gray_mold",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection/research_proj__strawberry_diseases_detections/gray_mold/images/07fc3593-512e-4930-b4f0-dde7beb485e1___gray_mold114_jpg.rf.a579561acc63af406315651273c3f14c.jpg",
+        "tier": "l3_fine",
+        "score": 1362.76,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_strawberry_powdery_mildew_22",
+      "category_id": "disease",
+      "title": "Strawberry Powdery Mildew",
+      "summary": "Strawberry Powdery Mildew: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Powdery Mildew may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "powdery_mildew",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ],
+      "image_url": "/knowledge/images/disease_strawberry_powdery_mildew_22.jpg",
+      "image_source": {
+        "dataset_id": "research-proj__strawberry-diseases-detection",
+        "label_slug": "powdery_mildew",
+        "matched_class": "powdery_mildew_fruit",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection/research_proj__strawberry_diseases_detections/anthracnose_fruit_rot/images/0e878308-7144-4adc-8128-fc57f4a0f706___anthracnose_fruit_rot75_jpg.rf.4e57b65ae8631c28ce3663a803ace09f.jpg",
+        "tier": "l3_fine",
+        "score": 1392.93,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_strawberry_leaf_spot_23",
+      "category_id": "disease",
+      "title": "Strawberry Leaf Spot",
+      "summary": "Strawberry Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nStrawberry Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "strawberry",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Strawberry"
+      ],
+      "image_url": "/knowledge/images/disease_strawberry_leaf_spot_23.jpg",
+      "image_source": {
+        "dataset_id": "research-proj__strawberry-diseases-detection",
+        "label_slug": "leaf_spot",
+        "matched_class": "leaf_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection/research_proj__strawberry_diseases_detections/angular_leafspot/images/1961e0eb-9840-47ab-a2f4-17d7857a154c___002_easy_973634440002077f_jpg.rf.2cc99e99a1add8a556e1af006a133b1e.jpg",
+        "tier": "l3_fine",
+        "score": 1889.4,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_watermelon_anthracnose_25",
+      "category_id": "disease",
+      "title": "Watermelon Anthracnose",
+      "summary": "Watermelon Anthracnose: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nWatermelon Anthracnose may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "watermelon",
+      "disease_type": "anthracnose",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Watermelon"
+      ],
+      "image_url": "/knowledge/images/disease_watermelon_anthracnose_25.jpg",
+      "image_source": {
+        "dataset_id": "reinhard-cuqas__watermelon-diseases-2-soylo",
+        "label_slug": "anthracnose",
+        "matched_class": "anthracnose",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/reinhard-cuqas__watermelon-diseases-2-soylo/reinhard_cuqas__watermelon_diseases_2_soylos/anthracnose/images/a7f4ddc5-8ed5-4963-8030-f70910312c16___IMG_4113_flip_jpg.rf.694795756fe81554c9455a1516d255e9.jpg",
+        "tier": "l2_l3_weak",
+        "score": 870.13,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_tomato_bacterial_wilt_29",
+      "category_id": "disease",
+      "title": "Tomato Bacterial Wilt",
+      "summary": "Tomato Bacterial Wilt: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nTomato Bacterial Wilt may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "tomato",
+      "disease_type": "bacterial_wilt",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Tomato"
+      ],
+      "image_url": "/knowledge/images/disease_tomato_bacterial_wilt_29.jpg",
+      "image_source": {
+        "dataset_id": "tomatodisease",
+        "label_slug": "bacterial_wilt",
+        "matched_class": "bacterial_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/tomatodisease/tomatodiseases/bacterial_spot/images/1025abff-d675-4938-9698-8fcf1d95abbd___7_jpg.rf.bce68db7eb1165ead071d13bba96c560.jpg",
+        "tier": "l3_fine",
+        "score": 1708.26,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_eggplant_leaf_spot_39",
+      "category_id": "disease",
+      "title": "Eggplant Leaf Spot",
+      "summary": "Eggplant Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nEggplant Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "eggplant",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ],
+      "image_url": "/knowledge/images/disease_eggplant_leaf_spot_39.jpg",
+      "image_source": {
+        "dataset_id": "eggplantleavesdisease",
+        "label_slug": "leaf_spot",
+        "matched_class": "leaf_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/eggplantleavesdisease/eggplantleavesdiseases/leaf_spot/images/4a46e19d-7977-4451-92e0-85241fc207ea___Eggplant_0659_jpg.rf.49a14c4fa177bfb2ec033b515c115638.jpg",
+        "tier": "l3_fine",
+        "score": 2275.31,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_eggplant_leaf_spot_76",
+      "category_id": "disease",
+      "title": "Eggplant Leaf Spot",
+      "summary": "Eggplant Leaf Spot: symptom recognition, epidemiology, and management essentials.",
+      "content": "[Symptoms]\nEggplant Leaf Spot may cause leaf spots, fruit lesions, mold, or rot depending on humidity and crop stage.\n\n[Epidemiology]\nPathogens often overwinter in infected plant debris or soil and spread by rain, wind, tools, or insects. Warm, humid conditions and poor ventilation increase severity.\n\n[Management]\n• Sanitation: remove infected leaves, fruit, and branches.\n• Cultural: improve spacing and airflow; balanced fertilization; resistant varieties when available.\n• Chemical: apply registered protectants before infection and curative products at early onset; rotate modes of action and observe pre-harvest intervals.",
+      "fruit_type": "eggplant",
+      "disease_type": "leaf_spot",
+      "control_type": "chemical",
+      "fruit_types": [
+        "Eggplant"
+      ],
+      "image_url": "/knowledge/images/disease_eggplant_leaf_spot_76.jpg",
+      "image_source": {
+        "dataset_id": "eggplantleavesdisease",
+        "label_slug": "leaf_spot",
+        "matched_class": "leaf_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/eggplantleavesdisease/eggplantleavesdiseases/leaf_spot/images/668153af-8bbf-49d8-9bd6-fa02f9d030b1___Eggplant_0650_jpg.rf.586e0afb410dc6c95a4fb101d4ba7f5b.jpg",
+        "tier": "l3_fine",
+        "score": 2137.81,
+        "source": "local"
+      }
+    },
+    {
+      "id": "pest_pear_aphid_125",
+      "category_id": "pest",
+      "title": "梨蚜虫",
+      "summary": "梨蚜虫: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "pear",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Pear"
+      ],
+      "image_url": "/knowledge/images/pest_pear_aphid_125.jpg",
+      "image_source": {
+        "dataset_id": "yanjishun__pear_pests-and-diseases__pear_pests_and_diseases.v1-pear_dataset.coco__pear_pests_and_diseases.v1-pear_dataset.coco",
+        "label_slug": "aphid",
+        "matched_class": "aphid_beetle_gankubing",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yanjishun__pear_pests-and-diseases__pear_pests_and_diseases.v1-pear_dataset.coco__pear_pests_and_diseases.v1-pear_dataset.coco/yanjishun__pear_pests_and_diseases__pear_pests_and_diseases/beetle/images/5398f087-0d08-4e8b-bab0-24b9c88e02a9___0437_jpg.rf.efb658de1a2bf0413c63e48b7dfe6a28.jpg",
+        "tier": "l3_fine",
+        "score": 1891.44,
+        "source": "local"
+      }
+    },
+    {
+      "id": "pest_grape_mite_130",
+      "category_id": "pest",
+      "title": "葡萄叶螨",
+      "summary": "葡萄叶螨: damage symptoms, identification, and control options.",
+      "content": "[Damage]\nThis pest feeds on tender shoots, leaves, or fruit, causing curling, discoloration, honeydew, or direct fruit damage.\n\n[Identification]\nInspect new growth and undersides of leaves; confirm with local extension guidance when possible.\n\n[Management]\n• Monitoring and traps where applicable.\n• Conserve natural enemies.\n• Use targeted pesticides at susceptible stages; rotate active ingredients.",
+      "fruit_type": "grape",
+      "disease_type": null,
+      "control_type": "chemical",
+      "fruit_types": [
+        "Grape"
+      ],
+      "image_url": "/knowledge/images/pest_grape_mite_130.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "mite",
+        "matched_class": "grape_mites_leaf_disease",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/433e3963-3237-4b0a-8429-aaad329dc529___1352.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1573.59,
+        "source": "local"
+      }
+    },
+    {
+      "id": "disease_sugar_apple_diplodia_rot",
+      "category_id": "disease",
+      "fruit_type": "sugar_apple",
+      "disease_type": "diplodia_rot",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_sugar_apple_diplodia_rot.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_sugar_apple_diplodia_rot.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_2.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_3.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_4.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_5.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_6.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_7.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_8.jpg",
+        "/knowledge/images/disease_sugar_apple_diplodia_rot_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Sugar_Apples_Custard_Apples_Annona_squamosa_Disease_Image_Dataset",
+        "label_slug": "diplodia_rot",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:sugar_apple:diplodia_rot",
+      "title": "Sugar Apple Diplodia Rot",
+      "summary": "Sugar Apple Diplodia Rot: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nSugar Apple Diplodia Rot may cause leaf spots, fruit lesions, mold, or rot; images match label `diplodia_rot`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_banana_yellow_sigatoka",
+      "category_id": "disease",
+      "fruit_type": "banana",
+      "disease_type": "yellow_sigatoka",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_banana_yellow_sigatoka.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_banana_yellow_sigatoka.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_2.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_3.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_4.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_5.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_6.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_7.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_8.jpg",
+        "/knowledge/images/disease_banana_yellow_sigatoka_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "bananadisease",
+        "label_slug": "yellow_sigatoka",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:banana:yellow_sigatoka",
+      "title": "Banana Yellow Sigatoka",
+      "summary": "Banana Yellow Sigatoka: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nBanana Yellow Sigatoka may cause leaf spots, fruit lesions, mold, or rot; images match label `yellow_sigatoka`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "pest_grape_grape_mites_leaf_disease",
+      "category_id": "pest",
+      "fruit_type": "grape",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_grape_grape_mites_leaf_disease.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_2.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_3.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_4.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_5.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_6.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_7.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_8.jpg",
+        "/knowledge/images/pest_grape_grape_mites_leaf_disease_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "grape_mites_leaf_disease",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:grape:grape_mites_leaf_disease",
+      "title": "Grape Grape Mites Leaf Disease",
+      "summary": "Grape Grape Mites Leaf Disease: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nGrape Grape Mites Leaf Disease may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `grape_mites_leaf_disease`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "disease_banana_potassium",
+      "category_id": "disease",
+      "fruit_type": "banana",
+      "disease_type": "potassium",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_banana_potassium.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_banana_potassium.jpg",
+        "/knowledge/images/disease_banana_potassium_2.jpg",
+        "/knowledge/images/disease_banana_potassium_3.jpg",
+        "/knowledge/images/disease_banana_potassium_4.jpg",
+        "/knowledge/images/disease_banana_potassium_5.jpg",
+        "/knowledge/images/disease_banana_potassium_6.jpg",
+        "/knowledge/images/disease_banana_potassium_7.jpg",
+        "/knowledge/images/disease_banana_potassium_8.jpg",
+        "/knowledge/images/disease_banana_potassium_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "bananadisease",
+        "label_slug": "potassium",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:banana:potassium",
+      "title": "Banana Potassium",
+      "summary": "Banana Potassium: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nBanana Potassium may cause leaf spots, fruit lesions, mold, or rot; images match label `potassium`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_durian_algal_leaf_spot",
+      "category_id": "disease",
+      "fruit_type": "durian",
+      "disease_type": "algal_leaf_spot",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_durian_algal_leaf_spot.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_durian_algal_leaf_spot.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_2.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_3.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_4.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_5.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_6.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_7.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_8.jpg",
+        "/knowledge/images/disease_durian_algal_leaf_spot_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Durian_Disease.v1i.folder",
+        "label_slug": "algal_leaf_spot",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:durian:algal_leaf_spot",
+      "title": "Durian Algal Leaf Spot",
+      "summary": "Durian Algal Leaf Spot: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nDurian Algal Leaf Spot may cause leaf spots, fruit lesions, mold, or rot; images match label `algal_leaf_spot`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_lychee_anthrax_leaf",
+      "category_id": "disease",
+      "fruit_type": "lychee",
+      "disease_type": "anthrax_leaf",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_lychee_anthrax_leaf.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_lychee_anthrax_leaf.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_2.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_3.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_4.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_5.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_6.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_7.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_8.jpg",
+        "/knowledge/images/disease_lychee_anthrax_leaf_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Lychee_Leaf_Disease_Dataset_Advancing_Agriculture_and_Sustainability_through_Machine_Learning-Based_Diagnosis",
+        "label_slug": "anthrax_leaf",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:lychee:anthrax_leaf",
+      "title": "Lychee Anthrax Leaf",
+      "summary": "Lychee Anthrax Leaf: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nLychee Anthrax Leaf may cause leaf spots, fruit lesions, mold, or rot; images match label `anthrax_leaf`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_citrus_blackspot",
+      "category_id": "disease",
+      "fruit_type": "citrus",
+      "disease_type": "blackspot",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_citrus_blackspot.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_citrus_blackspot.jpg",
+        "/knowledge/images/disease_citrus_blackspot_2.jpg",
+        "/knowledge/images/disease_citrus_blackspot_3.jpg",
+        "/knowledge/images/disease_citrus_blackspot_4.jpg",
+        "/knowledge/images/disease_citrus_blackspot_5.jpg",
+        "/knowledge/images/disease_citrus_blackspot_6.jpg",
+        "/knowledge/images/disease_citrus_blackspot_7.jpg",
+        "/knowledge/images/disease_citrus_blackspot_8.jpg",
+        "/knowledge/images/disease_citrus_blackspot_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "cirtus_leaves",
+        "label_slug": "blackspot",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:citrus:blackspot",
+      "title": "Citrus Blackspot",
+      "summary": "Citrus Blackspot: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nCitrus Blackspot may cause leaf spots, fruit lesions, mold, or rot; images match label `blackspot`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_kiwi_altenaria",
+      "category_id": "disease",
+      "fruit_type": "kiwi",
+      "disease_type": "altenaria",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_kiwi_altenaria.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_kiwi_altenaria.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_2.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_3.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_4.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_5.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_6.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_7.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_8.jpg",
+        "/knowledge/images/disease_kiwi_altenaria_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "AgriVision-Kiwi-main",
+        "label_slug": "altenaria",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:kiwi:altenaria",
+      "title": "Kiwi Altenaria",
+      "summary": "Kiwi Altenaria: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nKiwi Altenaria may cause leaf spots, fruit lesions, mold, or rot; images match label `altenaria`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_guava_sooty_mold",
+      "category_id": "disease",
+      "fruit_type": "guava",
+      "disease_type": "sooty_mold",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_guava_sooty_mold.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_guava_sooty_mold.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_2.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_3.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_4.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_5.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_6.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_7.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_8.jpg",
+        "/knowledge/images/disease_guava_sooty_mold_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "yolo-project-bdo0y__guava-data-lwd7o",
+        "label_slug": "sooty_mold",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:guava:sooty_mold",
+      "title": "Guava Sooty Mold",
+      "summary": "Guava Sooty Mold: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nGuava Sooty Mold may cause leaf spots, fruit lesions, mold, or rot; images match label `sooty_mold`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_lychee_lychee_leaf_blight",
+      "category_id": "disease",
+      "fruit_type": "lychee",
+      "disease_type": "lychee_leaf_blight",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_lychee_lychee_leaf_blight.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_lychee_lychee_leaf_blight.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_2.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_3.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_4.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_5.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_6.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_7.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_8.jpg",
+        "/knowledge/images/disease_lychee_lychee_leaf_blight_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Lychee_Disease_Detection.v2-lychee-disease-detection.coco",
+        "label_slug": "lychee_leaf_blight",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:lychee:lychee_leaf_blight",
+      "title": "Lychee Lychee Leaf Blight",
+      "summary": "Lychee Lychee Leaf Blight: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nLychee Lychee Leaf Blight may cause leaf spots, fruit lesions, mold, or rot; images match label `lychee_leaf_blight`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "disease_lychee_leaf_blight",
+      "category_id": "disease",
+      "fruit_type": "lychee",
+      "disease_type": "leaf_blight",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_lychee_leaf_blight.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_lychee_leaf_blight.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_2.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_3.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_4.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_5.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_6.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_7.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_8.jpg",
+        "/knowledge/images/disease_lychee_leaf_blight_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Lychee_Leaf_Disease_Dataset_Advancing_Agriculture_and_Sustainability_through_Machine_Learning-Based_Diagnosis",
+        "label_slug": "leaf_blight",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:lychee:leaf_blight",
+      "title": "Lychee Leaf Blight",
+      "summary": "Lychee Leaf Blight: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nLychee Leaf Blight may cause leaf spots, fruit lesions, mold, or rot; images match label `leaf_blight`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "pest_eggplant_earworm",
+      "category_id": "pest",
+      "fruit_type": "eggplant",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_eggplant_earworm.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_eggplant_earworm.jpg",
+        "/knowledge/images/pest_eggplant_earworm_2.jpg",
+        "/knowledge/images/pest_eggplant_earworm_3.jpg",
+        "/knowledge/images/pest_eggplant_earworm_4.jpg",
+        "/knowledge/images/pest_eggplant_earworm_5.jpg",
+        "/knowledge/images/pest_eggplant_earworm_6.jpg",
+        "/knowledge/images/pest_eggplant_earworm_7.jpg",
+        "/knowledge/images/pest_eggplant_earworm_8.jpg",
+        "/knowledge/images/pest_eggplant_earworm_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "eggplantleavesdisease",
+        "label_slug": "earworm",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:eggplant:earworm",
+      "title": "Eggplant Earworm",
+      "summary": "Eggplant Earworm: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nEggplant Earworm may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `earworm`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "pest_banana_banana_insect_pest",
+      "category_id": "pest",
+      "fruit_type": "banana",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_banana_banana_insect_pest.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_banana_banana_insect_pest.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_2.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_3.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_4.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_5.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_6.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_7.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_8.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "bananadisease",
+        "label_slug": "banana_insect_pest",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:banana:banana_insect_pest",
+      "title": "Banana Banana Insect Pest",
+      "summary": "Banana Banana Insect Pest: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nBanana Banana Insect Pest may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `banana_insect_pest`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "pest_eggplant_flea_beetle_s_damage",
+      "category_id": "pest",
+      "fruit_type": "eggplant",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_eggplant_flea_beetle_s_damage.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_2.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_3.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_4.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_5.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_6.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_7.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_8.jpg",
+        "/knowledge/images/pest_eggplant_flea_beetle_s_damage_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "eggplantleavesdisease",
+        "label_slug": "flea_beetle_s_damage",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:eggplant:flea_beetle_s_damage",
+      "title": "Eggplant Flea Beetle S Damage",
+      "summary": "Eggplant Flea Beetle S Damage: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nEggplant Flea Beetle S Damage may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `flea_beetle_s_damage`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "disease_grape_grape_anthracnose_leaf",
+      "category_id": "disease",
+      "fruit_type": "grape",
+      "disease_type": "grape_anthracnose_leaf",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_grape_grape_anthracnose_leaf.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_2.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_3.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_4.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_5.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_6.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_7.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_8.jpg",
+        "/knowledge/images/disease_grape_grape_anthracnose_leaf_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "grape_anthracnose_leaf",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:grape:grape_anthracnose_leaf",
+      "title": "Grape Grape Anthracnose Leaf",
+      "summary": "Grape Grape Anthracnose Leaf: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nGrape Grape Anthracnose Leaf may cause leaf spots, fruit lesions, mold, or rot; images match label `grape_anthracnose_leaf`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "pest_banana_banana_insect_pest_disease",
+      "category_id": "pest",
+      "fruit_type": "banana",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_banana_banana_insect_pest_disease.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_banana_banana_insect_pest_disease.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_2.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_3.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_4.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_5.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_6.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_7.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_8.jpg",
+        "/knowledge/images/pest_banana_banana_insect_pest_disease_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Banana_Disease.v1i.folder",
+        "label_slug": "banana_insect_pest_disease",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:banana:banana_insect_pest_disease",
+      "title": "Banana Banana Insect Pest Disease",
+      "summary": "Banana Banana Insect Pest Disease: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nBanana Banana Insect Pest Disease may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `banana_insect_pest_disease`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "disease_banana_alcium",
+      "category_id": "disease",
+      "fruit_type": "banana",
+      "disease_type": "alcium",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_banana_alcium.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_banana_alcium.jpg",
+        "/knowledge/images/disease_banana_alcium_2.jpg",
+        "/knowledge/images/disease_banana_alcium_3.jpg",
+        "/knowledge/images/disease_banana_alcium_4.jpg",
+        "/knowledge/images/disease_banana_alcium_5.jpg",
+        "/knowledge/images/disease_banana_alcium_6.jpg",
+        "/knowledge/images/disease_banana_alcium_7.jpg",
+        "/knowledge/images/disease_banana_alcium_8.jpg",
+        "/knowledge/images/disease_banana_alcium_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "bananadisease",
+        "label_slug": "alcium",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:banana:alcium",
+      "title": "Banana Alcium",
+      "summary": "Banana Alcium: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nBanana Alcium may cause leaf spots, fruit lesions, mold, or rot; images match label `alcium`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    },
+    {
+      "id": "pest_banana_pestalotiopsi",
+      "category_id": "pest",
+      "fruit_type": "banana",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_banana_pestalotiopsi.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_banana_pestalotiopsi.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_2.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_3.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_4.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_5.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_6.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_7.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_8.jpg",
+        "/knowledge/images/pest_banana_pestalotiopsi_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Banana_Leaf_Disease.v2-banana-augmentasi.coco",
+        "label_slug": "pestalotiopsi",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:banana:pestalotiopsi",
+      "title": "Banana Pestalotiopsi",
+      "summary": "Banana Pestalotiopsi: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nBanana Pestalotiopsi may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `pestalotiopsi`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "pest_eggplant_melon_thrip",
+      "category_id": "pest",
+      "fruit_type": "eggplant",
+      "disease_type": null,
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/pest_eggplant_melon_thrip.jpg",
+      "image_gallery": [
+        "/knowledge/images/pest_eggplant_melon_thrip.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_2.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_3.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_4.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_5.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_6.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_7.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_8.jpg",
+        "/knowledge/images/pest_eggplant_melon_thrip_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Eggplant_fruit_disease_detection.v23-11800-annotations.coco",
+        "label_slug": "melon_thrip",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "pest:eggplant:melon_thrip",
+      "title": "Eggplant Melon Thrip",
+      "summary": "Eggplant Melon Thrip: damage symptoms, identification, and integrated control.",
+      "content": "[Damage]\nEggplant Melon Thrip may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `melon_thrip`.\n\n[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
+    },
+    {
+      "id": "disease_durian_image",
+      "category_id": "disease",
+      "fruit_type": "durian",
+      "disease_type": "image",
+      "control_type": "chemical",
+      "image_url": "/knowledge/images/disease_durian_image.jpg",
+      "image_gallery": [
+        "/knowledge/images/disease_durian_image.jpg",
+        "/knowledge/images/disease_durian_image_2.jpg",
+        "/knowledge/images/disease_durian_image_3.jpg",
+        "/knowledge/images/disease_durian_image_4.jpg",
+        "/knowledge/images/disease_durian_image_5.jpg",
+        "/knowledge/images/disease_durian_image_6.jpg",
+        "/knowledge/images/disease_durian_image_7.jpg",
+        "/knowledge/images/disease_durian_image_8.jpg",
+        "/knowledge/images/disease_durian_image_9.jpg"
+      ],
+      "image_source": {
+        "dataset_id": "Leaf_Durian",
+        "label_slug": "image",
+        "source": "local",
+        "gallery_count": 9
+      },
+      "ingest_type_key": "disease:durian:image",
+      "title": "Durian Image",
+      "summary": "Durian Image: symptoms, epidemiology, and management.",
+      "content": "[Symptoms]\nDurian Image may cause leaf spots, fruit lesions, mold, or rot; images match label `image`.\n\n[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
+    }
+  ],
+  "domain": "disease_pest",
+  "locale": "en",
+  "policy": "image_required",
+  "source": "mirrored from disease_pest/zh"
+}

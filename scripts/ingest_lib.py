@@ -12,14 +12,16 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
+import paths
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = PROJECT_ROOT / "data"
-CONFIG_PATH = DATA_DIR / "ingest_config.json"
-HISTORY_PATH = DATA_DIR / "ingest_history.json"
-CATALOG_PATH = DATA_DIR / "dataset_catalog.json"
-IMAGES_DIR = DATA_DIR / "images"
-ITEMS_ZH = DATA_DIR / "knowledge_items.json"
-ITEMS_EN = DATA_DIR / "knowledge_items_en.json"
+DATA_DIR = paths.DATA_DIR
+CONFIG_PATH = paths.ingest_config_path()
+HISTORY_PATH = paths.ingest_history_path()
+CATALOG_PATH = paths.catalog_path()
+IMAGES_DIR = paths.images_dir()
+ITEMS_ZH = paths.items_json("disease_pest", "zh")
+ITEMS_EN = paths.items_json("disease_pest", "en")
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
 PEST_HINTS = (
@@ -311,7 +313,7 @@ def image_quality_score(path: Path, tier_bonus: float) -> float:
         return 0.0
 
 
-INDEX_CACHE = DATA_DIR / "local_image_index.json"
+INDEX_CACHE = paths.image_index_path()
 
 
 def load_image_index() -> dict[str, list[str]]:
@@ -520,6 +522,7 @@ def upsert_knowledge_items(
     db.init_db()
     db.import_json_file(ITEMS_ZH, locale="zh")
     db.import_json_file(ITEMS_EN, locale="en")
+    db.rebuild_all_from_data()
 
 
 def append_history(type_keys: list[str], meta: dict) -> None:

@@ -32,8 +32,9 @@ def filters():
     if request.method == "OPTIONS":
         return "", 204
     try:
-        locale = resolve_locale(request)
-        data = db.get_filters_from_db(locale=locale)
+            locale = resolve_locale(request)
+            domain = request.args.get("domain")
+            data = db.get_filters_from_db(locale=locale, domain=domain)
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500

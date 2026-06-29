@@ -1,0 +1,248 @@
+{
+  "count": 24,
+  "items": [
+    {
+      "id": "general_fertilizer",
+      "category_id": "general",
+      "title": "Fertilizer Management",
+      "summary": "Fertilizer Management: core recommendations for crop management.",
+      "content": "[Overview]\nFertilizer Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_pruning",
+      "category_id": "general",
+      "title": "Pruning Management",
+      "summary": "Pruning Management: core recommendations for crop management.",
+      "content": "[Overview]\nPruning Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_irrigation",
+      "category_id": "general",
+      "title": "Irrigation Management",
+      "summary": "Irrigation Management: core recommendations for crop management.",
+      "content": "[Overview]\nIrrigation Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_orchard_core",
+      "category_id": "general",
+      "title": "Orchard Management Essentials",
+      "summary": "Orchard Management Essentials: core recommendations for crop management.",
+      "content": "[Overview]\nOrchard Management Essentials supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_rotation",
+      "category_id": "general",
+      "title": "Crop Rotation",
+      "summary": "Crop Rotation: core recommendations for crop management.",
+      "content": "[Overview]\nCrop Rotation supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_seedling",
+      "category_id": "general",
+      "title": "Seedling Management",
+      "summary": "Seedling Management: core recommendations for crop management.",
+      "content": "[Overview]\nSeedling Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_greenhouse",
+      "category_id": "general",
+      "title": "Greenhouse Management",
+      "summary": "Greenhouse Management: core recommendations for crop management.",
+      "content": "[Overview]\nGreenhouse Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_soil",
+      "category_id": "general",
+      "title": "Soil Management",
+      "summary": "Soil Management: core recommendations for crop management.",
+      "content": "[Overview]\nSoil Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_variety",
+      "category_id": "general",
+      "title": "Variety and Resistance",
+      "summary": "Variety and Resistance: core recommendations for crop management.",
+      "content": "[Overview]\nVariety and Resistance supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_safety",
+      "category_id": "general",
+      "title": "Pesticide Safety",
+      "summary": "Pesticide Safety: core recommendations for crop management.",
+      "content": "[Overview]\nPesticide Safety supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_weeding",
+      "category_id": "general",
+      "title": "Weed Control",
+      "summary": "Weed Control: core recommendations for crop management.",
+      "content": "[Overview]\nWeed Control supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_frost",
+      "category_id": "general",
+      "title": "Frost Protection",
+      "summary": "Frost Protection: core recommendations for crop management.",
+      "content": "[Overview]\nFrost Protection supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_harvest",
+      "category_id": "general",
+      "title": "Harvest and Storage",
+      "summary": "Harvest and Storage: core recommendations for crop management.",
+      "content": "[Overview]\nHarvest and Storage supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_green_control",
+      "category_id": "general",
+      "title": "Integrated Pest Management",
+      "summary": "Integrated Pest Management: core recommendations for crop management.",
+      "content": "[Overview]\nIntegrated Pest Management supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_apple_manage",
+      "category_id": "general",
+      "title": "苹果栽培要点",
+      "summary": "苹果栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n苹果栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_rice_manage",
+      "category_id": "general",
+      "title": "水稻栽培要点",
+      "summary": "水稻栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n水稻栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_wheat_manage",
+      "category_id": "general",
+      "title": "小麦栽培要点",
+      "summary": "小麦栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n小麦栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_tomato_manage",
+      "category_id": "general",
+      "title": "番茄栽培要点",
+      "summary": "番茄栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n番茄栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_cucumber_manage",
+      "category_id": "general",
+      "title": "黄瓜栽培要点",
+      "summary": "黄瓜栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n黄瓜栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_grape_manage",
+      "category_id": "general",
+      "title": "葡萄栽培要点",
+      "summary": "葡萄栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n葡萄栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_citrus_manage",
+      "category_id": "general",
+      "title": "柑橘栽培要点",
+      "summary": "柑橘栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n柑橘栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_peanut_manage",
+      "category_id": "general",
+      "title": "花生栽培要点",
+      "summary": "花生栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n花生栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_cotton_manage",
+      "category_id": "general",
+      "title": "棉花栽培要点",
+      "summary": "棉花栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n棉花栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_soybean_manage",
+      "category_id": "general",
+      "title": "大豆栽培要点",
+      "summary": "大豆栽培要点: core recommendations for crop management.",
+      "content": "[Overview]\n大豆栽培要点 supports stable yield and fruit quality through timely field operations.\n\n[Key points]\nFollow crop stage, local climate, and label instructions; adjust practices to orchard or field conditions.",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    }
+  ],
+  "domain": "general",
+  "locale": "en",
+  "policy": "text_search"
+}

@@ -10,10 +10,11 @@ from pathlib import Path
 from typing import Any
 
 import i18n
+import paths
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-DATA_DIR = PROJECT_ROOT / "data"
-DB_PATH = DATA_DIR / "knowledge.db"
+DATA_DIR = paths.DATA_DIR
+DB_PATH = paths.DB_PATH
 
 SCHEMA_V2 = """
 CREATE TABLE IF NOT EXISTS knowledge (
@@ -240,17 +241,23 @@ def get_item_by_id(item_id: str, locale: str = i18n.DEFAULT_LOCALE) -> dict | No
         conn.close()
 
 
-def get_filters_from_db(locale: str = i18n.DEFAULT_LOCALE) -> dict[str, list[dict]]:
+def get_filters_from_db(locale: str = i18n.DEFAULT_LOCALE, domain: str | None = None) -> dict[str, list[dict]]:
     loc = i18n.normalize_locale(locale)
+    domain = (domain or "").strip().lower()
     conn = get_connection()
     try:
         fruit = set()
         disease = set()
         control = set()
-        cur = conn.execute(
-            "SELECT fruit_type, disease_type, control_type FROM knowledge WHERE locale = ?",
-            (loc,),
-        )
+        sql = "SELECT category_id, fruit_type, disease_type, control_type FROM knowledge WHERE locale = ?"
+        params: list = [loc]
+        if domain == "disease_pest":
+            sql += " AND category_id IN ('disease', 'pest') AND image_url IS NOT NULL AND image_url != ''"
+        elif domain == "control":
+            sql += " AND category_id = 'control'"
+        elif domain == "general":
+            sql += " AND category_id = 'general'"
+        cur = conn.execute(sql, params)
         for row in cur:
             if row["fruit_type"]:
                 fid = row["fruit_type"]
@@ -263,6 +270,7 @@ def get_filters_from_db(locale: str = i18n.DEFAULT_LOCALE) -> dict[str, list[dic
                 control.add((cid, i18n.control_label(cid, loc)))
         return {
             "locale": loc,
+            "domain": domain or "all",
             "fruitTypes": [{"id": i, "name": n} for i, n in sorted(fruit)],
             "diseaseTypes": [{"id": i, "name": n} for i, n in sorted(disease)],
             "controlTypes": [{"id": i, "name": n} for i, n in sorted(control)],
@@ -312,6 +320,22 @@ def import_json_file(path: Path, locale: str = i18n.DEFAULT_LOCALE) -> int:
     return upsert_items(items, locale=locale)
 
 
+def rebuild_all_from_data() -> dict[str, int]:
+    """Replace DB contents from domain JSON files."""
+    init_db()
+    conn = get_connection()
+    try:
+        conn.execute("DELETE FROM knowledge")
+        conn.commit()
+    finally:
+        conn.close()
+    counts: dict[str, int] = {}
+    for domain, path, locale in paths.all_item_sources():
+        n = import_json_file(path, locale=locale) if path.is_file() else 0
+        counts[f"{domain}_{locale}"] = n
+    return counts
+
+
 def fetch_candidates(
     *,
     category_id: str | None = None,
@@ -321,13 +345,15 @@ def fetch_candidates(
     keyword: str | None = None,
     locale: str = i18n.DEFAULT_LOCALE,
 ) -> list[dict]:
-    """All items matching filters (for weighted feed sampling)."""
+    """Disease/pest items with images only (weighted feed pool)."""
     loc = i18n.normalize_locale(locale)
     conn = get_connection()
     try:
         sql = """
           SELECT id, locale, category_id, title, summary, content, fruit_type, disease_type, control_type, image_url
           FROM knowledge WHERE locale = ?
+            AND category_id IN ('disease', 'pest')
+            AND image_url IS NOT NULL AND image_url != ''
         """
         params: list = [loc]
         if category_id and category_id.lower() != "all":

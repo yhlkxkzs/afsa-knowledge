@@ -11,7 +11,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-CATALOG_PATH = PROJECT_ROOT / "data" / "dataset_catalog.json"
+import sys
+
+sys.path.insert(0, str(PROJECT_ROOT))
+import paths
+
+CATALOG_PATH = paths.catalog_path()
 LOCAL_REGISTRY = Path("/home/yuhanlin/APP/AFSA/data/disease_classification/manifest/registry.json")
 IMPORT_TRACKER = Path("/home/yuhanlin/Database/datasets/API/dataset_import_tracker.json")
 

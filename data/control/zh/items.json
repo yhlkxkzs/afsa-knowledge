@@ -1,0 +1,89 @@
+{
+  "count": 8,
+  "items": [
+    {
+      "id": "control_agricultural_1",
+      "category_id": "control",
+      "title": "农业防治",
+      "summary": "农业防治要点简述。",
+      "content": "【要点】\n清园、修剪、肥水、负载、土壤管理、轮作。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "agricultural"
+    },
+    {
+      "id": "control_agricultural_2",
+      "category_id": "control",
+      "title": "农业防治要点",
+      "summary": "农业防治要点要点简述。",
+      "content": "【要点】\n清园、修剪、肥水、负载、土壤管理、轮作。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "agricultural"
+    },
+    {
+      "id": "control_physical_1",
+      "category_id": "control",
+      "title": "物理防治",
+      "summary": "物理防治要点简述。",
+      "content": "【要点】\n套袋、黄板、诱虫灯、糖醋液、诱虫带、刮树皮、防虫网。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "physical"
+    },
+    {
+      "id": "control_physical_2",
+      "category_id": "control",
+      "title": "物理防治要点",
+      "summary": "物理防治要点要点简述。",
+      "content": "【要点】\n套袋、黄板、诱虫灯、糖醋液、诱虫带、刮树皮、防虫网。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "physical"
+    },
+    {
+      "id": "control_biological_1",
+      "category_id": "control",
+      "title": "生物防治",
+      "summary": "生物防治要点简述。",
+      "content": "【要点】\n天敌保护与释放（捕食螨、瓢虫、赤眼蜂等）、生物农药。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "biological"
+    },
+    {
+      "id": "control_biological_2",
+      "category_id": "control",
+      "title": "生物防治要点",
+      "summary": "生物防治要点要点简述。",
+      "content": "【要点】\n天敌保护与释放（捕食螨、瓢虫、赤眼蜂等）、生物农药。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "biological"
+    },
+    {
+      "id": "control_chemical_1",
+      "category_id": "control",
+      "title": "化学防治",
+      "summary": "化学防治要点简述。",
+      "content": "【要点】\n对症选药、适期、轮换、安全间隔；常见药剂按标签使用。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "chemical"
+    },
+    {
+      "id": "control_chemical_2",
+      "category_id": "control",
+      "title": "化学防治要点",
+      "summary": "化学防治要点要点简述。",
+      "content": "【要点】\n对症选药、适期、轮换、安全间隔；常见药剂按标签使用。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": "chemical"
+    }
+  ],
+  "domain": "control",
+  "locale": "zh",
+  "policy": "text_search",
+  "source": "agronomy templates"
+}

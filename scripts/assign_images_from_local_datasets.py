@@ -22,6 +22,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import db
+import paths
 from knowledge_image_match import (
     IMAGE_EXTS,
     item_label_slug,
@@ -29,12 +30,12 @@ from knowledge_image_match import (
     matching_classes,
 )
 
-DATA_DIR = PROJECT_ROOT / "data"
-IMAGES_DIR = DATA_DIR / "images"
-ITEMS_PATH = DATA_DIR / "knowledge_items.json"
-ITEMS_EN_PATH = DATA_DIR / "knowledge_items_en.json"
+DATA_DIR = paths.DATA_DIR
+IMAGES_DIR = paths.images_dir()
+ITEMS_PATH = paths.items_json("disease_pest", "zh")
+ITEMS_EN_PATH = paths.items_json("disease_pest", "en")
 REGISTRY_PATH = Path("/home/yuhanlin/APP/AFSA/data/disease_classification/manifest/registry.json")
-INDEX_CACHE = DATA_DIR / "local_image_index.json"
+INDEX_CACHE = paths.image_index_path()
 
 MIN_SIDE = 512
 MAX_CANDIDATES_PER_DS = 500

@@ -1,0 +1,249 @@
+{
+  "count": 24,
+  "items": [
+    {
+      "id": "general_fertilizer",
+      "category_id": "general",
+      "title": "施肥管理",
+      "summary": "秋施基肥（9—10月）、追肥与叶面肥、水肥结合。",
+      "content": "【要点】秋施基肥以有机肥为主；追肥按物候；叶面肥作补充；水肥结合。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_pruning",
+      "category_id": "general",
+      "title": "修剪管理",
+      "summary": "冬剪与夏剪、拉枝开角、两调一控。",
+      "content": "【要点】冬剪调结构，夏剪调光照与结果；拉枝开角；两调一控。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_irrigation",
+      "category_id": "general",
+      "title": "灌溉管理",
+      "summary": "该浇则浇、该控则控，膨大期细水勤灌、封冻水。",
+      "content": "【要点】关键需水期补水；花芽分化期控水；封冻水。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_orchard_core",
+      "category_id": "general",
+      "title": "果园管理核心要点",
+      "summary": "当年叶片下年肥、无光不结果、叶靠根长根靠叶养。",
+      "content": "【要点】保护叶片、合理负载、光照与根系管理。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_rotation",
+      "category_id": "general",
+      "title": "轮作",
+      "summary": "减轻连作障碍与土传病害。",
+      "content": "【要点】与非同科作物轮作，配合土壤消毒。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_seedling",
+      "category_id": "general",
+      "title": "育苗管理",
+      "summary": "苗床消毒、温光水肥、炼苗。",
+      "content": "【要点】基质与苗床消毒；温光水肥适宜；定植前炼苗。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_greenhouse",
+      "category_id": "general",
+      "title": "温室与大棚管理",
+      "summary": "温湿度、通风、光照、病虫害预防。",
+      "content": "【要点】控温控湿、通风降湿、补光、预防病害。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_soil",
+      "category_id": "general",
+      "title": "土壤管理",
+      "summary": "深翻、有机肥、生草、覆盖。",
+      "content": "【要点】深翻改土、增施有机肥、生草或覆盖。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_variety",
+      "category_id": "general",
+      "title": "品种与抗性",
+      "summary": "选用抗病抗虫品种。",
+      "content": "【要点】根据当地病虫害选用登记抗性品种。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_safety",
+      "category_id": "general",
+      "title": "农药安全使用",
+      "summary": "对症、适期、轮换、安全间隔。",
+      "content": "【要点】按标签使用，注意安全间隔期与防护。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_weeding",
+      "category_id": "general",
+      "title": "杂草防除",
+      "summary": "人工、机械、覆盖、化学除草。",
+      "content": "【要点】适期除草；化学除草注意作物与后茬安全。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_frost",
+      "category_id": "general",
+      "title": "防冻与抗寒",
+      "summary": "培土、灌水、覆盖、熏烟、药剂。",
+      "content": "【要点】越冬前培土灌水；寒潮前覆盖或熏烟。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_harvest",
+      "category_id": "general",
+      "title": "采收与贮运",
+      "summary": "适期采收、分级、预冷、贮藏条件。",
+      "content": "【要点】根据用途适期采收；注意贮运温湿度。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_green_control",
+      "category_id": "general",
+      "title": "绿色防控",
+      "summary": "优先农业物理生物，化学为辅。",
+      "content": "【要点】减少化学农药，综合运用非化学手段。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_apple_manage",
+      "category_id": "general",
+      "title": "苹果栽培要点",
+      "summary": "肥水、修剪、疏果、套袋。",
+      "content": "【要点】秋施基肥、冬夏剪、疏果定果、套袋与摘袋。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_rice_manage",
+      "category_id": "general",
+      "title": "水稻栽培要点",
+      "summary": "育秧、移栽、水肥、病虫害。",
+      "content": "【要点】培育壮秧、合理密植、水层与施肥、防病防虫。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_wheat_manage",
+      "category_id": "general",
+      "title": "小麦栽培要点",
+      "summary": "播种、冬春管理、肥水、一喷三防。",
+      "content": "【要点】适期播种、冬春促控、一喷三防。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_tomato_manage",
+      "category_id": "general",
+      "title": "番茄栽培要点",
+      "summary": "育苗、定植、整枝、肥水。",
+      "content": "【要点】育苗与炼苗、定植密度、单干整枝、肥水。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_cucumber_manage",
+      "category_id": "general",
+      "title": "黄瓜栽培要点",
+      "summary": "育苗、吊蔓、肥水、采收。",
+      "content": "【要点】育苗、吊蔓、肥水勤施、及时采收。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_grape_manage",
+      "category_id": "general",
+      "title": "葡萄栽培要点",
+      "summary": "架式、修剪、肥水、套袋。",
+      "content": "【要点】架式与整形、冬夏剪、秋施基肥、套袋。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_citrus_manage",
+      "category_id": "general",
+      "title": "柑橘栽培要点",
+      "summary": "肥水、修剪、保果、病虫害。",
+      "content": "【要点】梢肥与果肥、修剪、保果、溃疡与螨类防治。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_peanut_manage",
+      "category_id": "general",
+      "title": "花生栽培要点",
+      "summary": "播种、清棵、肥水、防叶斑。",
+      "content": "【要点】适期播种、清棵蹲苗、肥水、叶斑病防治。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_cotton_manage",
+      "category_id": "general",
+      "title": "棉花栽培要点",
+      "summary": "播种、化控、肥水、打顶。",
+      "content": "【要点】适期播种、化控、肥水、打顶与整枝。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    },
+    {
+      "id": "general_soybean_manage",
+      "category_id": "general",
+      "title": "大豆栽培要点",
+      "summary": "播种、肥水、除草、病虫害。",
+      "content": "【要点】适期播种、根瘤与肥水、除草、病虫害。",
+      "fruit_type": null,
+      "disease_type": null,
+      "control_type": null
+    }
+  ],
+  "domain": "general",
+  "locale": "zh",
+  "policy": "text_search",
+  "source": "agronomy templates"
+}

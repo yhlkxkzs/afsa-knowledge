@@ -12,8 +12,9 @@ from flask import Flask, jsonify, request, send_from_directory
 import db
 from api_handlers import handle_feed, handle_reads_get, handle_reads_import, handle_reads_post
 from locale_util import resolve_locale
+import paths
 
-IMAGES_DIR = Path(db.DATA_DIR) / "images"
+IMAGES_DIR = paths.images_dir()
 
 DEFAULT_FIRST_PAGE_SIZE = 10
 DEFAULT_LOAD_MORE_SIZE = 10
@@ -35,7 +36,8 @@ def create_knowledge_app():
             return "", 204
         try:
             locale = resolve_locale(request)
-            data = db.get_filters_from_db(locale=locale)
+            domain = request.args.get("domain")
+            data = db.get_filters_from_db(locale=locale, domain=domain)
             return jsonify(data)
         except Exception as e:
             return jsonify({"error": str(e)}), 500
