@@ -24,7 +24,11 @@ def tokenize(s: str) -> set[str]:
 
 def is_healthy_label(slug: str) -> bool:
     s = slug.lower()
-    return s in {"healthy", "health"} or s.endswith("_healthy") or s.startswith("healthy_")
+    if s in {"healthy", "health", "normal"}:
+        return True
+    if "healthy" in s or "normal_leaf" in s or s.endswith("_normal") or "_normal_" in s:
+        return True
+    return s.endswith("_healthy") or s.startswith("healthy_")
 
 
 def item_label_slug(item: dict) -> str | None:

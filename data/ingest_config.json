@@ -1,12 +1,19 @@
 {
-  "min_types_per_day": 10,
-  "min_images_per_type": 5,
-  "max_images_per_type": 10,
-  "recency_penalty_days": 2,
+  "bootstrap_types": 20,
+  "bootstrap_completed": true,
+  "update_interval_days": 2,
+  "min_types_per_run": 7,
+  "max_types_per_run": 9,
+  "min_images_per_type": 7,
+  "max_images_per_type": 9,
+  "recency_penalty_days": 4,
   "recency_weight": 0.12,
   "recent_week_weight": 0.45,
   "fresh_weight": 1.0,
-  "disease_pest_ratio": [0.7, 0.3],
+  "disease_pest_ratio": [
+    0.75,
+    0.25
+  ],
   "local_registry_env": "AFSA_REGISTRY_PATH",
   "default_registry_path": "/home/yuhanlin/APP/AFSA/data/disease_classification/manifest/registry.json"
 }

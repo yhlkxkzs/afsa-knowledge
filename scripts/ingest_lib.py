@@ -61,7 +61,11 @@ def is_pest_label(slug: str) -> bool:
 
 def is_healthy_label(slug: str) -> bool:
     s = slug.lower()
-    return s in {"healthy", "health"} or s.endswith("_healthy") or s.startswith("healthy_")
+    if s in {"healthy", "health", "normal"}:
+        return True
+    if "healthy" in s or "normal_leaf" in s or s.endswith("_normal") or "_normal_" in s:
+        return True
+    return s.endswith("_healthy") or s.startswith("healthy_")
 
 
 def registry_path() -> Path:
@@ -126,6 +130,79 @@ def load_history() -> dict:
     return h
 
 
+def bootstrap_completed(history: dict, cfg: dict) -> bool:
+    if history.get("bootstrap_completed"):
+        return True
+    return bool(cfg.get("bootstrap_completed"))
+
+
+def days_since_last_run(history: dict) -> int | None:
+    raw = history.get("last_run_at")
+    if not raw:
+        return None
+    try:
+        last = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+        if last.tzinfo is None:
+            last = last.replace(tzinfo=timezone.utc)
+        now = datetime.now(timezone.utc)
+        return (now - last).days
+    except ValueError:
+        return None
+
+
+def resolve_run_plan(cfg: dict, history: dict, *, force_bootstrap: bool = False) -> dict:
+    bootstrap = force_bootstrap or not bootstrap_completed(history, cfg)
+    if bootstrap:
+        type_target = int(cfg.get("bootstrap_types", 20))
+    else:
+        lo = int(cfg.get("min_types_per_run", 7))
+        hi = int(cfg.get("max_types_per_run", 9))
+        type_target = random.randint(lo, hi)
+    min_img = int(cfg.get("min_images_per_type", 7))
+    max_img = int(cfg.get("max_images_per_type", 9))
+    return {
+        "bootstrap": bootstrap,
+        "type_target": type_target,
+        "min_images": min_img,
+        "max_images": max_img,
+    }
+
+
+def should_skip_interval(history: dict, cfg: dict) -> bool:
+    if not bootstrap_completed(history, cfg):
+        return False
+    interval = int(cfg.get("update_interval_days", 2))
+    elapsed = days_since_last_run(history)
+    if elapsed is None:
+        return False
+    return elapsed < interval
+
+
+def existing_ingest_type_keys() -> set[str]:
+    keys: set[str] = set()
+    for path in (ITEMS_ZH,):
+        payload = load_json(path)
+        for item in payload.get("items") or []:
+            if item.get("ingest_type_key"):
+                keys.add(str(item["ingest_type_key"]))
+            item_id = item.get("id") or ""
+            parts = item_id.split("_")
+            if len(parts) >= 3 and parts[0] in {"disease", "pest"}:
+                keys.add(f"{parts[0]}:{parts[1]}:{'_'.join(parts[2:])}")
+    history = load_history()
+    for row in history.get("days") or []:
+        keys.update(row.get("type_keys") or [])
+    return keys
+
+
+def mark_bootstrap_done(cfg: dict, history: dict) -> None:
+    cfg["bootstrap_completed"] = True
+    save_json(CONFIG_PATH, cfg)
+    history["bootstrap_completed"] = True
+    history["bootstrap_completed_at"] = datetime.now(timezone.utc).isoformat()
+    save_json(HISTORY_PATH, history)
+
+
 def recent_type_keys(history: dict, days: int = 2) -> set[str]:
     """Types covered in the last N calendar days (inclusive)."""
     today = date.today()
@@ -172,7 +249,7 @@ def select_daily_types(
     count: int | None = None,
     exclude: set[str] | None = None,
 ) -> list[TypeCandidate]:
-    min_n = count if count is not None else int(cfg.get("min_types_per_day", 10))
+    min_n = count if count is not None else int(cfg.get("min_types_per_run", cfg.get("min_types_per_day", 7)))
     exclude = exclude or set()
     pool = [c for c in candidates if c.type_key not in exclude]
     if not pool:
@@ -262,29 +339,39 @@ def collect_images_for_type(
     *,
     min_n: int,
     max_n: int,
+    used_sources: set[str] | None = None,
 ) -> list[Path]:
+    """Strict fruit+label images from dataset class folders (same rules as App)."""
+    import sys
+
+    scripts_dir = Path(__file__).resolve().parent
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    from knowledge_image_match import iter_candidate_images, matching_classes
+
+    used = used_sources or set()
+    catalog = load_catalog()
+    ds = next((d for d in (catalog.get("local_datasets") or []) if d.get("dataset_id") == cand.dataset_id), None)
+    if not ds:
+        return []
+
+    item = {
+        "fruit_type": cand.fruit_type,
+        "disease_type": cand.label_slug,
+        "category_id": cand.category_id,
+        "id": stable_item_id(cand),
+    }
+    class_slugs = matching_classes(item, ds)
+    if not class_slugs:
+        return []
+
     tier_bonus = 120.0 if cand.scheme_12 else (60.0 if cand.tier == "l3_fine" else 0.0)
-    scored: list[tuple[float, Path]] = []
-
     index = load_image_index()
-    indexed = [Path(p) for p in index.get(cand.dataset_id or "", []) if Path(p).is_file()]
-    dataset_root = Path(cand.dataset_path or "")
-    if indexed:
-        for p in indexed:
-            if not path_matches_label(p, cand.label_slug, dataset_root if dataset_root.is_dir() else None):
-                continue
-            sc = image_quality_score(p, tier_bonus)
-            if sc > 0:
-                scored.append((sc, p))
-            if len(scored) >= max_n * 12:
-                break
-
-    root = Path(cand.dataset_path or "")
-    if root.is_dir() and len(scored) < min_n:
-        for p in root.rglob("*"):
-            if p.suffix.lower() not in IMAGE_EXTS or not p.is_file():
-                continue
-            if not path_matches_label(p, cand.label_slug, root):
+    scored: list[tuple[float, Path]] = []
+    for class_slug in class_slugs:
+        for p in iter_candidate_images(ds, [class_slug], index):
+            src_key = str(p.resolve())
+            if src_key in used:
                 continue
             sc = image_quality_score(p, tier_bonus)
             if sc > 0:
@@ -367,11 +454,13 @@ def build_bilingual_content(cand: TypeCandidate) -> tuple[str, str, str, str, st
     return title_zh, title_en, summary_zh, summary_en, content_zh, content_en
 
 
-def copy_gallery_images(item_id: str, sources: list[Path]) -> list[str]:
+def copy_gallery_images(item_id: str, sources: list[Path]) -> tuple[list[str], str | None]:
+    """Copy gallery images; also write cover as {item_id}.jpg for App."""
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
     urls: list[str] = []
-    for i, src in enumerate(sources):
-        out = IMAGES_DIR / f"{item_id}_{i+1}.jpg"
+    cover_url: str | None = None
+
+    def _save(src: Path, out: Path) -> bool:
         try:
             from PIL import Image
 
@@ -383,10 +472,19 @@ def copy_gallery_images(item_id: str, sources: list[Path]) -> list[str]:
                 r = 900 / min(w, h)
                 img = img.resize((int(w * r), int(h * r)), Image.Resampling.LANCZOS)
             img.save(out, "JPEG", quality=90, optimize=True)
-            urls.append(f"/knowledge/images/{out.name}")
+            return True
         except Exception:
-            continue
-    return urls
+            return False
+
+    for i, src in enumerate(sources):
+        out = IMAGES_DIR / (f"{item_id}.jpg" if i == 0 else f"{item_id}_{i + 1}.jpg")
+        if _save(src, out):
+            url = f"/knowledge/images/{out.name}"
+            urls.append(url)
+            if i == 0:
+                cover_url = url
+
+    return urls, cover_url
 
 
 def upsert_knowledge_items(
@@ -432,4 +530,6 @@ def append_history(type_keys: list[str], meta: dict) -> None:
     days.append({"date": today, "type_keys": type_keys, **meta})
     history["days"] = days[-90:]
     history["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    if meta.get("bootstrap"):
+        history["bootstrap_completed"] = True
     save_json(HISTORY_PATH, history)

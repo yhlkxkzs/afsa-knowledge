@@ -1,10 +1,19 @@
-name: Daily knowledge ingest
+name: Knowledge ingest (bootstrap + bi-daily)
 
 on:
   schedule:
-    # UTC 02:00 ≈ 北京时间 10:00
-    - cron: "0 2 * * *"
+    # UTC 02:00 every 2 days ≈ 北京时间 10:00 隔日
+    - cron: "0 2 */2 * *"
   workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: "Force bootstrap (20 types)"
+        type: boolean
+        default: false
+      force:
+        description: "Ignore 2-day interval"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -12,8 +21,8 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
-  # 若需从本地 disease_recognition 目录取图，改为：
+    timeout-minutes: 180
+  # 完整取图需自建 Runner：
   # runs-on: [self-hosted, afsa-data]
     steps:
       - uses: actions/checkout@v4
@@ -35,19 +44,23 @@ jobs:
         env:
           AFSA_REGISTRY_PATH: ${{ vars.AFSA_REGISTRY_PATH }}
 
-      - name: Daily ingest (types + images + bilingual text)
-        run: python3 scripts/daily_ingest.py
+      - name: Ingest (bootstrap or bi-daily update)
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.bootstrap }}" = "true" ]; then ARGS="$ARGS --bootstrap"; fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          python3 scripts/daily_ingest.py $ARGS
         env:
           AFSA_REGISTRY_PATH: ${{ vars.AFSA_REGISTRY_PATH }}
 
-      - name: Commit daily batch
+      - name: Commit batch
         run: |
           git config user.name "afsa-knowledge-bot"
           git config user.email "afsa-knowledge-bot@users.noreply.github.com"
-          git add data/knowledge_items.json data/knowledge_items_en.json data/ingest_history.json data/images/ data/knowledge.db 2>/dev/null || true
+          git add data/knowledge_items.json data/knowledge_items_en.json data/ingest_history.json data/ingest_config.json data/images/ data/knowledge.db 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Daily ingest: disease/pest types with gallery and bilingual content"
+          git commit -m "Knowledge ingest: bootstrap or bi-daily disease/pest batch"
           git push
