@@ -66,15 +66,11 @@ def main():
     if not mapping_path.exists():
         by_title = {}
         search_en = {}
-        default_by_category = {}
     else:
         with open(mapping_path, "r", encoding="utf-8") as f:
             m = json.load(f)
         by_title = m.get("by_title", {})
         search_en = m.get("search_en", {})
-        default_by_category = m.get("default_by_category", {})
-
-    default_fallback = default_by_category.get("general") or "https://upload.wikimedia.org/wikipedia/commons/9/90/Single_apple.jpg"
 
     updated = 0
     for item in items:
@@ -87,9 +83,7 @@ def main():
             url = fetch_commons_image_url(search_term)
             if url:
                 time.sleep(0.35)
-        if not url:
-            category_id = item.get("category_id", "general")
-            url = default_by_category.get(category_id) or default_fallback
+        # Do not apply generic category/fruit defaults — avoids wrong shared images.
         if url:
             item["image_url"] = url
             updated += 1

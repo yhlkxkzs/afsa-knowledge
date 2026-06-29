@@ -66,7 +66,7 @@ def main():
     import argparse
     p = argparse.ArgumentParser(description="下载知识库图片到本地并缩图")
     p.add_argument("--delay", type=float, default=1.2, help="每次请求间隔秒数，避免 429（默认 1.2）")
-    p.add_argument("--force-replace", action="store_true", help="已存在本地图时也按 fruit_type 重新下载（换成分作物默认图）")
+    p.add_argument("--force-replace", action="store_true", help="Re-download http(s) URLs even if local file exists (never replaces with generic defaults)")
     args = p.parse_args()
     delay = max(0.5, args.delay)
 
@@ -77,8 +77,7 @@ def main():
     with open(ITEMS_PATH, "r", encoding="utf-8") as f:
         payload = json.load(f)
     items = payload.get("items", [])
-    default_by_category, default_by_fruit_type = get_default_mappings()
-    default_fallback = default_by_category.get("general") or default_by_fruit_type.get("general") or "https://upload.wikimedia.org/wikipedia/commons/9/90/Single_apple.jpg"
+    default_by_category, _default_by_fruit_type = get_default_mappings()
 
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
     updated = 0
@@ -89,14 +88,12 @@ def main():
         url = (item.get("image_url") or "").strip()
         fruit_type = item.get("fruit_type") or "general"
         category_id = item.get("category_id", "general")
-        # 已经是本地路径：不强制替换则跳过；强制替换则用按作物默认图重新下
+        # Local images are authoritative; never overwrite with generic defaults.
         if url.startswith("/knowledge/images/"):
-            if not args.force_replace:
-                continue
-            url = default_by_fruit_type.get(fruit_type) or default_by_category.get(category_id) or default_fallback
-        # 非图片链接（如 pdf/djvu）优先按作物类型选默认图，再按分类
+            continue
+        # Non-image http links: skip rather than substitute a shared default image.
         elif not url or not IMAGE_EXT_RE.search(url.split("?")[0]):
-            url = default_by_fruit_type.get(fruit_type) or default_by_category.get(category_id) or default_fallback
+            continue
         out_path = IMAGES_DIR / f"{item_id}.jpg"
         if download_image(url, out_path):
             item["image_url"] = f"/knowledge/images/{item_id}.jpg"

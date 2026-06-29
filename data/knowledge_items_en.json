@@ -14,7 +14,20 @@
       "control_type": "chemical",
       "fruit_types": [
         "Apple"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_apple_anthracnose_1.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "anthracnose",
+        "matched_classes": [
+          "grape_anthracnose_leaf",
+          "walnut_anthracnose_leaf_disease"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apricot_normal/images/d61bcf49-efdd-48a0-b36a-6e464d07718c___146.jpeg",
+        "tier": "l2_l3_weak",
+        "score": 3262.2,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_brown_spot_2",
@@ -27,7 +40,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Apple"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_apple_brown_spot_2.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "brown_spot",
+        "matched_class": "apple_brown_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/cherry_brown_spot/images/9eb4bc4a-b794-4ba4-be3c-38ce70c1c264___219.jpg",
+        "tier": "l2_l3_weak",
+        "score": 2138.19,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_scab_3",
@@ -40,7 +63,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Apple"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_apple_scab_3.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "label_slug": "scab",
+        "matched_class": "apple_scab_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/apple_rust_leaf/images/11e99bac-ca05-4572-998a-302a9f43bffc___20130802_111632_jpg.rf.b79afb18c9cae813b66e8fe63583ccf3.jpg",
+        "tier": "l3_fine",
+        "score": 2427.7,
+        "source": "local"
+      }
     },
     {
       "id": "disease_apple_powdery_mildew_4",
@@ -53,7 +86,19 @@
       "control_type": "chemical",
       "fruit_types": [
         "Apple"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_apple_powdery_mildew_4.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco__Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "label_slug": "powdery_mildew",
+        "matched_classes": [
+          "squash_powdery_mildew_leaf"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco__Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/tomato_septoria_leaf_spot/images/e3346b1a-c520-47c5-99e2-90e6c96f2db5___RARZ4_jpg.rf.98599a50c3bec960727365c25ef4c4b3.jpg",
+        "tier": "l3_fine",
+        "score": 2750.75,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_scab_5",
@@ -66,7 +111,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Pear"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_pear_scab_5.jpg",
+      "image_source": {
+        "dataset_id": "pear_pests_and_diseases.v1-pear_dataset.coco",
+        "label_slug": "scab",
+        "matched_class": "scab",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/pear_pests_and_diseases.v1-pear_dataset.coco/pear_pests_and_diseases/scab/images/be5575d8-2974-4527-9aed-3353610399ee___1623_jpg.rf.f1130d3b2231160f7fdfed83a24ef5c9.jpg",
+        "tier": "l3_fine",
+        "score": 1330.86,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_leaf_spot_6",
@@ -79,7 +134,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Pear"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_pear_leaf_spot_6.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "leaf_spot",
+        "matched_class": "pear_black_spot_leaf_disease",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apricot_normal/images/d61bcf49-efdd-48a0-b36a-6e464d07718c___146.jpeg",
+        "tier": "l2_l3_weak",
+        "score": 3262.2,
+        "source": "local"
+      }
     },
     {
       "id": "disease_pear_rust_7",
@@ -92,7 +157,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Pear"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_pear_rust_7.jpg",
+      "image_source": {
+        "dataset_id": "pear_pests_and_diseases.v1-pear_dataset.coco",
+        "label_slug": "rust",
+        "matched_class": "rust",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/pear_pests_and_diseases.v1-pear_dataset.coco/pear_pests_and_diseases/rust/images/fc6c3ec4-e7e5-4173-b63d-53ae4ffa82f4___1517_jpg.rf.7ea4f7d38ad0784bfb6372d2ea06ae76.jpg",
+        "tier": "l3_fine",
+        "score": 1047.21,
+        "source": "local"
+      }
     },
     {
       "id": "disease_peach_brown_rot_8",
@@ -131,7 +206,19 @@
       "control_type": "chemical",
       "fruit_types": [
         "Peach"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_peach_bacterial_spot_10.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "label_slug": "bacterial_spot",
+        "matched_classes": [
+          "tomato_leaf_bacterial_spot"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/soyabean_leaf/images/aeead29a-9a58-4e09-97ea-1b9f9f40c428___Soybean-20edamame-20leaf1-JPG_jpg.rf.84743adf9dd31bd6495f385c5028523f.jpg",
+        "tier": "l3_fine",
+        "score": 2507.05,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_downy_mildew_11",
@@ -144,7 +231,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Grape"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_grape_downy_mildew_11.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "downy_mildew",
+        "matched_class": "grape_downy_mildew_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/fdb5cae6-49bf-45aa-a074-6f78891283a7___171.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1639.0,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_powdery_mildew_12",
@@ -157,7 +254,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Grape"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_grape_powdery_mildew_12.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "powdery_mildew",
+        "matched_class": "grape_powdery_mildew_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/66d1ac18-e555-4908-b813-9aef8216f2de___1448.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1603.84,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_gray_mold_13",
@@ -183,7 +290,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Grape"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_grape_black_rot_14.jpg",
+      "image_source": {
+        "dataset_id": "joseph-nelson__plantdoc",
+        "label_slug": "black_rot",
+        "matched_class": "grape_leaf_black_rot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/joseph-nelson__plantdoc/joseph_nelson__plantdoc__plantdocs/grape_leaf/images/686d7ada-69f7-4cbb-afa2-fa490c8f74a0___img_20160701_155626898_hdr_jpg.rf.2a0936fa985d2c8b60813e697cea62c8.jpg",
+        "tier": "l3_fine",
+        "score": 1862.07,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_anthracnose_15",
@@ -196,7 +313,20 @@
       "control_type": "chemical",
       "fruit_types": [
         "Citrus"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_citrus_anthracnose_15.jpg",
+      "image_source": {
+        "dataset_id": "FRUITS_DISEASE_DETECTION.v3i.coco",
+        "label_slug": "anthracnose",
+        "matched_classes": [
+          "mango_anthracnose",
+          "pomegranate_anthracnose"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/FRUITS_DISEASE_DETECTION.v3i.coco/fruits_diseases/pomegranate_healthy/images/89e34897-e589-405a-a4d1-f3507945d23a___IMG_20230910_113209_jpg.rf.375cbe805f074acddd29cd33a398e4a3.jpg",
+        "tier": "l3_fine",
+        "score": 1279.2,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_citrus_scab_16",
@@ -222,7 +352,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Citrus"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_citrus_canker_17.jpg",
+      "image_source": {
+        "dataset_id": "cirtus_leaves",
+        "label_slug": "canker",
+        "matched_class": "canker",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/cirtus_leaves/cirtus_leaves/canker/images/6b70e3fc-db2e-4ca9-9ae2-94242a171726___LINE_ALBUM_241265_230705_71_jpg.rf.fdb0a90bf4a2d3b2eba6c8123fcfa742.jpg",
+        "tier": "l3_fine",
+        "score": 1943.02,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_greening_18",
@@ -235,7 +375,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Citrus"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_citrus_greening_18.jpg",
+      "image_source": {
+        "dataset_id": "citrus-research__citrus-disease-detection-v2",
+        "label_slug": "greening",
+        "matched_class": "greening",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/citrus-research__citrus-disease-detection-v2/citrus_research__citrus_disease_detection_v2s/greening/images/b602f1bc-6fb8-43e8-a1d2-58e49b85f7d4___IMG_0202_jpg.rf.75eb34b3367a9214a9f4335252d83490.jpg",
+        "tier": "l3_fine",
+        "score": 2647.67,
+        "source": "local"
+      }
     },
     {
       "id": "disease_mango_anthracnose_19",
@@ -248,7 +398,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Mango"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_mango_anthracnose_19.jpg",
+      "image_source": {
+        "dataset_id": "mangodisease",
+        "label_slug": "anthracnose",
+        "matched_class": "anthracnose",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mangodisease/data/origin/Mangoes-disease.v3i.coco/test/anthracnose_129_jpg.rf.2bf170f517428b50d1aeae4625a6f692.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1181.83,
+        "source": "local"
+      }
     },
     {
       "id": "disease_mango_bacterial_spot_20",
@@ -274,7 +434,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Strawberry"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_strawberry_gray_mold_21.jpg",
+      "image_source": {
+        "dataset_id": "research-proj__strawberry-diseases-detection",
+        "label_slug": "gray_mold",
+        "matched_class": "gray_mold",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection/research_proj__strawberry_diseases_detections/gray_mold/images/07fc3593-512e-4930-b4f0-dde7beb485e1___gray_mold114_jpg.rf.a579561acc63af406315651273c3f14c.jpg",
+        "tier": "l3_fine",
+        "score": 1362.76,
+        "source": "local"
+      }
     },
     {
       "id": "disease_strawberry_powdery_mildew_22",
@@ -287,7 +457,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Strawberry"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_strawberry_powdery_mildew_22.jpg",
+      "image_source": {
+        "dataset_id": "research-proj__strawberry-diseases-detection",
+        "label_slug": "powdery_mildew",
+        "matched_class": "powdery_mildew_fruit",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection/research_proj__strawberry_diseases_detections/anthracnose_fruit_rot/images/0e878308-7144-4adc-8128-fc57f4a0f706___anthracnose_fruit_rot75_jpg.rf.4e57b65ae8631c28ce3663a803ace09f.jpg",
+        "tier": "l3_fine",
+        "score": 1392.93,
+        "source": "local"
+      }
     },
     {
       "id": "disease_strawberry_leaf_spot_23",
@@ -300,7 +480,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Strawberry"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_strawberry_leaf_spot_23.jpg",
+      "image_source": {
+        "dataset_id": "research-proj__strawberry-diseases-detection",
+        "label_slug": "leaf_spot",
+        "matched_class": "leaf_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/research-proj__strawberry-diseases-detection/research_proj__strawberry_diseases_detections/angular_leafspot/images/1961e0eb-9840-47ab-a2f4-17d7857a154c___002_easy_973634440002077f_jpg.rf.2cc99e99a1add8a556e1af006a133b1e.jpg",
+        "tier": "l3_fine",
+        "score": 1889.4,
+        "source": "local"
+      }
     },
     {
       "id": "disease_watermelon_fusarium_wilt_24",
@@ -326,7 +516,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Watermelon"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_watermelon_anthracnose_25.jpg",
+      "image_source": {
+        "dataset_id": "reinhard-cuqas__watermelon-diseases-2-soylo",
+        "label_slug": "anthracnose",
+        "matched_class": "anthracnose",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/reinhard-cuqas__watermelon-diseases-2-soylo/reinhard_cuqas__watermelon_diseases_2_soylos/anthracnose/images/a7f4ddc5-8ed5-4963-8030-f70910312c16___IMG_4113_flip_jpg.rf.694795756fe81554c9455a1516d255e9.jpg",
+        "tier": "l2_l3_weak",
+        "score": 870.13,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_early_blight_26",
@@ -378,7 +578,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Tomato"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_tomato_bacterial_wilt_29.jpg",
+      "image_source": {
+        "dataset_id": "tomatodisease",
+        "label_slug": "bacterial_wilt",
+        "matched_class": "bacterial_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/tomatodisease/tomatodiseases/bacterial_spot/images/1025abff-d675-4938-9698-8fcf1d95abbd___7_jpg.rf.bce68db7eb1165ead071d13bba96c560.jpg",
+        "tier": "l3_fine",
+        "score": 1708.26,
+        "source": "local"
+      }
     },
     {
       "id": "disease_tomato_leaf_mold_30",
@@ -508,7 +718,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Eggplant"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_eggplant_leaf_spot_39.jpg",
+      "image_source": {
+        "dataset_id": "eggplantleavesdisease",
+        "label_slug": "leaf_spot",
+        "matched_class": "leaf_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/eggplantleavesdisease/eggplantleavesdiseases/leaf_spot/images/4a46e19d-7977-4451-92e0-85241fc207ea___Eggplant_0659_jpg.rf.49a14c4fa177bfb2ec033b515c115638.jpg",
+        "tier": "l3_fine",
+        "score": 2275.31,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_soft_rot_40",
@@ -898,7 +1118,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Grape"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_grape_leaf_spot_69.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "leaf_spot",
+        "matched_class": "grape_brown_spot_leaf",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/tomato_leaf_miner/images/c0ac3e4e-7490-4c29-b7a0-3b633c944ceb___tomato_464.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1356.21,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_root_rot_70",
@@ -989,7 +1219,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Eggplant"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_eggplant_leaf_spot_76.jpg",
+      "image_source": {
+        "dataset_id": "eggplantleavesdisease",
+        "label_slug": "leaf_spot",
+        "matched_class": "leaf_spot",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/eggplantleavesdisease/eggplantleavesdiseases/leaf_spot/images/668153af-8bbf-49d8-9bd6-fa02f9d030b1___Eggplant_0650_jpg.rf.586e0afb410dc6c95a4fb101d4ba7f5b.jpg",
+        "tier": "l3_fine",
+        "score": 2137.81,
+        "source": "local"
+      }
     },
     {
       "id": "disease_cabbage_virus_77",
@@ -1158,7 +1398,22 @@
       "control_type": "chemical",
       "fruit_types": [
         "Peach"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_peach_leaf_spot_89.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco__Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "label_slug": "leaf_spot",
+        "matched_classes": [
+          "bell_pepper_leaf_spot",
+          "corn_gray_leaf_spot",
+          "tomato_leaf_bacterial_spot",
+          "tomato_septoria_leaf_spot"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco__Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/squash_powdery_mildew_leaf/images/a1380a06-69a8-43cd-b793-1f3303866977___squash-leave-w-powd-mild_jpg.rf.575747de1c04efb66180c0a21e65b97c.jpg",
+        "tier": "l3_fine",
+        "score": 2440.75,
+        "source": "local"
+      }
     },
     {
       "id": "disease_grape_virus_90",
@@ -1431,7 +1686,20 @@
       "control_type": "chemical",
       "fruit_types": [
         "Grape"
-      ]
+      ],
+      "image_url": "/knowledge/images/disease_grape_rust_110.jpg",
+      "image_source": {
+        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
+        "label_slug": "rust",
+        "matched_classes": [
+          "apple_rust_leaf",
+          "corn_rust_leaf"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/corn_leaf_blight/images/4133c46a-c11f-4e70-8730-1b11dfc48c25___Corn-SCLB-2017-1_jpg.rf.0133e224871bd7ffe957dd3566ab9715.jpg",
+        "tier": "l3_fine",
+        "score": 2440.26,
+        "source": "local"
+      }
     },
     {
       "id": "disease_citrus_gray_mold_111",
@@ -1587,7 +1855,21 @@
       "control_type": "chemical",
       "fruit_types": [
         "Apple"
-      ]
+      ],
+      "image_url": "/knowledge/images/pest_apple_mite_122.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "mite",
+        "matched_classes": [
+          "grape_mites_leaf_disease",
+          "tomato_spider_mite",
+          "walnut_leaf_gall_mite"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apricot_normal/images/1ac9e9fc-93a9-4597-91eb-0e3775e137a8___121.jpeg",
+        "tier": "l2_l3_weak",
+        "score": 2454.77,
+        "source": "local"
+      }
     },
     {
       "id": "pest_apple_fruit_borer_123",
@@ -1626,7 +1908,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Pear"
-      ]
+      ],
+      "image_url": "/knowledge/images/pest_pear_aphid_125.jpg",
+      "image_source": {
+        "dataset_id": "yanjishun__pear_pests-and-diseases__pear_pests_and_diseases.v1-pear_dataset.coco__pear_pests_and_diseases.v1-pear_dataset.coco",
+        "label_slug": "aphid",
+        "matched_class": "aphid_beetle_gankubing",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/yanjishun__pear_pests-and-diseases__pear_pests_and_diseases.v1-pear_dataset.coco__pear_pests_and_diseases.v1-pear_dataset.coco/yanjishun__pear_pests_and_diseases__pear_pests_and_diseases/beetle/images/5398f087-0d08-4e8b-bab0-24b9c88e02a9___0437_jpg.rf.efb658de1a2bf0413c63e48b7dfe6a28.jpg",
+        "tier": "l3_fine",
+        "score": 1891.44,
+        "source": "local"
+      }
     },
     {
       "id": "pest_pear_mite_126",
@@ -1639,7 +1931,21 @@
       "control_type": "chemical",
       "fruit_types": [
         "Pear"
-      ]
+      ],
+      "image_url": "/knowledge/images/pest_pear_mite_126.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "mite",
+        "matched_classes": [
+          "grape_mites_leaf_disease",
+          "tomato_spider_mite",
+          "walnut_leaf_gall_mite"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/apricot_normal/images/312aaf98-558d-42fb-b3be-26e4c29f3790___163.jpeg",
+        "tier": "l2_l3_weak",
+        "score": 2176.89,
+        "source": "local"
+      }
     },
     {
       "id": "pest_peach_aphid_127",
@@ -1691,7 +1997,17 @@
       "control_type": "chemical",
       "fruit_types": [
         "Grape"
-      ]
+      ],
+      "image_url": "/knowledge/images/pest_grape_mite_130.jpg",
+      "image_source": {
+        "dataset_id": "mendeley__plantcity",
+        "label_slug": "mite",
+        "matched_class": "grape_mites_leaf_disease",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/433e3963-3237-4b0a-8429-aaad329dc529___1352.jpg",
+        "tier": "l2_l3_weak",
+        "score": 1573.59,
+        "source": "local"
+      }
     },
     {
       "id": "pest_grape_leafhopper_131",
@@ -1782,7 +2098,19 @@
       "control_type": "chemical",
       "fruit_types": [
         "Strawberry"
-      ]
+      ],
+      "image_url": "/knowledge/images/pest_strawberry_mite_137.jpg",
+      "image_source": {
+        "dataset_id": "joseph-nelson__plantdoc",
+        "label_slug": "mite",
+        "matched_classes": [
+          "tomato_two_spotted_spider_mites_leaf"
+        ],
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/joseph-nelson__plantdoc/joseph_nelson__plantdoc__plantdocs/squash_powdery_mildew_leaf/images/4ff2d83f-3756-42dd-be6e-253b393e0a75___16459846140_4f0a2762e3_z_jpg.rf.390481bb5bf64ac4eb62b3828cf5063b.jpg",
+        "tier": "l3_fine",
+        "score": 1896.69,
+        "source": "local"
+      }
     },
     {
       "id": "pest_strawberry_aphid_138",
@@ -2546,5 +2874,6 @@
       "disease_type": null,
       "control_type": null
     }
-  ]
+  ],
+  "image_updated_at": "2026-06-29T10:03:08.552152+00:00"
 }

@@ -246,16 +246,15 @@ def load_image_index() -> dict[str, list[str]]:
     return {}
 
 
-def path_matches_label(path: Path, label_slug: str) -> bool:
-    label_tokens = tokenize(label_slug)
-    if not label_tokens:
-        return True
-    path_tokens = tokenize(str(path.parent)) | tokenize(str(path))
-    if label_tokens & path_tokens:
-        return True
-    slug = label_slug.lower().replace("_", "")
-    compact = re.sub(r"[^a-z0-9]+", "", str(path).lower())
-    return slug in compact or label_slug.lower() in str(path).lower()
+def path_matches_label(path: Path, label_slug: str, dataset_root: Path | None = None) -> bool:
+    import sys
+
+    scripts_dir = Path(__file__).resolve().parent
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    from knowledge_image_match import path_matches_label as _match
+
+    return _match(path, label_slug, dataset_root)
 
 
 def collect_images_for_type(
@@ -269,9 +268,10 @@ def collect_images_for_type(
 
     index = load_image_index()
     indexed = [Path(p) for p in index.get(cand.dataset_id or "", []) if Path(p).is_file()]
+    dataset_root = Path(cand.dataset_path or "")
     if indexed:
         for p in indexed:
-            if not path_matches_label(p, cand.label_slug):
+            if not path_matches_label(p, cand.label_slug, dataset_root if dataset_root.is_dir() else None):
                 continue
             sc = image_quality_score(p, tier_bonus)
             if sc > 0:
@@ -284,7 +284,7 @@ def collect_images_for_type(
         for p in root.rglob("*"):
             if p.suffix.lower() not in IMAGE_EXTS or not p.is_file():
                 continue
-            if not path_matches_label(p, cand.label_slug):
+            if not path_matches_label(p, cand.label_slug, root):
                 continue
             sc = image_quality_score(p, tier_bonus)
             if sc > 0:
