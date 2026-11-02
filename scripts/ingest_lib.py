@@ -57,8 +57,15 @@ def normalize_slug(s: str) -> str:
 
 
 def is_pest_label(slug: str) -> bool:
-    s = slug.lower()
-    return any(h in s for h in PEST_HINTS)
+    """Match pest words on tokens. ``pestalotiopsis`` contains the letters pest but is a fungus."""
+    tokens = [t for t in normalize_slug(slug).split("_") if t]
+    fungus = {"pestalotiopsis", "pestalotiopsi"}
+    for token in tokens:
+        if token in fungus:
+            continue
+        if any(hint in token for hint in PEST_HINTS):
+            return True
+    return False
 
 
 def is_healthy_label(slug: str) -> bool:
@@ -401,59 +408,277 @@ def stable_item_id(cand: TypeCandidate) -> str:
     return f"{cand.category_id}_{cand.fruit_type}_{cand.label_slug}"
 
 
-def build_bilingual_content(cand: TypeCandidate) -> tuple[str, str, str, str, str, str]:
-    """Return title_zh, title_en, summary_zh, summary_en, content_zh, content_en."""
+# Tokens that are folder noise, not a disease name. Dropped before translation.
+_NOISE_TOKENS = {
+    "leaf", "leaves", "image", "images", "img", "disease", "diseases",
+    "fruit", "fruits", "damage", "damaged", "symptom", "symptoms",
+    "the", "of", "and", "with", "on", "in", "s", "a",
+}
+# Dataset typos and aliases folded onto a phrase key.
+_SLUG_ALIASES = {
+    "altenaria": "alternaria",
+    "alcium": "calcium",
+    "anthrax": "anthracnose",
+    "pestalotiopsi": "pestalotiopsis",
+    "blackspot": "black_spot",
+    "thrip": "thrips",
+    "mites": "mite",
+}
+_NUTRIENT_ZH = {
+    "potassium": "钾",
+    "calcium": "钙",
+    "nitrogen": "氮",
+    "magnesium": "镁",
+    "iron": "铁",
+    "zinc": "锌",
+    "boron": "硼",
+}
+# Longer keys are tried first. Overrides i18n where the quiz name differs.
+_PHRASE_ZH_EXTRA = {
+    "yellow_sigatoka": "黄条叶斑病",
+    "diplodia_rot": "焦腐病",
+    "algal_leaf_spot": "藻斑病",
+    "sooty_mold": "煤污病",
+    "leaf_blight": "叶枯病",
+    "flea_beetle": "跳甲",
+    "pestalotiopsis": "拟盘多毛孢叶斑病",
+    "black_spot": "黑斑病",
+    "alternaria": "链格孢病",
+    "earworm": "棉铃虫",
+    "insect_pest": "害虫",
+    "spider_mite": "叶螨",
+    "mite": "叶螨",
+    "thrips": "蓟马",
+    "anthracnose": "炭疽病",
+    "powdery_mildew": "白粉病",
+    "downy_mildew": "霜霉病",
+    "gray_mold": "灰霉病",
+    "brown_spot": "褐斑病",
+    "leaf_spot": "叶斑病",
+    "black_rot": "黑腐病",
+    "bacterial_wilt": "青枯病",
+    "brown_rot": "褐腐病",
+    "root_rot": "根腐病",
+    "soft_rot": "软腐病",
+    "fruit_rot": "果腐病",
+    "rot": "腐烂病",
+    "scab": "黑星病",
+    "rust": "锈病",
+    "canker": "溃疡病",
+    "greening": "黄龙病",
+    "aphid": "蚜虫",
+    "beetle": "甲虫",
+}
+
+
+def _phrase_zh_table() -> dict[str, str]:
     import i18n
 
-    fruit_zh = i18n.fruit_label(cand.fruit_type, "zh")
-    fruit_en = i18n.fruit_label(cand.fruit_type, "en")
-    if cand.category_id == "pest":
-        name_zh = i18n.disease_label(cand.label_slug, "zh") or cand.label_slug.replace("_", " ")
-        name_en = i18n.disease_label(cand.label_slug, "en") or cand.label_slug.replace("_", " ").title()
-        title_zh = f"{fruit_zh}{name_zh}" if fruit_zh != "通用" else name_zh
-        title_en = f"{fruit_en} {name_en}".strip() if fruit_en != "General" else name_en
-        summary_zh = f"{title_zh}：为害特点、识别要点与综合防治。"
-        summary_en = f"{title_en}: damage symptoms, identification, and integrated control."
-        content_zh = (
-            f"【为害特点】\n{title_zh}可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n"
-            f"【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「{cand.label_slug}」。\n\n"
-            f"【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
-        )
-        content_en = (
-            f"[Damage]\n{title_en} may feed on shoots, leaves, or fruit, causing curling, spotting, bore holes, or virus transmission.\n\n"
-            f"[Identification]\nIdentify by damage patterns, life stage, and timing; images align with dataset label `{cand.label_slug}`.\n\n"
-            f"[Management]\nCombine sanitation, monitoring, biological control, and targeted pesticides with rotation."
-        )
-    else:
-        name_zh = cand.label_slug.replace("_", " ")
-        # try i18n disease parts
-        parts = cand.label_slug.split("_")
-        zh_bits: list[str] = []
-        for p in parts:
-            if p in i18n.FRUIT_LABELS:
-                zh_bits.append(i18n.fruit_label(p, "zh"))
-            else:
-                d = i18n.disease_label(p, "zh")
-                if d and d != p:
-                    zh_bits.append(d)
-        if zh_bits:
-            name_zh = "".join(zh_bits)
-        name_en = cand.label_slug.replace("_", " ").title()
-        title_zh = f"{fruit_zh}{name_zh}" if fruit_zh not in ("通用", fruit_en) else name_zh
-        title_en = f"{fruit_en} {name_en}".strip()
-        summary_zh = f"{title_zh}：症状识别、发生规律与防治要点。"
-        summary_en = f"{title_en}: symptoms, epidemiology, and management."
-        content_zh = (
-            f"【症状识别】\n{title_zh}可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「{cand.label_slug}」。\n\n"
-            f"【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n"
-            f"【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
-        )
-        content_en = (
-            f"[Symptoms]\n{title_en} may cause leaf spots, fruit lesions, mold, or rot; images match label `{cand.label_slug}`.\n\n"
-            f"[Epidemiology]\nFavored by warm, humid conditions and poor airflow; spreads via rain, wind, and tools.\n\n"
-            f"[Management]\nSanitation, cultural practices, resistant varieties when available, and labeled fungicides/pesticides."
-        )
-    return title_zh, title_en, summary_zh, summary_en, content_zh, content_en
+    table = {key: names["zh"] for key, names in i18n.DISEASE_LABELS.items() if names.get("zh")}
+    table.update(_PHRASE_ZH_EXTRA)
+    return table
+
+
+def _fruit_zh(fruit_type: str) -> str:
+    import i18n
+
+    fruit = normalize_slug(fruit_type)
+    zh = i18n.fruit_label(fruit, "zh")
+    if not zh or zh in {"通用", "General"} or re.search(r"[A-Za-z]", zh):
+        return ""
+    return zh
+
+
+def compose_zh_title(fruit_type: str, label_slug: str) -> tuple[str, str]:
+    """Chinese card title and kind: disease, pest, deficiency, or unusable.
+
+    New cards stay out of the quiz until a person checks the cover. This only
+    stops English filenames and nutrient labels from being stored as disease names.
+    """
+    fruit_zh = _fruit_zh(fruit_type)
+    raw_tokens = [t for t in normalize_slug(label_slug).split("_") if t]
+    aliased: list[str] = []
+    for token in raw_tokens:
+        aliased.extend(_SLUG_ALIASES.get(token, token).split("_"))
+    for token in aliased:
+        if token in _NUTRIENT_ZH:
+            name = f"{fruit_zh}缺{_NUTRIENT_ZH[token]}" if fruit_zh else f"缺{_NUTRIENT_ZH[token]}"
+            return name, "deficiency"
+
+    fruit_tokens = {normalize_slug(fruit_type)}
+    if normalize_slug(fruit_type) in {"lychee", "litchi"}:
+        fruit_tokens.update({"lychee", "litchi"})
+    # Keep words like "leaf" until phrase matching, so algal_leaf_spot stays intact.
+    tokens = [t for t in aliased if t not in fruit_tokens]
+    table = _phrase_zh_table()
+    bits: list[str] = []
+    i = 0
+    while i < len(tokens):
+        found_n = 0
+        found_zh = ""
+        for n in range(len(tokens) - i, 0, -1):
+            key = "_".join(tokens[i:i + n])
+            if key in table:
+                found_n = n
+                found_zh = table[key]
+                break
+        if found_n:
+            if found_zh:
+                bits.append(found_zh)
+            i += found_n
+        elif tokens[i] in _NOISE_TOKENS:
+            i += 1
+        else:
+            i += 1
+    if not bits:
+        return "", "unusable"
+    title = f"{fruit_zh}{''.join(bits)}" if fruit_zh else "".join(bits)
+    if fruit_zh and title.startswith(fruit_zh + fruit_zh):
+        title = title[len(fruit_zh):]
+    kind = "pest" if is_pest_label(label_slug) else "disease"
+    return title, kind
+
+
+def compose_en_title(fruit_type: str, label_slug: str) -> str:
+    import i18n
+
+    fruit = i18n.fruit_label(fruit_type, "en")
+    if fruit in {"General", ""}:
+        fruit = ""
+    tokens = []
+    for token in normalize_slug(label_slug).split("_"):
+        token = _SLUG_ALIASES.get(token, token)
+        if token in _NOISE_TOKENS or token == normalize_slug(fruit_type):
+            continue
+        if token in _NUTRIENT_ZH:
+            return f"{fruit} {token} deficiency".strip()
+        tokens.append(token.replace("_", " "))
+    name = " ".join(tokens).strip()
+    return f"{fruit} {name}".strip()
+
+
+def _color_fractions(path: Path) -> dict[str, float]:
+    import numpy as np
+    from PIL import Image
+
+    img = Image.open(path).convert("RGB")
+    img.thumbnail((160, 160))
+    arr = np.asarray(img, dtype=np.int16)
+    r, g, b = arr[:, :, 0], arr[:, :, 1], arr[:, :, 2]
+    total = float(arr.shape[0] * arr.shape[1]) or 1.0
+    dark = (r < 70) & (g < 70) & (b < 70)
+    yellow = (r > 150) & (g > 140) & (b < 110)
+    orange = (r > 160) & (g > 70) & (g < 170) & (b < 90) & (r > g + 20)
+    brown = (r > 90) & (r < 190) & (g > 40) & (g < 140) & (b < 100) & (r > g) & (g >= b)
+    pale = (r > 170) & (g > 170) & (b > 160) & (np.abs(r - g) < 25)
+    green = (g > r + 12) & (g > b + 8) & (g > 60)
+    return {
+        "dark": float(dark.sum()) / total,
+        "yellow": float(yellow.sum()) / total,
+        "orange": float(orange.sum()) / total,
+        "brown": float(brown.sum()) / total,
+        "pale": float(pale.sum()) / total,
+        "green": float(green.sum()) / total,
+    }
+
+
+def symptom_score(path: Path) -> float:
+    """Higher when the frame has spots, scorch, or mold rather than a plain green leaf."""
+    try:
+        f = _color_fractions(path)
+    except Exception:
+        return 0.0
+    return f["dark"] * 3.0 + f["brown"] * 2.0 + f["orange"] * 2.2 + f["yellow"] * 1.4 + f["pale"] * 1.6
+
+
+_CAPTIONS = {
+    "dark": ("叶面或果面有深色病斑。", "Dark spots on the leaf or fruit."),
+    "orange": ("叶面有橙黄色斑点。", "Orange-yellow spots on the leaf."),
+    "yellow": ("叶片有黄化或黄色条斑。", "Yellowing or yellow streaks on the leaf."),
+    "brown": ("叶缘或叶面有褐色枯斑。", "Brown scorch on the leaf edge or blade."),
+    "pale": ("表面有浅色霉层或粉状物。", "Pale mold or powder on the surface."),
+    "green": ("叶片大体青绿，病斑不明显。", "Leaf looks mostly green, with no clear lesion."),
+    "unclear": ("病斑不够清楚。", "The lesion is not clear."),
+}
+
+
+def visible_caption(path: Path) -> tuple[str, str]:
+    """One sentence about the cover. New cards stay quiz_priority=skip until a person checks it."""
+    try:
+        f = _color_fractions(path)
+    except Exception:
+        return _CAPTIONS["unclear"]
+    # Only name a lesion when the color is specific. Shadow and white backgrounds stay "不清楚".
+    if f["green"] > 0.42 and (f["dark"] + f["brown"] + f["orange"]) < 0.12:
+        return _CAPTIONS["green"]
+    if f["pale"] > 0.35 and f["brown"] < 0.08 and f["orange"] < 0.05:
+        return _CAPTIONS["unclear"]
+    if f["orange"] >= 0.08 and f["orange"] >= f["brown"]:
+        return _CAPTIONS["orange"]
+    if f["brown"] >= 0.12:
+        return _CAPTIONS["brown"]
+    if f["yellow"] >= 0.15 and f["green"] > 0.12:
+        return _CAPTIONS["yellow"]
+    if f["dark"] > 0.12 and f["brown"] > 0.05:
+        return _CAPTIONS["dark"]
+    if f["pale"] >= 0.1 and f["green"] < 0.35 and f["brown"] >= 0.06:
+        return _CAPTIONS["pale"]
+    return _CAPTIONS["unclear"]
+
+
+def crop_foot(img: Any) -> Any:
+    """Cut off a foot or hand along the bottom edge. Leave fruit and leaf colors alone."""
+    import numpy as np
+
+    arr = np.asarray(img.convert("RGB"), dtype=np.int16)
+    height, width = arr.shape[:2]
+    if height < 80:
+        return img
+    band = arr[int(height * 0.80):]
+    r, g, b = band[:, :, 0], band[:, :, 1], band[:, :, 2]
+    skin = (r > 145) & (g > 100) & (b > 70) & (r > g) & (r > b) & ((r - g) < 55) & (g > b)
+    if float(skin.mean()) < 0.04:
+        return img
+    return img.crop((0, 0, width, int(height * 0.82)))
+
+
+def choose_cover(gallery_urls: list[str]) -> tuple[str | None, str, str]:
+    """Pick the gallery frame with the clearest spots and describe it."""
+    best_url = gallery_urls[0] if gallery_urls else None
+    best_score = -1.0
+    for url in gallery_urls:
+        name = url.rsplit("/", 1)[-1]
+        path = IMAGES_DIR / name
+        if not path.is_file():
+            continue
+        score = symptom_score(path)
+        if score > best_score:
+            best_score = score
+            best_url = url
+    if not best_url:
+        return None, _CAPTIONS["unclear"][0], _CAPTIONS["unclear"][1]
+    path = IMAGES_DIR / best_url.rsplit("/", 1)[-1]
+    summary_zh, summary_en = visible_caption(path)
+    return best_url, summary_zh, summary_en
+
+
+def build_bilingual_content(cand: TypeCandidate) -> tuple[str, str, str, str, str, str, str]:
+    """Return title_zh, title_en, summary_zh, summary_en, content_zh, content_en, kind.
+
+    summary/content are replaced after the cover image is chosen. kind is
+    disease, pest, deficiency, or unusable.
+    """
+    title_zh, kind = compose_zh_title(cand.fruit_type, cand.label_slug)
+    title_en = compose_en_title(cand.fruit_type, cand.label_slug)
+    if kind == "unusable":
+        return "", title_en, "", "", "", "", kind
+    summary_zh, summary_en = _CAPTIONS["unclear"]
+    if kind == "deficiency":
+        summary_zh = "这是缺素症状，不按病害考核。"
+        summary_en = "Nutrient deficiency, not quizzed as a disease."
+    content_zh = summary_zh
+    content_en = summary_en
+    return title_zh, title_en, summary_zh, summary_en, content_zh, content_en, kind
 
 
 def copy_gallery_images(item_id: str, sources: list[Path]) -> tuple[list[str], str | None]:
@@ -469,6 +694,9 @@ def copy_gallery_images(item_id: str, sources: list[Path]) -> tuple[list[str], s
             img = Image.open(src)
             if img.mode in ("RGBA", "P"):
                 img = img.convert("RGB")
+            else:
+                img = img.convert("RGB")
+            img = crop_foot(img)
             w, h = img.size
             if min(w, h) > 900:
                 r = 900 / min(w, h)
@@ -497,6 +725,10 @@ def upsert_knowledge_items(
         items: list[dict] = payload.get("items") or []
         by_id = {x["id"]: x for x in items}
         for row in batch:
+            old = by_id.get(row["id"])
+            # A card already gated for the quiz keeps its checked title, cover, and priority.
+            if old and old.get("quiz_priority") in {"skip", "normal", "hard"}:
+                continue
             loc_row = dict(row)
             if locale_key == "zh":
                 loc_row["title"] = row["title_zh"]
@@ -512,6 +744,7 @@ def upsert_knowledge_items(
             loc_row.pop("summary_en", None)
             loc_row.pop("content_zh", None)
             loc_row.pop("content_en", None)
+            loc_row.setdefault("quiz_priority", "skip")
             by_id[row["id"]] = loc_row
         payload["items"] = list(by_id.values())
         payload["count"] = len(payload["items"])

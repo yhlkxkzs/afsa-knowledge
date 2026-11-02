@@ -2,6 +2,10 @@
 """
 Knowledge ingest: bootstrap 20 types, then every 2 days add 7-9 types (7-9 images each).
 
+New cards are written with quiz_priority=skip. A person sets normal or hard only after
+the Chinese title and the cover have been checked. Nutrient labels become titles like
+香蕉缺钾 and stay skip. Labels that do not translate to a Chinese name are not added.
+
 Usage:
   python3 scripts/daily_ingest.py              # auto: bootstrap or interval update
   python3 scripts/daily_ingest.py --bootstrap  # force initial 20 types
@@ -21,6 +25,7 @@ from ingest_lib import (
     CONFIG_PATH,
     append_history,
     build_bilingual_content,
+    choose_cover,
     collect_images_for_type,
     copy_gallery_images,
     existing_ingest_type_keys,
@@ -82,6 +87,11 @@ def main() -> None:
             break
         for cand in picks:
             tried.add(cand.type_key)
+            title_zh, title_en, summary_zh, summary_en, content_zh, content_en, kind = build_bilingual_content(cand)
+            if kind == "unusable" or not title_zh:
+                skipped.append(cand.type_key)
+                print(f"[skip] {cand.type_key}: label has no Chinese disease name")
+                continue
             imgs = collect_images_for_type(
                 cand, min_n=min_img, max_n=max_img, used_sources=used_sources
             )
@@ -105,8 +115,14 @@ def main() -> None:
                 print(f"[skip] {cand.type_key}: gallery copy failed ({gallery_count})")
                 continue
 
-            title_zh, title_en, summary_zh, summary_en, content_zh, content_en = build_bilingual_content(cand)
-            disease_type = cand.label_slug if cand.category_id == "disease" else None
+            if gallery:
+                cover, summary_zh, summary_en = choose_cover(gallery)
+                content_zh = summary_zh
+                content_en = summary_en
+            # New cards stay out of the quiz until a person checks the Chinese name and the cover.
+            disease_type = None if kind == "deficiency" else (
+                cand.label_slug if cand.category_id == "disease" else None
+            )
             batch.append(
                 {
                     "id": item_id,
@@ -120,6 +136,7 @@ def main() -> None:
                     "fruit_type": cand.fruit_type if cand.fruit_type != "general" else None,
                     "disease_type": disease_type,
                     "control_type": "chemical",
+                    "quiz_priority": "skip",
                     "image_url": cover or (gallery[0] if gallery else None),
                     "image_gallery": gallery,
                     "image_source": {
@@ -127,6 +144,7 @@ def main() -> None:
                         "label_slug": cand.label_slug,
                         "source": "local",
                         "gallery_count": gallery_count,
+                        "cover_rule": "clearest_spots",
                     },
                     "ingest_type_key": cand.type_key,
                 }
