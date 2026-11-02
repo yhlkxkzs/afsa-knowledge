@@ -5,7 +5,7 @@
       "id": "disease_apple_brown_spot_2",
       "category_id": "disease",
       "title": "苹果褐斑病",
-      "summary": "苹果褐斑病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "一片绿叶躺在草地上，褐斑看不清。",
       "content": "【症状识别】\n苹果褐斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "brown_spot",
@@ -19,33 +19,34 @@
         "tier": "l2_l3_weak",
         "score": 2138.19,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_apple_scab_3",
       "category_id": "disease",
       "title": "苹果黑星病",
-      "summary": "苹果黑星病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "叶面有橄榄褐色绒状病斑。",
       "content": "【症状识别】\n苹果黑星病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "apple",
       "disease_type": "scab",
       "control_type": "chemical",
       "image_url": "/knowledge/images/disease_apple_scab_3.jpg",
       "image_source": {
-        "dataset_id": "Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco",
-        "label_slug": "scab",
-        "matched_class": "apple_scab_leaf",
-        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/Fruit_Disease_Detection.v1-fruit-disease-detection-cwihl-83wlf.coco/fruit_disease_detections/apple_rust_leaf/images/11e99bac-ca05-4572-998a-302a9f43bffc___20130802_111632_jpg.rf.b79afb18c9cae813b66e8fe63583ccf3.jpg",
-        "tier": "l3_fine",
-        "score": 2427.7,
-        "source": "local"
-      }
+        "dataset_id": "plant_village",
+        "label_slug": "apple_scab",
+        "matched_class": "apple_scab",
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/plant_village/apples/apple_scab/images/image (100).JPG",
+        "source": "local",
+        "note": "replaced rust leaf with apple scab leaf"
+      },
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_pear_scab_5",
       "category_id": "disease",
       "title": "梨黑星病",
-      "summary": "梨黑星病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "叶面散生褐色圆斑。",
       "content": "【症状识别】\n梨黑星病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pear",
       "disease_type": "scab",
@@ -59,13 +60,14 @@
         "tier": "l3_fine",
         "score": 1330.86,
         "source": "local"
-      }
+      },
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_pear_rust_7",
       "category_id": "disease",
       "title": "梨锈病",
-      "summary": "梨锈病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "叶面有橙黄色疱斑。",
       "content": "【症状识别】\n梨锈病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "pear",
       "disease_type": "rust",
@@ -79,13 +81,14 @@
         "tier": "l3_fine",
         "score": 1047.21,
         "source": "local"
-      }
+      },
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_grape_downy_mildew_11",
       "category_id": "disease",
       "title": "葡萄霜霉病",
-      "summary": "葡萄霜霉病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "叶片大体青绿，霜霉特征不明显。",
       "content": "【症状识别】\n葡萄霜霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "downy_mildew",
@@ -99,13 +102,14 @@
         "tier": "l2_l3_weak",
         "score": 1639.0,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_grape_powdery_mildew_12",
       "category_id": "disease",
       "title": "葡萄白粉病",
-      "summary": "葡萄白粉病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "叶片发亮偏绿，看不到白粉。",
       "content": "【症状识别】\n葡萄白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "powdery_mildew",
@@ -119,13 +123,14 @@
         "tier": "l2_l3_weak",
         "score": 1603.84,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_grape_black_rot_14",
       "category_id": "disease",
       "title": "葡萄黑腐病",
-      "summary": "葡萄黑腐病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "几片叶子摊在桌上，看不到黑腐病斑。",
       "content": "【症状识别】\n葡萄黑腐病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "grape",
       "disease_type": "black_rot",
@@ -139,13 +144,14 @@
         "tier": "l3_fine",
         "score": 1862.07,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_citrus_canker_17",
       "category_id": "disease",
       "title": "柑橘溃疡病",
-      "summary": "柑橘溃疡病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "沙地上一片叶子，溃疡斑看不清。",
       "content": "【症状识别】\n柑橘溃疡病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "canker",
@@ -159,13 +165,14 @@
         "tier": "l3_fine",
         "score": 1943.02,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_citrus_greening_18",
       "category_id": "disease",
       "title": "柑橘黄龙病",
-      "summary": "柑橘黄龙病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "远处树冠，看不清斑驳黄化。",
       "content": "【症状识别】\n柑橘黄龙病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "citrus",
       "disease_type": "greening",
@@ -179,13 +186,14 @@
         "tier": "l3_fine",
         "score": 2647.67,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_mango_anthracnose_19",
       "category_id": "disease",
       "title": "芒果炭疽病",
-      "summary": "芒果炭疽病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "果面密布黑褐色圆斑。",
       "content": "【症状识别】\n芒果炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "mango",
       "disease_type": "anthracnose",
@@ -199,13 +207,14 @@
         "tier": "l2_l3_weak",
         "score": 1181.83,
         "source": "local"
-      }
+      },
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_strawberry_gray_mold_21",
       "category_id": "disease",
       "title": "草莓灰霉病",
-      "summary": "草莓灰霉病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "果实上覆着灰色霉层。",
       "content": "【症状识别】\n草莓灰霉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "gray_mold",
@@ -219,13 +228,14 @@
         "tier": "l3_fine",
         "score": 1362.76,
         "source": "local"
-      }
+      },
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_strawberry_powdery_mildew_22",
       "category_id": "disease",
       "title": "草莓白粉病",
-      "summary": "草莓白粉病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "果面有下陷褐斑，不是白粉。",
       "content": "【症状识别】\n草莓白粉病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "powdery_mildew",
@@ -239,13 +249,14 @@
         "tier": "l3_fine",
         "score": 1392.93,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_strawberry_leaf_spot_23",
       "category_id": "disease",
       "title": "草莓叶斑病",
-      "summary": "草莓叶斑病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "远处枝头红果，叶斑看不清。",
       "content": "【症状识别】\n草莓叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "strawberry",
       "disease_type": "leaf_spot",
@@ -259,13 +270,14 @@
         "tier": "l3_fine",
         "score": 1889.4,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_watermelon_anthracnose_25",
       "category_id": "disease",
       "title": "西瓜炭疽病",
-      "summary": "西瓜炭疽病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "瓜皮只有细浅斑和一条裂口，炭疽斑不明显。",
       "content": "【症状识别】\n西瓜炭疽病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "watermelon",
       "disease_type": "anthracnose",
@@ -279,13 +291,14 @@
         "tier": "l2_l3_weak",
         "score": 870.13,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_tomato_bacterial_wilt_29",
       "category_id": "disease",
       "title": "番茄青枯病",
-      "summary": "番茄青枯病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "一堆番茄，看不出青枯萎蔫。",
       "content": "【症状识别】\n番茄青枯病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "tomato",
       "disease_type": "bacterial_wilt",
@@ -299,13 +312,14 @@
         "tier": "l3_fine",
         "score": 1708.26,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_eggplant_leaf_spot_39",
       "category_id": "disease",
       "title": "茄子褐纹病",
-      "summary": "茄子褐纹病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "草丛里的植株，病斑看不清。",
       "content": "【症状识别】\n茄子褐纹病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "eggplant",
       "disease_type": "leaf_spot",
@@ -319,13 +333,14 @@
         "tier": "l3_fine",
         "score": 2275.31,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_eggplant_leaf_spot_76",
       "category_id": "disease",
       "title": "茄子叶斑病",
-      "summary": "茄子叶斑病：症状识别、发生规律与防治要点。清园与药剂结合，适时用药。",
+      "summary": "坡地上的叶片，叶斑不明显。",
       "content": "【症状识别】\n茄子叶斑病在叶片、果实或茎部可表现病斑、霉层、腐烂等典型症状，随温湿度加重。\n\n【发生规律】\n病菌在病残体或土壤中越冬，借风雨、农事传播；高温高湿、通风不良、连作易发病。\n\n【防治要点】\n• 清园：清除病枝病叶、落果，减少初侵染源。\n• 栽培：合理密植、通风透光，平衡施肥，轮作或选用抗病品种。\n• 药剂：发病前保护剂、发病初内吸剂，按标签轮换使用，注意安全间隔期。",
       "fruit_type": "eggplant",
       "disease_type": "leaf_spot",
@@ -339,13 +354,14 @@
         "tier": "l3_fine",
         "score": 2137.81,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "pest_pear_aphid_125",
       "category_id": "pest",
       "title": "梨蚜虫",
-      "summary": "梨蚜虫为害特点与防治：农业+物理+生物+化学综合防控。",
+      "summary": "一张甲虫素描，不是蚜虫。",
       "content": "【为害特点】\n蚜虫在梨上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "pear",
       "disease_type": null,
@@ -359,13 +375,14 @@
         "tier": "l3_fine",
         "score": 1891.44,
         "source": "local"
-      }
+      },
+      "quiz_priority": "skip"
     },
     {
       "id": "pest_grape_mite_130",
       "category_id": "pest",
       "title": "葡萄叶螨",
-      "summary": "葡萄叶螨为害特点与防治：农业+物理+生物+化学综合防控。",
+      "summary": "叶缘起疱、皱缩，并有苍白斑。",
       "content": "【为害特点】\n叶螨在葡萄上刺吸、蛀食或啃食，造成叶片卷曲、果实被害或传播病毒，影响产量与品质。\n\n【识别要点】\n根据为害状与虫态（成虫、若虫、幼虫）识别，注意发生世代与关键为害期。\n\n【防治要点】\n• 农业：清园、轮作、增强树势。\n• 物理：黄板、诱虫灯、糖醋液、套袋等。\n• 生物：保护天敌，必要时释放天敌或使用生物农药。\n• 化学：在卵孵或低龄幼虫期用药，轮换使用，注意安全间隔。",
       "fruit_type": "grape",
       "disease_type": null,
@@ -373,13 +390,13 @@
       "image_url": "/knowledge/images/pest_grape_mite_130.jpg",
       "image_source": {
         "dataset_id": "mendeley__plantcity",
-        "label_slug": "mite",
+        "label_slug": "grape_mites_leaf_disease",
         "matched_class": "grape_mites_leaf_disease",
-        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_normal_leaf/images/433e3963-3237-4b0a-8429-aaad329dc529___1352.jpg",
-        "tier": "l2_l3_weak",
-        "score": 1573.59,
-        "source": "local"
-      }
+        "source_path": "/home/yuhanlin/Database/datasets/disease_recognition/database/mendeley__plantcity/plantcity__plantcities/grape_mites_leaf_disease/images/0018cfb0-9022-49f6-804f-9e67fa9f8092___89.jpg",
+        "source": "local",
+        "note": "replaced healthy leaf with mite-damaged leaf"
+      },
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_sugar_apple_diplodia_rot",
@@ -387,7 +404,7 @@
       "fruit_type": "sugar_apple",
       "disease_type": "diplodia_rot",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_sugar_apple_diplodia_rot.jpg",
+      "image_url": "/knowledge/images/disease_sugar_apple_diplodia_rot_8.jpg",
       "image_gallery": [
         "/knowledge/images/disease_sugar_apple_diplodia_rot.jpg",
         "/knowledge/images/disease_sugar_apple_diplodia_rot_2.jpg",
@@ -406,9 +423,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:sugar_apple:diplodia_rot",
-      "title": "DiplodiaRot",
-      "summary": "DiplodiaRot：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nDiplodiaRot可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「diplodia_rot」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "释迦焦腐病",
+      "summary": "果面有成片黑褐色腐烂斑。",
+      "content": "【症状识别】\nDiplodiaRot可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「diplodia_rot」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_banana_yellow_sigatoka",
@@ -416,7 +434,7 @@
       "fruit_type": "banana",
       "disease_type": "yellow_sigatoka",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_banana_yellow_sigatoka.jpg",
+      "image_url": "/knowledge/images/disease_banana_yellow_sigatoka_9.jpg",
       "image_gallery": [
         "/knowledge/images/disease_banana_yellow_sigatoka.jpg",
         "/knowledge/images/disease_banana_yellow_sigatoka_2.jpg",
@@ -435,9 +453,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:banana:yellow_sigatoka",
-      "title": "YellowSigatoka",
-      "summary": "YellowSigatoka：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nYellowSigatoka可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「yellow_sigatoka」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "香蕉黄条叶斑病",
+      "summary": "叶面有沿叶脉的黄褐色条斑。",
+      "content": "【症状识别】\nYellowSigatoka可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「yellow_sigatoka」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "normal"
     },
     {
       "id": "pest_grape_grape_mites_leaf_disease",
@@ -464,9 +483,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:grape:grape_mites_leaf_disease",
-      "title": "葡萄Grape Mites Leaf Disease",
-      "summary": "葡萄Grape Mites Leaf Disease：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\n葡萄Grape Mites Leaf Disease可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「grape_mites_leaf_disease」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "葡萄叶螨",
+      "summary": "叶片青绿完好，看不到叶螨为害。",
+      "content": "【为害特点】\n葡萄Grape Mites Leaf Disease可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「grape_mites_leaf_disease」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_banana_potassium",
@@ -474,7 +494,7 @@
       "fruit_type": "banana",
       "disease_type": "potassium",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_banana_potassium.jpg",
+      "image_url": "/knowledge/images/disease_banana_potassium_9.jpg",
       "image_gallery": [
         "/knowledge/images/disease_banana_potassium.jpg",
         "/knowledge/images/disease_banana_potassium_2.jpg",
@@ -493,9 +513,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:banana:potassium",
-      "title": "Potassium",
-      "summary": "Potassium：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nPotassium可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「potassium」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "香蕉缺钾",
+      "summary": "叶缘焦枯。",
+      "content": "【症状识别】\nPotassium可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「potassium」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_durian_algal_leaf_spot",
@@ -503,7 +524,7 @@
       "fruit_type": "durian",
       "disease_type": "algal_leaf_spot",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_durian_algal_leaf_spot.jpg",
+      "image_url": "/knowledge/images/disease_durian_algal_leaf_spot_3.jpg",
       "image_gallery": [
         "/knowledge/images/disease_durian_algal_leaf_spot.jpg",
         "/knowledge/images/disease_durian_algal_leaf_spot_2.jpg",
@@ -522,9 +543,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:durian:algal_leaf_spot",
-      "title": "AlgalLeafSpot",
-      "summary": "AlgalLeafSpot：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nAlgalLeafSpot可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「algal_leaf_spot」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "榴莲藻斑病",
+      "summary": "叶面有橙黄色小斑。",
+      "content": "【症状识别】\nAlgalLeafSpot可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「algal_leaf_spot」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_lychee_anthrax_leaf",
@@ -532,7 +554,7 @@
       "fruit_type": "lychee",
       "disease_type": "anthrax_leaf",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_lychee_anthrax_leaf.jpg",
+      "image_url": "/knowledge/images/disease_lychee_anthrax_leaf_3.jpg",
       "image_gallery": [
         "/knowledge/images/disease_lychee_anthrax_leaf.jpg",
         "/knowledge/images/disease_lychee_anthrax_leaf_2.jpg",
@@ -551,9 +573,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:lychee:anthrax_leaf",
-      "title": "AnthraxLeaf",
-      "summary": "AnthraxLeaf：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nAnthraxLeaf可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「anthrax_leaf」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "荔枝炭疽病",
+      "summary": "叶尖枯褐，上面有黑色小点。",
+      "content": "【症状识别】\nAnthraxLeaf可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「anthrax_leaf」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_citrus_blackspot",
@@ -580,9 +603,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:citrus:blackspot",
-      "title": "柑橘Blackspot",
-      "summary": "柑橘Blackspot：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\n柑橘Blackspot可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「blackspot」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "柑橘黑斑病",
+      "summary": "枝叶整体偏黄，果面黑斑看不清。",
+      "content": "【症状识别】\n柑橘Blackspot可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「blackspot」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_kiwi_altenaria",
@@ -590,7 +614,7 @@
       "fruit_type": "kiwi",
       "disease_type": "altenaria",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_kiwi_altenaria.jpg",
+      "image_url": "/knowledge/images/disease_kiwi_altenaria_8.jpg",
       "image_gallery": [
         "/knowledge/images/disease_kiwi_altenaria.jpg",
         "/knowledge/images/disease_kiwi_altenaria_2.jpg",
@@ -609,9 +633,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:kiwi:altenaria",
-      "title": "Altenaria",
-      "summary": "Altenaria：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nAltenaria可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「altenaria」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "猕猴桃链格孢病",
+      "summary": "叶面有不规则褐色坏死斑。",
+      "content": "【症状识别】\nAltenaria可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「altenaria」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "hard"
     },
     {
       "id": "disease_guava_sooty_mold",
@@ -638,9 +663,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:guava:sooty_mold",
-      "title": "SootyMold",
-      "summary": "SootyMold：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nSootyMold可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「sooty_mold」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "番石榴煤污病",
+      "summary": "叶面偏暗，煤污层不明显。",
+      "content": "【症状识别】\nSootyMold可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「sooty_mold」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_lychee_lychee_leaf_blight",
@@ -667,9 +693,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:lychee:lychee_leaf_blight",
-      "title": "LycheeLeafBlight",
-      "summary": "LycheeLeafBlight：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nLycheeLeafBlight可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「lychee_leaf_blight」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "荔枝叶枯病",
+      "summary": "叶片有缺刻和破洞，枯斑不明显。",
+      "content": "【症状识别】\nLycheeLeafBlight可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「lychee_leaf_blight」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_lychee_leaf_blight",
@@ -677,7 +704,7 @@
       "fruit_type": "lychee",
       "disease_type": "leaf_blight",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_lychee_leaf_blight.jpg",
+      "image_url": "/knowledge/images/disease_lychee_leaf_blight_9.jpg",
       "image_gallery": [
         "/knowledge/images/disease_lychee_leaf_blight.jpg",
         "/knowledge/images/disease_lychee_leaf_blight_2.jpg",
@@ -696,9 +723,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:lychee:leaf_blight",
-      "title": "LeafBlight",
-      "summary": "LeafBlight：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nLeafBlight可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「leaf_blight」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "荔枝叶枯病",
+      "summary": "叶缘和叶尖大片枯褐。",
+      "content": "【症状识别】\nLeafBlight可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「leaf_blight」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "normal"
     },
     {
       "id": "pest_eggplant_earworm",
@@ -706,7 +734,7 @@
       "fruit_type": "eggplant",
       "disease_type": null,
       "control_type": "chemical",
-      "image_url": "/knowledge/images/pest_eggplant_earworm.jpg",
+      "image_url": "/knowledge/images/pest_eggplant_earworm_4.jpg",
       "image_gallery": [
         "/knowledge/images/pest_eggplant_earworm.jpg",
         "/knowledge/images/pest_eggplant_earworm_2.jpg",
@@ -725,9 +753,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:eggplant:earworm",
-      "title": "茄子Earworm",
-      "summary": "茄子Earworm：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\n茄子Earworm可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「earworm」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "茄子棉铃虫",
+      "summary": "叶上有一条浅色幼虫。",
+      "content": "【为害特点】\n茄子Earworm可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「earworm」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "normal"
     },
     {
       "id": "pest_banana_banana_insect_pest",
@@ -735,7 +764,7 @@
       "fruit_type": "banana",
       "disease_type": null,
       "control_type": "chemical",
-      "image_url": "/knowledge/images/pest_banana_banana_insect_pest.jpg",
+      "image_url": "/knowledge/images/pest_banana_banana_insect_pest_4.jpg",
       "image_gallery": [
         "/knowledge/images/pest_banana_banana_insect_pest.jpg",
         "/knowledge/images/pest_banana_banana_insect_pest_2.jpg",
@@ -754,9 +783,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:banana:banana_insect_pest",
-      "title": "BananaBanana Insect Pest",
-      "summary": "BananaBanana Insect Pest：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\nBananaBanana Insect Pest可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「banana_insect_pest」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "香蕉害虫",
+      "summary": "叶面密布细小黄白点。",
+      "content": "【为害特点】\nBananaBanana Insect Pest可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「banana_insect_pest」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "hard"
     },
     {
       "id": "pest_eggplant_flea_beetle_s_damage",
@@ -764,7 +794,7 @@
       "fruit_type": "eggplant",
       "disease_type": null,
       "control_type": "chemical",
-      "image_url": "/knowledge/images/pest_eggplant_flea_beetle_s_damage.jpg",
+      "image_url": "/knowledge/images/pest_eggplant_flea_beetle_s_damage_9.jpg",
       "image_gallery": [
         "/knowledge/images/pest_eggplant_flea_beetle_s_damage.jpg",
         "/knowledge/images/pest_eggplant_flea_beetle_s_damage_2.jpg",
@@ -783,9 +813,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:eggplant:flea_beetle_s_damage",
-      "title": "茄子Flea Beetle S Damage",
-      "summary": "茄子Flea Beetle S Damage：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\n茄子Flea Beetle S Damage可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「flea_beetle_s_damage」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "茄子跳甲",
+      "summary": "叶片有许多圆形小孔。",
+      "content": "【为害特点】\n茄子Flea Beetle S Damage可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「flea_beetle_s_damage」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "normal"
     },
     {
       "id": "disease_grape_grape_anthracnose_leaf",
@@ -812,9 +843,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:grape:grape_anthracnose_leaf",
-      "title": "葡萄葡萄炭疽病Leaf",
-      "summary": "葡萄葡萄炭疽病Leaf：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\n葡萄葡萄炭疽病Leaf可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「grape_anthracnose_leaf」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "葡萄炭疽病",
+      "summary": "叶片青绿，看不到炭疽病斑。",
+      "content": "【症状识别】\n葡萄葡萄炭疽病Leaf可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「grape_anthracnose_leaf」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     },
     {
       "id": "pest_banana_banana_insect_pest_disease",
@@ -822,7 +854,7 @@
       "fruit_type": "banana",
       "disease_type": null,
       "control_type": "chemical",
-      "image_url": "/knowledge/images/pest_banana_banana_insect_pest_disease.jpg",
+      "image_url": "/knowledge/images/pest_banana_banana_insect_pest_disease_3.jpg",
       "image_gallery": [
         "/knowledge/images/pest_banana_banana_insect_pest_disease.jpg",
         "/knowledge/images/pest_banana_banana_insect_pest_disease_2.jpg",
@@ -841,9 +873,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:banana:banana_insect_pest_disease",
-      "title": "BananaBanana Insect Pest Disease",
-      "summary": "BananaBanana Insect Pest Disease：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\nBananaBanana Insect Pest Disease可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「banana_insect_pest_disease」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "香蕉叶面黑斑",
+      "summary": "黄叶上密布黑色小点，看不出虫子。",
+      "content": "【为害特点】\nBananaBanana Insect Pest Disease可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「banana_insect_pest_disease」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_banana_alcium",
@@ -851,7 +884,7 @@
       "fruit_type": "banana",
       "disease_type": "alcium",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_banana_alcium.jpg",
+      "image_url": "/knowledge/images/disease_banana_alcium_5.jpg",
       "image_gallery": [
         "/knowledge/images/disease_banana_alcium.jpg",
         "/knowledge/images/disease_banana_alcium_2.jpg",
@@ -870,9 +903,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:banana:alcium",
-      "title": "Alcium",
-      "summary": "Alcium：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nAlcium可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「alcium」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "香蕉缺钙",
+      "summary": "叶缘枯褐、破损。",
+      "content": "【症状识别】\nAlcium可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「alcium」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     },
     {
       "id": "pest_banana_pestalotiopsi",
@@ -880,7 +914,7 @@
       "fruit_type": "banana",
       "disease_type": null,
       "control_type": "chemical",
-      "image_url": "/knowledge/images/pest_banana_pestalotiopsi.jpg",
+      "image_url": "/knowledge/images/pest_banana_pestalotiopsi_3.jpg",
       "image_gallery": [
         "/knowledge/images/pest_banana_pestalotiopsi.jpg",
         "/knowledge/images/pest_banana_pestalotiopsi_2.jpg",
@@ -899,9 +933,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:banana:pestalotiopsi",
-      "title": "BananaPestalotiopsi",
-      "summary": "BananaPestalotiopsi：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\nBananaPestalotiopsi可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「pestalotiopsi」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "香蕉拟盘多毛孢叶斑病",
+      "summary": "叶面沿黄条生出黑色小斑。",
+      "content": "【为害特点】\nBananaPestalotiopsi可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「pestalotiopsi」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "normal"
     },
     {
       "id": "pest_eggplant_melon_thrip",
@@ -928,9 +963,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "pest:eggplant:melon_thrip",
-      "title": "茄子Melon Thrip",
-      "summary": "茄子Melon Thrip：为害特点、识别要点与综合防治。",
-      "content": "【为害特点】\n茄子Melon Thrip可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「melon_thrip」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。"
+      "title": "茄子蓟马",
+      "summary": "果实表面完好，看不清蓟马为害。",
+      "content": "【为害特点】\n茄子Melon Thrip可取食嫩梢、叶片或果实，造成卷曲、斑点、蛀孔或传播病毒。\n\n【识别要点】\n根据为害状、虫态与发生期识别；本条目配图来自数据集标注类别「melon_thrip」。\n\n【防治要点】\n农业防治（清园、轮作）+ 物理诱杀 + 生物防治 + 适期用药轮换。",
+      "quiz_priority": "skip"
     },
     {
       "id": "disease_durian_image",
@@ -938,7 +974,7 @@
       "fruit_type": "durian",
       "disease_type": "image",
       "control_type": "chemical",
-      "image_url": "/knowledge/images/disease_durian_image.jpg",
+      "image_url": "/knowledge/images/disease_durian_image_9.jpg",
       "image_gallery": [
         "/knowledge/images/disease_durian_image.jpg",
         "/knowledge/images/disease_durian_image_2.jpg",
@@ -957,9 +993,10 @@
         "gallery_count": 9
       },
       "ingest_type_key": "disease:durian:image",
-      "title": "Image",
-      "summary": "Image：症状识别、发生规律与防治要点。",
-      "content": "【症状识别】\nImage可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「image」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。"
+      "title": "榴莲叶尖枯",
+      "summary": "叶尖和叶缘枯褐。",
+      "content": "【症状识别】\nImage可在叶片、果实或茎部形成病斑、霉层或腐烂；配图对应标注类别「image」。\n\n【发生规律】\n高温高湿、通风不良、连作易加重；病菌多随风雨与农事传播。\n\n【防治要点】\n清园减菌源；改善通风与肥水；选用登记药剂并注意安全间隔期。",
+      "quiz_priority": "skip"
     }
   ],
   "domain": "disease_pest",
